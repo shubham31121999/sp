@@ -6,16 +6,17 @@ export default function TechnologiesSectionA({ data }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
-    <section className="bg-secondary px-4 md:px-12 py-16">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-roboto font-semibold mb-8 text-black text-shadow-lg  ">
+    <section className="bg-secondary px-4 md:px-12 py-16 ">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-white font-roboto text-2xl sm:text-3xl md:text-4xl font-semibold  px-4 sm:px-0 mb-8">
           {title}
         </h2>
+
 
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Left Side - Buttons */}
           <div className="w-full lg:w-1/2">
-            <div className="p-4 sm:p-6">
+            <div className="p-4 sm:p-0">
               <div className="flex flex-wrap gap-2 sm:gap-3">
                 {items.map((tech, idx) => (
                   <button

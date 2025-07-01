@@ -21,7 +21,7 @@ export default function OurTeamA({ team }) {
   return (
     <section className="bg-white px-4 md:px-12 py-12">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-mercurial font-bold mb-4 text-primary">
+        <h2 className="text-primary font-title text-3xl md:text-4xl font-semibold mb-2">
           {team.title}
         </h2>
         <p className="text-xl font-roboto text-black mb-8">{team.subTitle}</p>

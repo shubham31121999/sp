@@ -6,8 +6,12 @@ import Cta from '@/components/layouts/layoutA/Cta';
 import TextSlider from '@/components/layouts/layoutA/TextSlider';
 import ComprehensiveServices from '@/components/layouts/layoutA/ComprehensiveServices';
 import CommonConditions from '@/components/layouts/layoutA/CommonConditions';
+import InsuranceAndFinance from '@/components/layouts/layoutA/InsuranceAndFinance';
 
-export default function LayoutA({ hero, whyChoose, team,technologies, ctaSection ,highlightText ,comprehensiveCare , scopeOfCare}) {
+
+
+
+export default function LayoutA({ hero, whyChoose, team,technologies, ctaSection ,highlightText ,comprehensiveCare , scopeOfCare ,insuranceFinance}) {
   return (
     <div>
       <HeroA hero={hero} />
@@ -19,7 +23,7 @@ export default function LayoutA({ hero, whyChoose, team,technologies, ctaSection
       <TextSlider highlightText={highlightText} />
       <ComprehensiveServices comprehensiveCare={comprehensiveCare} />
       <CommonConditions scopeOfCare={ scopeOfCare } />
-
+      <InsuranceAndFinance insuranceFinance={insuranceFinance}/>
     </div>
   );
 }

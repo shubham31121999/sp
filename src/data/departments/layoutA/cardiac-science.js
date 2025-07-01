@@ -237,6 +237,40 @@ scopeOfCare: [
   },
 ],
 
+
+
+
+  insuranceFinance: {
+    title: "Insurance and Finance",
+    subtitle: "Affordable & accessible Cardiac care",
+    items: [
+      {
+        title: "Insurance Approval for Cardiac Procedures",
+        description: "Covered by all leading insurers and TPAs",
+      },
+      {
+        title: "Insurance Support & Financial Counseling",
+        description:
+          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
+      },
+      {
+        title: "Insurance Approval for Planned Surgeries",
+        description:
+          "We assist patients in obtaining prior insurance approval for all planned surgical procedures, ensuring a smooth and hassle-free experience.",
+      },
+      {
+        title: "Insurance Support & Patient Counseling",
+        description:
+          "Our dedicated insurance department offers end-to-end support for patients, including personalized counseling to help them understand their coverage and navigate the claims process with ease.",
+      },
+    ],
+    cta: {
+      label: "Explore coverage & payment plans",
+      link: "#", // update with actual route if needed
+    },
+  },
+
+
 };
 
 export default cardiacScienceData;
