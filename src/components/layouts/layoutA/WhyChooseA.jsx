@@ -49,7 +49,7 @@ export default function WhyChooseA({ whyChoose }) {
           <div className="col-span-1 md:col-span-2 text-left">
             <Link
               href={whyChoose.cta.href}
-              className="inline-flex items-center gap-2 bg-primary text-white px-8 py-4 rounded-full text-lg font-semibold hover:bg-accent/80 transition"
+              className="inline-flex items-center gap-3 sm:gap-4 md:gap-6 bg-primary text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-full font-roboto font-bold text-[16px] sm:text-[18px] md:text-[22px] leading-tight hover:bg-accent/80 transition duration-300"
             >
               {whyChoose.cta.label}
               <span className="flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-white">

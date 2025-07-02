@@ -12,7 +12,7 @@ function InsuranceAndFinance({ insuranceFinance }) {
   <div className="max-w-5xl mx-auto space-y-10">
     {/* Title */}
     <div className="text-left">
-      <h2 className="text-3xl md:text-4xl font-title font-semibold text-primary mb-2">
+      <h2 className="text-primary font-title text-3xl md:text-4xl font-semibold mb-2">
         {title}
       </h2>
       <p className="text-lg text-accent font-medium">{subtitle}</p>
@@ -43,7 +43,7 @@ function InsuranceAndFinance({ insuranceFinance }) {
       <div className="flex justify-center sm:justify-start">
         <Link
           href={cta.link}
-          className="inline-flex items-center gap-3 bg-primary text-white font-semibold px-6 py-3 rounded-full hover:bg-primary/90 transition"
+          className="inline-flex items-center gap-3 sm:gap-4 md:gap-6 bg-primary text-white px-4 sm:px-6 py-2.5 sm:py-3 rounded-full font-roboto font-bold text-[16px] sm:text-[18px] md:text-[22px] leading-tight hover:bg-accent/80 transition duration-300"
         >
           {cta.label}
           <span className="flex items-center justify-center w-9 h-9 rounded-full border border-white">

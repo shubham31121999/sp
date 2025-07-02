@@ -7,11 +7,12 @@ import TextSlider from '@/components/layouts/layoutA/TextSlider';
 import ComprehensiveServices from '@/components/layouts/layoutA/ComprehensiveServices';
 import CommonConditions from '@/components/layouts/layoutA/CommonConditions';
 import InsuranceAndFinance from '@/components/layouts/layoutA/InsuranceAndFinance';
+import PatientJourney from '@/components/layouts/layoutA/PatientJourney';
+import SuccessStories from '@/components/layouts/layoutA/SuccessStories';
+import Faq from '@/components/layouts/layoutA/Faq';
+import AppointmentConsultation from '@/components/layouts/layoutA/AppointmentConsultation';
 
-
-
-
-export default function LayoutA({ hero, whyChoose, team,technologies, ctaSection ,highlightText ,comprehensiveCare , scopeOfCare ,insuranceFinance}) {
+export default function LayoutA({ hero, whyChoose, team,technologies, ctaSection ,highlightText ,comprehensiveCare , scopeOfCare ,insuranceFinance ,patientJourney, successStories, faqs, appointmentSection}) {
   return (
     <div>
       <HeroA hero={hero} />
@@ -24,6 +25,10 @@ export default function LayoutA({ hero, whyChoose, team,technologies, ctaSection
       <ComprehensiveServices comprehensiveCare={comprehensiveCare} />
       <CommonConditions scopeOfCare={ scopeOfCare } />
       <InsuranceAndFinance insuranceFinance={insuranceFinance}/>
+      <PatientJourney patientJourney={patientJourney} />
+      <SuccessStories successStories={successStories} />
+      <Faq faqs={faqs} />
+      <AppointmentConsultation appointmentSection={appointmentSection} />
     </div>
   );
 }

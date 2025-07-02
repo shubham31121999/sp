@@ -270,6 +270,79 @@ scopeOfCare: [
     },
   },
 
+  patientJourney : {
+  title: "Patient journey",
+  subtitle: "From diagnosis to recovery,We stay with you",
+  steps: [
+    { title: "OPD Consult + ECG" },
+    { title: "Tests", description: "Echo, TMT, Angio, etc." },
+    { title: "Medication or procedure planning" },
+    { title: "Admission (if needed)" },
+    { title: "Stenting / surgery" },
+    { title: "ICU + ward recovery" },
+    { title: "Cardiac rehab & follow-up" },
+  ],
+  cta: "Start your Cardiac journey with us",
+},
+  successStories: {
+  items: [
+    { type: 'text', text: 'Advance video consult for cardiac second opinions' },
+    { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+    { type: 'text', text: 'Airport pickup, translator, and post-op guidance' },
+    { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
+    { type: 'text', text: 'Pre-booked angioplasty slots' },
+    { type: 'image', src: '/images/card3.jpg', alt: 'Covered woman smiling' },
+    { type: 'text', text: 'Pre-booked angioplasty slots' },
+    { type: 'image', src: '/images/card4.jpg', alt: 'Covered woman smiling' },
+    { type: 'text', text: 'Telemonitoring post-discharge for overseas patients' },
+  ],
+  cta: {
+    label: 'Internation Cardiac coordination',
+    link: '/patient-stories'
+  }
+},
+
+/* The above code is a JavaScript object containing an array of FAQs (Frequently Asked Questions). Each
+FAQ object in the array has a question and an answer property. */
+faqs: [ 
+    {
+      question: 'How fast can I get a stent in an emergency?',
+      answer: 'Stents are often placed within minutes during emergencies depending on availability.',
+    },
+    {
+      question: 'Are checkups needed if I have no symptoms?',
+      answer: 'Yes, heart disease can be silent. Annual screenings help prevent emergencies.',
+    },
+    {
+      question: 'How fast can I get a stent in an emergency?',
+      answer: 'Stents are often placed within minutes during emergencies depending on availability.',
+    },
+    {
+      question: 'Are checkups needed if I have no symptoms?',
+      answer: 'Yes, heart disease can be silent. Annual screenings help prevent emergencies.',
+    },
+  ],
+appointmentSection: {
+  heading: "Appointment and consultations",
+  helpline: {
+    label: "Cardiac helpline:",
+    number: "04713100100",
+    icon: "/icons/phone-plus.svg" // or any other icon path
+  },
+  support: {
+    label: "24/7 Patience Support",
+    icon: "/icons/ambulance.svg"
+  },
+  whatsapp: {
+    icon: "/icons/whatsapp.svg",
+    link: "https://wa.me/919999999999"
+  },
+  form: {
+    heading: "Post a Cardiac query",
+    fields: ["Name", "Phone", "Email", "Query"],
+    submitLabel: "Submit"
+  }
+}
 
 };
 

@@ -14,7 +14,7 @@ function ComprehensiveServices({ comprehensiveCare }) {
 
   return (
     <section className="bg-white py-12 px-6 border-y border-primary">
-      <div className="max-w-6xl mx-auto space-y-8">
+      <div className="max-w-5xl mx-auto space-y-8">
         {/* Heading */}
         <div className="text-left">
           <h2 className="text-primary font-title text-3xl md:text-4xl font-semibold mb-2">
