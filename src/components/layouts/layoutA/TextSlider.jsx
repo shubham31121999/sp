@@ -6,7 +6,7 @@ function TextSlider({ highlightText }) {
   if (!highlightText || highlightText.length === 0) return null;
 
   return (
-    <div className="overflow-hidden border-y-4 border-primary  bg-secondary w-full py-6 ">
+    <div className="overflow-hidden border-y-4 border-primary  bg-primary w-full py-6 ">
       <div className="animate-marquee whitespace-nowrap flex gap-10  items-center text-white font-roboto font-medium text-lg">
         {[...Array(5)].flatMap((_, i) =>
           highlightText.map((text, index) => (
