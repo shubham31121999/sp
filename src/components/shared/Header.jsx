@@ -1,18 +1,20 @@
 'use client';
 
+
 import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { layoutMap } from '@/data/departments/layoutMap';
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
     { href: '/about', label: 'DISCOVER SP MEDIFORT' },
     { href: '/departments', label: 'SPECIALITES & TREATMENT' },
-    { href: '/services', label: 'SERVICES' }, // Placeholder for dropdown
+    { href: '/services', label: 'SERVICES' }, 
     { href: '/international-patients', label: 'INTERNATIONAL PATIENTS' },
     { href: '/facilities', label: 'HOSPITAL FACILITIES' },
     { href: '/contact', label: 'CONTACT US' },
@@ -25,7 +27,7 @@ export default function Header() {
 
   return (
     <header className="w-full bg-primary text-white shadow-md sticky top-0 z-50 font-body">
-      <div className="max-w-[1440px] mx-auto flex items-center justify-between px-4 md:px-10 py-4">
+      <div className="max-w-[1440px] mx-auto flex items-center justify-between px-2 md:px-2 py-4">
         {/* Mobile Menu Button */}
         <div className="md:hidden">
           <button
@@ -74,7 +76,7 @@ export default function Header() {
           <Link href="/" className="flex-shrink-0">
             <div className="relative w-[120px] md:w-[140px] h-[70px]">
               <Image
-                src="/images/navbar/sp-medifort-logo.png"
+                src={`${prefix}/images/navbar/sp-medifort-logo.png`}
                 alt="SP Medifort"
                 fill
                 className="object-contain"

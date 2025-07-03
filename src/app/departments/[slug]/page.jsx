@@ -95,7 +95,7 @@ export async function generateStaticParams() {
 }
 
 export default async function DepartmentPage({ params }) {
-  const { slug } = params;
+  const slug = params?.slug;
   const config = layoutMap[slug];
 
   if (!config) return <div>Invalid Department</div>;
