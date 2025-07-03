@@ -70,24 +70,19 @@
 // src/app/departments/[slug]/page.jsx
 import { layoutMap } from '@/data/departments/layoutMap';
 
-export async function generateStaticParams() {
-  // List all slugs here
-  return Object.keys(layoutMap).map((slug) => ({ slug }));
-}
-
 export default async function DepartmentPage({ params }) {
-  const slug = params.slug;
+  const { slug } = params;
   const config = layoutMap[slug];
 
-  if (!config) return <div>Not found</div>;
+  if (!config) return <div>Invalid Department</div>;
 
   const deptData = await config.data();
-
   let Layout;
+
   if (config.layout === 'A') {
-    Layout = (await import('@/components/layouts/LayoutA')).default;
+    Layout = (await import('@/app/layout-a/LayoutA')).default;
   } else {
-    Layout = (await import('@/components/layouts/LayoutB')).default;
+    Layout = (await import('@/app/layout-b/LayoutB')).default;
   }
 
   return <Layout {...deptData.default} />;
