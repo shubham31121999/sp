@@ -87,6 +87,7 @@
 
 //   return <Layout {...deptData.default} />;
 // }
+// src/app/departments/[slug]/page.jsx
 import { layoutMap } from '@/data/departments/layoutMap';
 
 export async function generateStaticParams() {
@@ -110,3 +111,4 @@ export default async function DepartmentPage({ params }) {
 
   return <Layout {...deptData.default} />;
 }
+
