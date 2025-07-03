@@ -1,37 +1,37 @@
-'use client';
-import { useParams } from 'next/navigation';
-import { useEffect, useState } from 'react';
-import { layoutMap } from '@/data/departments/layoutMap';
 
-export default function DepartmentPage() {
-  const { slug } = useParams();
-  const [Component, setComponent] = useState(null);
-  const [data, setData] = useState(null);
+// import { useParams } from 'next/navigation';
+// import { useEffect, useState } from 'react';
+// import { layoutMap } from '@/data/departments/layoutMap';
 
-  useEffect(() => {
-    const load = async () => {
-      const config = layoutMap[slug];
-      if (!config) return;
+// export default function DepartmentPage() {
+//   const { slug } = useParams();
+//   const [Component, setComponent] = useState(null);
+//   const [data, setData] = useState(null);
 
-      const deptData = await config.data();
-      let Layout;
+//   useEffect(() => {
+//     const load = async () => {
+//       const config = layoutMap[slug];
+//       if (!config) return;
 
-      if (config.layout === 'A') {
-        Layout = (await import('@/app/layout-a/LayoutA')).default;
-      } else {
-        Layout = (await import('@/app/layout-b/LayoutB')).default;
-      }
+//       const deptData = await config.data();
+//       let Layout;
 
-      setComponent(() => Layout);
-      setData(deptData.default);
-    };
+//       if (config.layout === 'A') {
+//         Layout = (await import('@/app/layout-a/LayoutA')).default;
+//       } else {
+//         Layout = (await import('@/app/layout-b/LayoutB')).default;
+//       }
 
-    load();
-  }, [slug]);
+//       setComponent(() => Layout);
+//       setData(deptData.default);
+//     };
 
-  if (!Component || !data) return <div>Loading...</div>;
-  return <Component {...data} />;
-}
+//     load();
+//   }, [slug]);
+
+//   if (!Component || !data) return <div>Loading...</div>;
+//   return <Component {...data} />;
+// }
 // import { notFound } from 'next/navigation';
 // import { layoutMap } from '@/data/departments/layoutMap';
 
@@ -67,3 +67,28 @@ export default function DepartmentPage() {
 
 //   return <Layout {...deptData.default} />;
 // }
+// src/app/departments/[slug]/page.jsx
+import { layoutMap } from '@/data/departments/layoutMap';
+
+export async function generateStaticParams() {
+  // List all slugs here
+  return Object.keys(layoutMap).map((slug) => ({ slug }));
+}
+
+export default async function DepartmentPage({ params }) {
+  const slug = params.slug;
+  const config = layoutMap[slug];
+
+  if (!config) return <div>Not found</div>;
+
+  const deptData = await config.data();
+
+  let Layout;
+  if (config.layout === 'A') {
+    Layout = (await import('@/components/layouts/LayoutA')).default;
+  } else {
+    Layout = (await import('@/components/layouts/LayoutB')).default;
+  }
+
+  return <Layout {...deptData.default} />;
+}
