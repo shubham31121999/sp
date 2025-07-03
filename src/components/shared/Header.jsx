@@ -7,7 +7,7 @@ import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import { layoutMap } from '@/data/departments/layoutMap';
 
-const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
+const prefix = '/mainClient/out';
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
