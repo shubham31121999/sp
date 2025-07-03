@@ -6,9 +6,8 @@ export const layoutMap = {
     data: () => import('./layoutA/cardiac-science'),
   },
   'urology': {
-    label: 'Urology',
-    layout: 'A',
-    data: () => import('./layoutB/urology'),
+    layout: 'B', // or B depending on which layout
+    data: () => import('./layoutB/urology'), // 👈 is this path correct?
   },
   // Add more departments here...
 };
