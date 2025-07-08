@@ -1,13 +1,23 @@
-// src/data/departments/layoutMap.js
+import { FaHeart, FaUserNurse } from "react-icons/fa"; // Add more icons as needed
+
 export const layoutMap = {
   'cardiac-science': {
     label: 'Cardiac Sciences',
+    icon: FaHeart,
     layout: 'A',
     data: () => import('./layoutA/cardiac-science'),
   },
   'urology': {
-    layout: 'B', // or B depending on which layout
-    data: () => import('./layoutB/urology'), // 👈 is this path correct?
+    label: 'Urology',
+    icon: FaUserNurse,
+    layout: 'B',
+    data: () => import('./layoutB/urology'),
   },
-  // Add more departments here...
+  // Add more departments like:
+  // 'dermatology': {
+  //   label: 'Dermatology',
+  //   icon: FaStethoscope,
+  //   layout: 'B',
+  //   data: () => import('./layoutB/dermatology'),
+  // },
 };
