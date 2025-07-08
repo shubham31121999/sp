@@ -76,7 +76,7 @@ export default function Header() {
           <Link href="/" className="flex-shrink-0">
             <div className="relative w-[120px] md:w-[140px] h-[70px]">
               <Image
-                src={`../images/navbar/sp-medifort-logo.png`}
+                src="/images/navbar/sp-medifort-logo.png"
                 alt="SP Medifort"
                 fill
                 className="object-contain"
