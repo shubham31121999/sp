@@ -22,9 +22,12 @@ export default function DepartmentsListPage() {
   return (
     // <div className="max-w-7xl mx-auto py-10 px-4">
     <div>
-      <h1 className="text-3xl sm:text-4xl font-semibold text-black mb-6">
-        Centres of Excellence
-      </h1>
+      <div className="max-w-7xl mx-auto py-10 px-4">
+          <h1 className="text-3xl sm:text-4xl font-semibold text-black mb-6">
+          Centres of Excellence
+        </h1>
+      
+      
 
       {/* Search Bar */}
       <div className="mb-8 flex justify-center">
@@ -53,7 +56,7 @@ export default function DepartmentsListPage() {
           </Link>
         ))}
       </div>
-
+     </div>
       {/* Success Stories Section */}
       <SuccessStories successStories={successStories} />
 
