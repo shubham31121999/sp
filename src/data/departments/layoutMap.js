@@ -7,6 +7,13 @@ export const layoutMap = {
     layout: 'A',
     data: () => import('./layoutA/cardiac-science'),
   },
+
+  'Anesthesiology': {
+    label: 'Anesthesiology',
+    icon: FaHeart,
+    layout: 'A',
+    data: () => import('./layoutA/Anesthesiology'),
+  },
   'urology': {
     label: 'Urology',
     icon: FaUserNurse,
