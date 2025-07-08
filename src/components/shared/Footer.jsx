@@ -181,7 +181,7 @@ export default function Footer() {
           {/* Logo & Buttons */}
           <div className="flex flex-col items-center md:items-end space-y-4">
             <Image
-              src="/images/navbar/sp-medifort-logo.png"
+              src="/images/footer/sp-logo.png"
               alt="SP Medifort Logo"
               width={400}
               height={100}
