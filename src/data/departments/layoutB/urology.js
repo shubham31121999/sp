@@ -2,11 +2,11 @@ const urology = {
 	hero: {
 		title: 'Advanced Urological care. Personalized for you.',
 		description: [
-			"At SP Medifort, our Department of Urology delivers expert diagnosis and treatment for kidney, bladder, prostate, and male reproductive conditions using the latest minimally invasive and robotic techniques. We focus on preserving function, relieving pain, and improving quality of life — with compassion and discretion.",
+			"At SP Medifort, our Department of Urology delivers expert diagnosis and treatment for kidney, bladder, prostate, and male reproductive conditions using the latest minimally invasive and robotic techniques. We focus on preserving function, relieving pain, and improving quality of life with compassion and discretion.",
 			"We are one of the top urology centers in Thiruvananthapuram, trusted for routine and complex urological procedures."
 		],
-		cta: { label: 'Book a Cardiology consultation', href: '/appointments/cardiology' },
-		image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+		cta: { label: 'Book a Urology consultation', href: '/appointments/cardiology' },
+		image: { src: '/images/cardiac.jpg', alt: 'Urology' },
 		highlightText: [
 			'Compassionate Cardiac Care, Always',
 			'Hello World!',
@@ -132,28 +132,33 @@ const urology = {
 			'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
 		items: [
 			{
-				title: 'Coronary Care Unit (CCU)',
+				title: 'Stone Disease Management',
 				icon: 'mdi:stethoscope',
 				description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
 			},
 			{
-				title: '24x7 Chest Pain Clinic',
+				title: 'Ureteroscopy',
 				icon: 'mdi:heart-flash',
 				description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
 			},
 			{
-				title: 'Executive Cardiac Checkups:',
+				title: 'Laser treatments',
 				icon: 'mdi:hospital-box-outline',
 				description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
 			},
 
 			{
-				title: 'Preventive Cardiology',
+				title: 'Kidney & Adrenal Suregry',
 				icon: 'mdi:heart-pulse',
 				description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
 			},
 			{
-				title: 'Structured Cardiac Rehabilitation',
+				title: 'Oncology Treatments',
+				icon: 'mdi:heart-plus-outline',
+				description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+			},
+			{
+				title: 'Dialysis Access Procedures',
 				icon: 'mdi:heart-plus-outline',
 				description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
 			},
@@ -161,7 +166,7 @@ const urology = {
 	},
 	scopeOfCare: [
 		{
-			title: 'Cardiology',
+			title: 'Urology',
 			overview:
 				'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
 
@@ -179,15 +184,18 @@ const urology = {
 					],
 				},
 				{
-					title: 'Medical Cardiac Conditions',
+					title: 'Medical Urology Conditions',
 					items: [
-						'Coronary Artery Disease (CAD) – early stages',
-						'Heart failure & Cardiomyopathy',
-						'Valve disorders (initial diagnosis and follow-up)',
-						'Bradycardia, Tachycardia (managed with medication or monitoring)',
-						'Weak heart (low ejection fraction)',
-						'Inflammatory conditions:\n - Pericarditis\n - Endocarditis',
-						'Heart block (early detection & monitoring)',
+						'Kidney Stones',
+						'Urologic Oncology',
+						'Prostate Cancer',
+						'Urinary tract infection',
+						'Urethral & Ureteric Disorders',
+						'Prostate Disorders',
+						'Bladder Conditions',
+						'Female urology',
+						'Pediatric Urology',
+						'Male Reproductive health',
 					],
 				},
 			],
@@ -297,7 +305,7 @@ const urology = {
 			link: "https://wa.me/919999999999"
 		},
 		form: {
-			heading: "Post a Cardiac query",
+			heading: "Book your Urology consultation today",
 			fields: ["Name", "Phone", "Email", "Query"],
 			submitLabel: "Submit"
 		}
