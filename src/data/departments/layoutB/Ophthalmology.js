@@ -1,11 +1,11 @@
-const urology = {
+const OphthalmologyData = {
 	hero: {
-		title: 'Advanced Urological care. Personalized for you.',
+		title: 'Focused on vision, committed to care',
 		description: [
-			"At SP Medifort, our Department of Urology delivers expert diagnosis and treatment for kidney, bladder, prostate, and male reproductive conditions using the latest minimally invasive and robotic techniques. We focus on preserving function, relieving pain, and improving quality of life with compassion and discretion.",
-			"We are one of the top urology centers in Thiruvananthapuram, trusted for routine and complex urological procedures."
+			"At SP Medifort, the Ophthalmology Department offers comprehensive eye care services including   routine OP procedures. Whether it’s cataracts, glaucoma, diabetic eye disease, or retina problems, our expert team ensures early diagnosis & treatment for long-term eye health.",
+			"Recognized as a top centre for eye care in Trivandrum, we serve patients of all ages with compassion and clinical excellence."
 		],
-		cta: { label: 'Book a Urology consultation', href: '/appointments/cardiology' },
+		cta: { label: 'Book an Eye checkup', href: '/appointments/cardiology' },
 		image: { src: '/images/cardiac.jpg', alt: 'Urology' },
 		highlightText: [
 			'Compassionate Cardiac Care, Always',
@@ -14,63 +14,44 @@ const urology = {
 	},
 
 	whyChoose: {
-		title: 'Why choose SP Medifort for Urology?',
-		subTitle: 'High-tech precision. Human-centered care.',
+		title: 'Why choose SP Medifort for Eye Care?',
+		subTitle: 'Advanced Eye Care with personalized attention',
 		cards: [
 			{
 				icon: 'iconamoon:3d-bold',
-				title: 'Versius robotic urologic surgeries',
+				title: 'Dedicated paediatric & diabetic eye care clinics',
 
 			},
 			{
 				icon: 'fluent:laser-tool-20-filled',
-				title: 'Holmium laser for prostate and kidney stones',
+				title: 'Computerized eye diagnostics',
 
 			},
 			{
 				icon: 'mdi:heart-pulse',
-				title: 'Endourology and flexible ureteroscopy',
-
-			},
-			{
-				icon: 'mdi:heart-cog-outline',
-				title: 'Male infertility and sexual health clinic',
-
-			},
-			{
-				icon: 'material-symbols:heart-check',
-				title: 'Uro-oncology for bladder, kidney, and prostate cancers',
-
+				title: 'Multidisciplinary eye care for neuro, diabetes, and hypertension patients',
 			},
 		],
-		description: 'We bring global standards of Urology to Kerala, safely and affordably.',
+		description: 'SP Medifort is one of the best eye hospitals in Thiruvananthapuram offering precise, safe, and efficient eye treatments.',
 		cta: {
-			label: 'Explore Urology treatments',
+			label: 'Explore our Eye services',
 			href: '/facilities#urology',
 		}
-
-
 	},
 	team: {
 		title: 'Our Team of Experts',
-		subTitle: 'Urologists with skill, technology & trust',
+		subTitle: 'Your vision, in experienced hands',
 		doctors: [
 			{
-				name: 'Dr. Sasikumar N P',
-				designation: 'MCh(Urology)',
-				position: 'Senior consultant, Urology, MBBS, MS',
-				image: '/images/doctors-card/shibu.png'
-			},
-			{
-				name: 'Dr. Naveen K',
-				designation: 'MCh(Urology)',
-				position: 'Consultant, Urology, MBBS, MS(Surgery)',
+				name: 'Dr. Aisha Beevi P K',
+				designation: 'MBBS, DO(Ophthalmology)',
+				position: 'Senior Consultant, Opthalmology,',
 				image: '/images/doctors-card/shibu.png'
 			},
 		],
-		description: 'Our Urology specialists in Trivandrum handle everything from outpatient infections to major robotic surgeries.',
+		description: 'Our eye specialists in Trivandrum are known for accurate diagnoses, gentle surgical techniques, and personalized eye care.',
 		cta: {
-			label: 'Meet our Urology team',
+			label: 'Meet our Ophthalmologists',
 			href: '/our-doctors#urology'
 		}
 	},
@@ -81,29 +62,19 @@ const urology = {
 		categoryTabs: ['Tools that make Urological surgery safer', 'Urology'],
 		items: [
 			{
-				name: 'VERSIUS ROBOT Precision surgery',
+				name: 'MRI GE SIGNA',
 				description:
 					'Enhances accuracy in urological procedures with minimally invasive, robotic-assisted precision.',
 			},
 			{
-				name: 'Ultrasound (USG) scan',
+				name: '128 Slice CT GE Revolution',
 				description:
 					'Real-time imaging for kidneys, bladder, prostate, and guidance during urological interventions.',
 			},
 			{
-				name: '128 Slice CT GE Revolution',
+				name: 'Ultrasound (USG) Scan',
 				description:
 					'Provides fast, detailed imaging for kidney stones, tumors, and urinary tract conditions.',
-			},
-			{
-				name: 'MRI GE SIGNA',
-				description:
-					'Offers high-resolution scans for prostate, pelvic, and soft tissue evaluation in complex urological cases.',
-			},
-			{
-				name: 'FULLY MOTORIZED X-RAY SUITE – DRX-COMPASS',
-				description:
-					'Delivers quick, clear urological imaging with reduced radiation exposure and improved workflow.',
 			},
 		],
 
@@ -111,7 +82,7 @@ const urology = {
 	ctaSection: {
 		text: "This makes SP Medifort a top cardiology hospital in Kerala for both diagnostics and interventions. These tools empower us to offer accurate, fast, and low-risk cardiac interventions.",
 		button: {
-			label: "See our Urology technology",
+			label: "Know our Eye Care infrastructure",
 			link: "/departments/cardiac-science#cath-lab",
 		},
 	},
@@ -126,39 +97,54 @@ const urology = {
 		'Kerala’s Leading Interventional Cardiologists',
 	],
 	comprehensiveCare: {
-		title: 'Comprehensive treatment procedures',
+		title: 'Services  offered',
 		subtitle: 'Full spectrum of Heart care',
 		description:
 			'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
 		items: [
 			{
-				title: 'Stone Disease Management',
+				title: 'Comprehensive eye exams',
 				icon: 'mdi:stethoscope',
 				description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
 			},
 			{
-				title: 'Ureteroscopy',
+				title: 'Glaucoma diagnosis and pressure control',
 				icon: 'mdi:heart-flash',
 				description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
 			},
 			{
-				title: 'Laser treatments',
+				title: 'Retina screening',
 				icon: 'mdi:hospital-box-outline',
 				description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
 			},
 
 			{
-				title: 'Kidney & Adrenal Suregry',
+				title: 'Squint screening and pediatric eye care',
 				icon: 'mdi:heart-pulse',
 				description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
 			},
 			{
-				title: 'Oncology Treatments',
+				title: 'Dry eye, allergy, and infection treatment',
 				icon: 'mdi:heart-plus-outline',
 				description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
 			},
 			{
-				title: 'Dialysis Access Procedures',
+				title: 'Computer vision syndrome care',
+				icon: 'mdi:heart-plus-outline',
+				description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+			},
+			{
+				title: 'Driving licence purposes ',
+				icon: 'mdi:heart-plus-outline',
+				description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+			},
+			{
+				title: 'Second opinion',
+				icon: 'mdi:heart-plus-outline',
+				description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+			},
+			{
+				title: 'Pre surgical eye assesment ?',
 				icon: 'mdi:heart-plus-outline',
 				description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
 			},
@@ -166,21 +152,23 @@ const urology = {
 	},
 	scopeOfCare: [
 		{
-			title: 'Urology',
+			title: 'Ophthalmology',
 			overview:
 				'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
 
 			sections: [
 				{
-					title: 'Symptoms & Risk Conditions',
+					title: 'Common eye conditions we treat',
 					items: [
-						'Chest pain',
-						'Irregular heartbeat (Arrhythmia)',
-						'High blood pressure (Hypertension)',
-						'High cholesterol',
-						'Palpitations & syncope (fainting spells)',
-						'Breathlessness (dyspnea)',
-						'Recurrent chest pain or breathlessness',
+						'Glaucoma (high eye pressure)',
+						'Diabetic retinopathy',
+						'Age-related macular degeneration',
+						'Myopia, hyperopia & astigmatism',
+						'Red eye, dry eye, and infections',
+						'Eye trauma or injury',
+						'Pediatric squint or lazy eye',
+						'Corneal foriegn body removal',
+						'Drug Induced eye changes evaluation',
 					],
 				},
 				{
@@ -249,15 +237,14 @@ const urology = {
 		title: "Patient journey",
 		subtitle: "From diagnosis to recovery,We stay with you",
 		steps: [
-			{ title: "Outpatient consultation and symptom assessment" },
+			{ title: "Eye evaluation by specialist" },
 			// { title: "Tests", description: "Echo, TMT, Angio, etc." },
-			{ title: "Imaging and urine-based diagnostics" },
-			{ title: "Surgical or medication-based treatment" },
-			{ title: "Admission (if needed) and procedure" },
-			{ title: "Post-op recovery and discharge" },
-			{ title: "Regular follow-up and lifestyle advice" },
+			{ title: "Vision testing, pressure check" },
+			{ title: "Diagnosis and discussion" },
+			{ title: "Medical treatment (as needed)" },
+			{ title: "Follow-up for long-term visual care" },
 		],
-		cta: "Know your treatment journey",
+		cta: "Understand the Eye Care pathway",
 	},
 	successStories: {
 		items: [
@@ -281,18 +268,18 @@ const urology = {
 	FAQ object in the array has a question and an answer property. */
 	faqs: [
 		{
-			question: 'Is laser better than open surgery for kidney stones?',
-			answer: 'Yes, laser is faster, minimally invasive, and requires little recovery time.',
+			question: 'How long does cataract surgery take?',
+			answer: 'It’s usually a 15–20 minute painless procedure. You can go home the same day.',
 		},
 		{
-			question: 'Will I need a catheter after prostate surgery?',
-			answer: 'Yes, briefly. Most patients have it for 3–5 days and return to normal activity within a week.',
+			question: 'Is LASIK safe for everyone?',
+			answer: 'Not always. That’s why we perform a thorough eye exam and corneal mapping first.',
 		},
 	],
 	appointmentSection: {
 		heading: "Appointment and consultations",
 		helpline: {
-			label: "Urology desk:",
+			label: "Eye Care helpline:",
 			number: "0471 3100100",
 			icon: "/icons/phone-plus.svg" // or any other icon path
 		},
@@ -305,12 +292,12 @@ const urology = {
 			link: "https://wa.me/919999999999"
 		},
 		form: {
-			heading: "Book your Urology consultation today",
+			heading: "Upload eye prescription",
 			fields: ["Name", "Phone", "Email", "Query"],
-			submitLabel: "Submit"
+			submitLabel: "Book your eye checkup today"
 		}
 	}
 
 };
 
-export default urology;
+export default OphthalmologyData;
