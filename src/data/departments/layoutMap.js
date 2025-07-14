@@ -177,4 +177,11 @@ export const layoutMap = {
     data: () => import('./layoutB/roboticLaparoscopicSurgery'),
   },
 
+  'SpeechTherapy': {
+    label: 'Speech Therapy',
+    icon: FaUserNurse,
+    layout: 'B',
+    data: () => import('./layoutB/speechTherapy'),
+  },
+
 };
