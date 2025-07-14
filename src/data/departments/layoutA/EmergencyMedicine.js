@@ -1,4 +1,5 @@
-const EmergencyMedicineData = {
+
+  const EmergencyMedicineData = {
   hero: {
     title: 'Every second counts – We’re always ready',
     description: [

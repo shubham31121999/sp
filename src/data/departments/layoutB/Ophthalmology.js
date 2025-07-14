@@ -1,4 +1,5 @@
-const OphthalmologyData = {
+
+  const OphthalmologyData = {
 	hero: {
 		title: 'Focused on vision, committed to care',
 		description: [

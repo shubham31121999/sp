@@ -1,4 +1,5 @@
-const GeneralSurgeryData = {
+
+  const GeneralSurgeryData = {
   hero: {
     title: 'Precise, safe, and compassionate surgical care',
     description: [

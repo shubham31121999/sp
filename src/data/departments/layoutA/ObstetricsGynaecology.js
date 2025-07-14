@@ -1,4 +1,5 @@
-const ObstetricsGynaecologyData = {
+
+  const ObstetricsGynaecologyData = {
   hero: {
     title: 'Empowering women’s health – every step, every stage',
     description: [

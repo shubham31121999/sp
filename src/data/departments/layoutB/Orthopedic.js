@@ -1,4 +1,5 @@
-const OrthopedicData = {
+
+  const OrthopedicData = {
 	hero: {
 		title: 'Advanced Orthopedic care backed by empathy',
 		description: [

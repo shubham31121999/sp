@@ -1,4 +1,5 @@
-const NephrologyData = {
+
+  const NephrologyData = {
   hero: {
     title: 'Protecting your filters for life',
     description: [
