@@ -210,141 +210,163 @@ const OrthopedicData = {
 		'Kerala’s Leading Interventional Cardiologists',
 	],
 	comprehensiveCare: {
-		title: 'Our comprehensive Services offered',
-		subtitle: 'From keyhole to complex – We"ve got you covered',
-		description:
-			'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
-		items: [
+		title: 'Our Comprehensive Services Offered',
+		subtitle: "From keyhole to complex – We've got you covered",
+		categories: [
 			{
-				title: 'Knee & Hip Replacement',
-				icon: 'mdi:stethoscope',
-				description: 'Advanced total and partial joint replacements using minimally invasive or robotic-assisted techniques to restore mobility and reduce recovery time',
+				name: 'Orthopedics',
+				description:
+					'Expert orthopedic care across joint replacements, arthroscopy, trauma, geriatric care, and more.',
+				items: [
+					{
+						title: 'Knee & Hip Replacement',
+						icon: 'mdi:stethoscope',
+						description:
+							'Advanced total and partial joint replacements using minimally invasive or robotic-assisted techniques to restore mobility and reduce recovery time.',
+					},
+					{
+						title: 'Joint Replacement Surgeries',
+						icon: 'mdi:heart-flash',
+						description:
+							'Replacement of shoulder, elbow, ankle, and small joints with durable implants for natural movement.',
+					},
+					{
+						title: 'Trauma & Fracture Care',
+						icon: 'mdi:hospital-box-outline',
+						description:
+							'24/7 orthopedic trauma team for quick treatment and stabilization of simple to complex fractures.',
+					},
+					{
+						title: 'Fracture Fixations',
+						icon: 'mdi:heart-pulse',
+						description:
+							'Use of plates, screws, nails, or external frames to stabilize bones and support early recovery.',
+					},
+					{
+						title: 'Arthroscopy & Fracture Fixations',
+						icon: 'mdi:heart-plus-outline',
+						description:
+							'Keyhole visualization combined with internal fixation for joint fractures, reducing tissue damage.',
+					},
+					{
+						title: 'Arthroscopic Surgeries',
+						icon: 'mdi:heart-plus-outline',
+						description:
+							'Minimally invasive procedures for ACL/PCL repair, meniscus tears, rotator cuff injuries, and more.',
+					},
+					{
+						title: 'Arthritis Care',
+						icon: 'mdi:heart-plus-outline',
+						description:
+							'From medication and injections to joint replacement, tailored treatments to relieve pain and slow progression.',
+					},
+					{
+						title: 'Geriatric Orthopedic Care',
+						icon: 'mdi:heart-plus-outline',
+						description:
+							'Specialized care for senior patients including fracture management, bone-strengthening, and fall prevention.',
+					},
+					{
+						title: 'Foot & Ankle Clinic',
+						icon: 'mdi:heart-plus-outline',
+						description:
+							'Treatment of bunions, deformities, sports injuries, diabetic foot issues, and more.',
+					},
+					{
+						title: 'Shoulder Specialty Clinic',
+						icon: 'mdi:heart-plus-outline',
+						description:
+							'Comprehensive care for shoulder conditions with both arthroscopic and surgical options.',
+					},
+					{
+						title: 'Orthopedic Oncology',
+						icon: 'mdi:heart-plus-outline',
+						description:
+							'Care for bone and soft-tissue tumors with surgery, reconstruction, and integrated cancer therapies.',
+					},
+					{
+						title: 'Joint Preservation',
+						icon: 'mdi:heart-plus-outline',
+						description:
+							'Early-stage interventions like osteotomy, PRP, cartilage grafts, and corrective procedures to delay joint replacement.',
+					},
+				],
 			},
 			{
-				title: 'Joint Replacement Surgeries',
-				icon: 'mdi:heart-flash',
-				description: 'Replacement of shoulder, elbow, ankle, and small joints with durable implants for natural movement.',
-			},
-			{
-				title: 'Trauma & Fracture Care',
-				icon: 'mdi:hospital-box-outline',
-				description: '24/7 orthopedic trauma team for quick treatment and stabilization of simple to complex fractures.',
-			},
-
-			{
-				title: 'Fracture Fixations',
-				icon: 'mdi:heart-pulse',
-				description: 'Use of plates, screws, nails, or external frames to stabilize bones and support early recovery.',
-			},
-			{
-				title: 'Arthroscopy & Fracture Fixations',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Keyhole visualization combined with internal fixation for joint fractures, reducing tissue damage.',
-			},
-			{
-				title: 'Arthroscopic Surgeries',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Minimally invasive procedures for ACL/PCL repair, meniscus tears, rotator cuff injuries, and more.',
-			},
-			{
-				title: 'Arthritis Care',
-				icon: 'mdi:heart-plus-outline',
-				description: 'From medication and injections to joint replacement, tailored treatments to relieve pain and slow progression.',
-			},
-			{
-				title: 'Geriatric Orthopedic Care',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Specialized care for senior patients including fracture management, bone-strengthening, and fall prevention.',
-			},
-			{
-				title: 'Foot & Ankle Clinic',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Treatment of bunions, deformities, sports injuries, diabetic foot issues, and more.',
-			},
-			{
-				title: 'Shoulder Specialty Clinic',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Comprehensive care for shoulder conditions with both arthroscopic and surgical options.',
-			},
-			{
-				title: 'Orthopedic Oncology',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Care for bone and soft-tissue tumors with surgery, reconstruction, and integrated cancer therapie',
-			},
-			{
-				title: 'Joint Preservation',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Early-stage interventions like osteotomy, PRP, cartilage grafts, and corrective procedures to delay joint replacement.',
-			},
-
-			{
-				title: 'Joint Preservation',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Early-stage interventions like osteotomy, PRP, cartilage grafts, and corrective procedures to delay joint replacement.',
-			},
-			{
-				title: 'Joint Preservation',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Early-stage interventions like osteotomy, PRP, cartilage grafts, and corrective procedures to delay joint replacement.',
-			},
-			{
-				title: 'Joint Preservation',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Early-stage interventions like osteotomy, PRP, cartilage grafts, and corrective procedures to delay joint replacement.',
-			},
-			{
-				title: 'Joint Preservation',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Early-stage interventions like osteotomy, PRP, cartilage grafts, and corrective procedures to delay joint replacement.',
-			},
-			{
-				title: 'Joint Preservation',
-				icon: 'mdi:heart-plus-outline',
-				description: 'Early-stage interventions like osteotomy, PRP, cartilage grafts, and corrective procedures to delay joint replacement.',
+				name: 'Spine Surgeries',
+				description:
+					'Advanced spine care including minimally invasive surgery, decompression, stabilization, and disc replacement.',
+				items: [
+					{
+						title: 'Spinal Surgeries',
+						icon: 'mdi:spine',
+						description:
+							'Open or minimally invasive procedures to relieve spinal cord or nerve pressure and stabilize weak areas.',
+					},
+					{
+						title: 'Spinal Fixation & Decompression',
+						icon: 'mdi:spine',
+						description:
+							'Keyhole techniques like micro-discectomy and endoscopic surgery for faster healing and reduced pain.',
+					},
+					{
+						title: 'Minimally Invasive Spine Procedures',
+						icon: 'mdi:spine',
+						description:
+							'Disc implants or micro-discectomies to maintain flexibility and relieve pain without major surgery.',
+					},
+					{
+						title: 'Disc Replacement & Decompression Surgeries',
+						icon: 'mdi:spine',
+						description:
+							'Fusion and vertebral augmentation to correct spine instability, deformities, and compression fractures.',
+					},
+					{
+						title: 'Spine Stabilization Procedures',
+						icon: 'mdi:spine',
+						description:
+							'Techniques to support weak vertebrae and prevent further degeneration with improved spinal alignment.',
+					},
+				],
 			},
 		],
 	},
 	scopeOfCare: [
 		{
-			title: 'Ophthalmology',
+			title: 'Orthopedic',
 			overview:
 				'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
 
 			sections: [
 				{
-					title: 'Common eye conditions we treat',
+					title: 'Pediatric Orthopedics',
 					items: [
-						'Glaucoma (high eye pressure)',
-						'Diabetic retinopathy',
-						'Age-related macular degeneration',
-						'Myopia, hyperopia & astigmatism',
-						'Red eye, dry eye, and infections',
-						'Eye trauma or injury',
-						'Pediatric squint or lazy eye',
-						'Corneal foriegn body removal',
-						'Drug Induced eye changes evaluation',
+						'Pediatric Deformity Correction',
+						'Pediatric Fracture & Injury Care',
+						'Congenital Limb & Spine Disorders',
+						'Growth Plate Injuries',
+						'Developmental Dysplasia of the Hip (DDH)',
+						'Pediatric Deformity Correction',
+						'Pediatric Sports Injuries',
 					],
 				},
 				{
-					title: 'Medical Urology Conditions',
+					title: 'Sports Medicine	',
 					items: [
-						'Kidney Stones',
-						'Urologic Oncology',
-						'Prostate Cancer',
-						'Urinary tract infection',
-						'Urethral & Ureteric Disorders',
-						'Prostate Disorders',
-						'Bladder Conditions',
-						'Female urology',
-						'Pediatric Urology',
-						'Male Reproductive health',
+						'Sports Injury Repairs (ACL, Meniscus, etc.',
+						'Injury Prevention & Rehabilitation',
+						'Sports-specific Injury Treatment',
+						'Ligament & Tendon Repair',
+						'Cartilage Restoration Procedures',
+						'Performance Enhancement & Physiotherapy',
+						'Return-to-Play Assessments',
 					],
 				},
 			],
 		},
 	],
 
-
+	// whole page needs to be Corrected
 
 
 	insuranceFinance: {
