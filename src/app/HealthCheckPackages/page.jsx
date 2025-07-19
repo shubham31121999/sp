@@ -90,7 +90,7 @@ const HealthCheckPackages = () => {
     {/* Right Image */}
     <div className="w-full h-auto" data-aos="zoom-in-left" data-aos-delay="100">
       <img
-        src="/images/health-hero.png"
+        src="/images/cardiac.jpg"
         alt="Health Check Illustration"
         className="w-full max-w-md mx-auto md:mx-0"
       />
