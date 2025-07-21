@@ -1,6 +1,7 @@
 import Header from '@/components/shared/Header';
 import Footer from '@/components/shared/Footer';
 import '@/styles/globals.css';
+import 'aos/dist/aos.css';
 
 export default function RootLayout({ children }) {
   return (

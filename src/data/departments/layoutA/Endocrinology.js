@@ -1,4 +1,5 @@
-const EndocrinologyData = {
+
+  const EndocrinologyData = {
   hero: {
     title: 'Balancing hormones, restoring health',
     description: [

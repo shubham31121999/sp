@@ -1,4 +1,5 @@
-const EntData = {
+
+  const EntData = {
   hero: {
     title: 'Integrated ENT care — Hearing, breathing & speech made better',
     description: [

@@ -1,4 +1,5 @@
-const LaryngologyData = {
+
+  const LaryngologyData = {
   hero: {
     title: 'Clearer voice. Better breathing. Stronger communication.',
     description: [

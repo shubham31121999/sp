@@ -1,4 +1,5 @@
-const GeneralMinimalAccessSurgeryData = {
+
+  const GeneralMinimalAccessSurgeryData = {
   hero: {
     title: 'Smaller cuts, faster recovery – Surgery redefined',
     description: [

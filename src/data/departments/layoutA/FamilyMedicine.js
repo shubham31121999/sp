@@ -1,4 +1,5 @@
-const FamilyMedicineData = {
+
+  const FamilyMedicineData = {
   hero: {
     title: 'Whole-family care. One doctor. One destination.',
     description: [

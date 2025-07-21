@@ -54,22 +54,16 @@ export default function Header() {
             ))}
 
             {/* SERVICES Dropdown */}
+            {/* SERVICES Dropdown */}
             <div className="relative group">
-              <button className="text-white text-sm tracking-wide font-semibold transition-colors duration-200">
+              <Link
+                href="/services"
+                className="text-white text-sm tracking-wide font-semibold transition-colors duration-200"
+              >
                 SERVICES
-              </button>
-              <div className="absolute hidden group-hover:block bg-white text-dark mt-2 p-2 rounded shadow-lg z-50 min-w-[220px]">
-                {serviceLinks.map((link) => (
-                  <Link
-                    key={link.href}
-                    href={link.href}
-                    className="block px-4 py-2 text-sm hover:bg-gray-100 whitespace-nowrap"
-                  >
-                    {link.label}
-                  </Link>
-                ))}
-              </div>
+              </Link>
             </div>
+
           </div>
 
           {/* Logo */}

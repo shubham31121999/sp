@@ -1,4 +1,5 @@
-const GastroenterologyData = {
+
+  const GastroenterologyData = {
   hero: {
     title: 'From digestion to liver health, everything starts in the gut',
     description: [

@@ -70,6 +70,11 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
+                <Link className="font-bold" href="/HealthCheckPackages">
+                  HealthCheckPackages
+                </Link>
+              </li>
+              <li>
                 <Link className="font-bold" href="#">
                   Clinical Services
                 </Link>
