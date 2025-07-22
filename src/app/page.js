@@ -141,7 +141,7 @@ const team = {
         position: 'Consultant',
         image: '/images/doctors/rahul-patel.jpg',
       },
-       <OurT
+       
     ],
     description:
       'Our team brings decades of surgical excellence, international experience, and compassionate care to every patient.',
