@@ -1,12 +1,71 @@
 'use client';
-
+import { useRef } from 'react';
+import OurTeamB from '@/components/layouts/layoutB/OurTeamB';
 import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay } from 'swiper/modules';
+import SpecialtiesSlider from '@/components/shared/SpecialtiesSlider';
+import { FaSearch } from 'react-icons/fa';
+import {
+  FaMicroscope,
+  FaCogs,
+  FaXRay,
+  FaParking,
+  FaProcedures,
+  FaFireAlt
+} from 'react-icons/fa';
 
+import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
+
+import { GiHospitalCross } from 'react-icons/gi';
+const doctors = [
+  {
+    name: 'Dr. Arun Kumar R',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/arun-kumar.png',
+  },
+  {
+    name: 'Dr. Aathithya S',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/aathithya.png',
+  },
+  {
+    name: 'Dr. Alex Thomas N',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/alex-thomas.png',
+  },
+  {
+    name: 'Dr. Arun Kumar R',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/arun-kumar.png',
+  },
+  {
+    name: 'Dr. Aathithya S',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/aathithya.png',
+  },
+  {
+    name: 'Dr. Alex Thomas N',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/alex-thomas.png',
+  },
+];
 export default function Home() {
+  const scrollRef = useRef(null);
+
+  const scrollLeft = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: -300, behavior: 'smooth' });
+    }
+  };
+
+  const scrollRight = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollBy({ left: 300, behavior: 'smooth' });
+    }
+  };
   const [active, setActive] = useState('second-opinion');
 
   const buttons = [
@@ -33,6 +92,65 @@ export default function Home() {
       description: `Our team of expert doctors and support staff work around the clock to ensure holistic, trusted care.`,
     },
   ];
+const alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+const whyChooseCards = [
+  {
+    icon: <FaMicroscope size={28} className="text-[#6E2452]" />,
+    text: 'Fully Robotic Zeiss Kinevo Neuro Microscope in South Kerala',
+  },
+  {
+    icon: <FaCogs size={28} className="text-[#6E2452]" />,
+    text: '3D Hybrid Cath Lab (GE Allia) with AI in South Asia',
+  },
+  {
+    icon: <FaXRay size={28} className="text-[#6E2452]" />,
+    text: 'Fully Motorized X-ray Suite in the region',
+  },
+  {
+    icon: <FaParking size={28} className="text-[#6E2452]" />,
+    text: 'Multi-level 650-car covered parking',
+  },
+  {
+    icon: <FaProcedures size={28} className="text-[#6E2452]" />,
+    text: 'ICU beds with remote monitoring 24x7 & Level-D isolation',
+  },
+  {
+    icon: <FaFireAlt size={28} className="text-[#6E2452]" />,
+    text: 'Bed emergency wing with independent Burns Unit',
+  },
+];
+const team = {
+    title: 'Your Ambassadors of Care',
+    subTitle: 'Meet the experts committed to your recovery...',
+    doctors: [
+      {
+        name: 'Dr. John Doe',
+        designation: 'Cardiologist',
+        position: 'Senior Consultant',
+        image: '/images/doctors/john-doe.jpg',
+      },
+      {
+        name: 'Dr. Jane Smith',
+        designation: 'Neurosurgeon',
+        position: 'Head of Department',
+        image: '/images/doctors/jane-smith.jpg',
+      },
+      {
+        name: 'Dr. Rahul Patel',
+        designation: 'Orthopaedic Surgeon',
+        position: 'Consultant',
+        image: '/images/doctors/rahul-patel.jpg',
+      },
+       <OurT
+    ],
+    description:
+      'Our team brings decades of surgical excellence, international experience, and compassionate care to every patient.',
+    cta: {
+      label: 'See All Doctors',
+      href: '/doctors',
+    },
+  };
+
 
   return (
     <>
@@ -187,7 +305,74 @@ export default function Home() {
 
   </div>
 </section>
+<SpecialtiesSlider />
+    <section className="w-full bg-[#8B1C68] py-10 px-4">
+      <div className="max-w-6xl mx-auto bg-white rounded-xl shadow-md p-6 md:p-10 flex flex-col md:flex-row gap-6 justify-between items-start md:items-center relative z-10">
 
+        {/* Left: Alphabet Filter */}
+        <div className="w-full md:w-1/2">
+          <h3 className="text-[#8B1C68] font-semibold text-lg md:text-xl mb-4">
+            Find Diseases & Conditions By Alphabet
+          </h3>
+          <div className="flex flex-wrap gap-2">
+            {alphabets.map((char) => (
+              <button
+                key={char}
+                className={`w-8 h-8 rounded-full border-2 border-[#8B1C68] text-[#8B1C68] text-sm font-semibold flex items-center justify-center hover:bg-[#8B1C68] hover:text-white transition ${
+                  char === 'A' ? 'bg-[#8B1C68] text-white' : ''
+                }`}
+              >
+                {char}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Divider */}
+        <div className="hidden md:block w-px bg-gray-300 h-40 mx-4"></div>
+
+        {/* Right: Search */}
+        <div className="w-full md:w-1/2 space-y-4">
+          <h3 className="text-[#8B1C68] font-semibold text-lg md:text-xl">
+            Search Diseases and Conditions
+          </h3>
+          <div className="relative">
+            <input
+              type="text"
+              placeholder="Search"
+              className="w-full border border-[#8B1C68] rounded-full px-4 py-2 pr-10 text-sm focus:outline-none"
+            />
+            <button className="absolute right-3 top-2.5 text-[#8B1C68]">
+              <FaSearch />
+            </button>
+          </div>
+          <p className="text-sm text-gray-700">
+            Quickly find the information you need. Search our database to explore detailed information on various diseases and conditions, including symptoms, causes, and treatment options.
+          </p>
+        </div>
+      </div>
+    </section>
+    {/* 🌟 Why Choose SP Medifort Section */}
+<section className="py-12 bg-white">
+  <div className="max-w-6xl mx-auto text-center px-4">
+    <h2 className="text-2xl md:text-4xl font-bold text-[#222] mb-2">Why Choose SP Medifort?</h2>
+    <p className="text-[#6E2452] font-medium mb-8">South Kerala’s 1st JCI Accredited hospital</p>
+
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {whyChooseCards.map((item, idx) => (
+        <div
+          key={idx}
+          className="bg-white rounded-xl shadow-md p-6 flex flex-col items-center text-center space-y-3"
+        >
+          {item.icon}
+          <p className="text-md text-bold text-black">{item.text}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+    
+     <OurTeamB team={team} />
     </>
   );
 }

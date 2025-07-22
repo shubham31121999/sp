@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import Breadcrumb from '@/components/shared/Breadcrumb';
 const careerHighlights = [
   {
     title: 'Commitment to Clinical Excellence',
@@ -76,7 +76,9 @@ const Page = () => {
     <main className="font-body text-text bg-white">
       {/* Hero Section */}
       <section className="py-24 bg-white" data-aos="fade-up">
+          
         <div className="max-w-6xl mx-auto px-6 text-center">
+          <Breadcrumb />
           <h1 className="text-4xl md:text-5xl font-title text-primary mb-6">
             Join Our Team – SP Medifort Hospital
           </h1>
