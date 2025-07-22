@@ -104,13 +104,13 @@ const Page = () => {
             {careerHighlights.map((item, idx) => (
               <div
                 key={idx}
-                className="bg-white rounded-3xl p-6 shadow-md hover:shadow-xl transition-all duration-300 border border-light hover:border-primary group"
+                className="bg-white rounded-3xl p-6 shadow-md transition-all duration-300 border border-light group hover:bg-primary hover:border-primary hover:shadow-xl"
                 data-aos="zoom-in"
               >
-                <h3 className="text-xl font-semibold text-primary mb-3 group-hover:text-dark transition-all">
+                <h3 className="text-xl font-semibold text-primary mb-3 group-hover:text-white transition-all">
                   {item.title}
                 </h3>
-                <p className="text-sm text-gray-700 group-hover:text-text transition-all">
+                <p className="text-sm text-dark group-hover:text-white transition-all">
                   {item.description}
                 </p>
               </div>
@@ -154,10 +154,10 @@ const Page = () => {
           <h2 className="text-4xl font-title text-dark mb-6">Ready to Apply?</h2>
           <p className="mb-6">Submit your application and become part of a mission that puts patients first.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <button className="bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-dark transition-all">
+            <button className="bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-accent transition-all">
               Apply Now
             </button>
-            <button className="bg-secondary text-white px-6 py-3 rounded-full font-semibold hover:bg-dark transition-all">
+            <button className="bg-secondary text-white px-6 py-3 rounded-full font-semibold hover:bg-accent transition-all">
               Submit Resume
             </button>
           </div>
