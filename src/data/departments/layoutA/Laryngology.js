@@ -1,5 +1,5 @@
 
-  const LaryngologyData = {
+const LaryngologyData = {
   hero: {
     title: 'Clearer voice. Better breathing. Stronger communication.',
     description: [
@@ -7,7 +7,7 @@
       "We are one of the only advanced voice and laryngeal care centers in Trivandrum, offering comprehensive solutions for both functional and structural issues of the voice box."
     ],
     cta: { label: 'Book a voice & Throat consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/laryngology.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

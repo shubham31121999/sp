@@ -6,7 +6,7 @@ const respiratoryMedicine = {
       "We are known as one of the best pulmonology centers in Thiruvananthapuram, with a track record of treating complex respiratory diseases with compassion and accuracy."
     ],
     cta: { label: 'Book a Pulmonology consultation', href: '/appointments/respiratory-medicine' },
-    image: { src: '/images/hero/respiratory.jpg', alt: 'Pulmonology Department' },
+    image: { src: '/images/departments/respiratory-medicine.webp', alt: 'Pulmonology Department' },
     highlightText: [
       'Respiratory medicine in Trivandrum',
       'Pulmonology hospital in Thiruvananthapuram',

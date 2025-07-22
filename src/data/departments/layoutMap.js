@@ -28,160 +28,154 @@
 //   //   data: () => import('./layoutB/dermatology'),
 //   // },
 // };
-import { 
-  FaHeart, FaUserNurse, FaTooth, FaProcedures, FaSyringe, FaNotesMedical, FaStethoscope, 
-  FaMicroscope, FaLungs, FaBaby, FaBrain, FaHospitalUser, FaClinicMedical 
-} from "react-icons/fa"; // Choose icons as you like
 
 export const layoutMap = {
   'cardiac-science': {
     label: 'Cardiac Sciences',
-    icon: FaHeart,
+    icon: '/images/dp-icons/Cardiac-Sciences.svg',
     layout: 'A',
     data: () => import('./layoutA/cardiac-science'),
   },
   'Anesthesiology': {
     label: 'Anesthesiology',
-    icon: FaSyringe,
+    icon: '/images/dp-icons/Anesthesiology.svg',
     layout: 'A',
     data: () => import('./layoutA/Anesthesiology'),
   },
   'CriticalCare': {
     label: 'Critical Care',
-    icon: FaProcedures,
+    icon: '/images/dp-icons/Critical-Care.svg',
     layout: 'A',
     data: () => import('./layoutA/CriticalCare'),
   },
   'DentalOral&MaxillofacialSurgery': {
     label: 'Dental, Oral & Maxillofacial Surgery',
-    icon: FaTooth,
+    icon: '/images/dp-icons/Dental-oral-&-maxillofacial-surgery.svg',
     layout: 'A',
     data: () => import('./layoutA/DentalOral&MaxillofacialSurgery'),
   },
   'Dermatology': {
     label: 'Dermatology',
-    icon: FaStethoscope,
+    icon: '/images/dp-icons/dermatology.svg',
     layout: 'A',
     data: () => import('./layoutA/Dermatology'),
   },
   'EmergencyMedicine': {
     label: 'Emergency Medicine',
-    icon: FaClinicMedical,
+    icon: '/images/dp-icons/Emergency-Medicine.svg',
     layout: 'A',
     data: () => import('./layoutA/EmergencyMedicine'),
   },
   'Endocrinology': {
     label: 'Endocrinology',
-    icon: FaMicroscope,
+    icon: '/images/dp-icons/endocrinology.svg',
     layout: 'A',
     data: () => import('./layoutA/Endocrinology'),
   },
   'Ent': {
     label: 'ENT',
-    icon: FaUserNurse,
+    icon: '/images/dp-icons/ENT.svg',
     layout: 'A',
     data: () => import('./layoutA/Ent'),
   },
   'FamilyMedicine': {
     label: 'Family Medicine',
-    icon: FaHospitalUser,
+    icon: '/images/dp-icons/Family-Medicine.svg',
     layout: 'A',
     data: () => import('./layoutA/FamilyMedicine'),
   },
   'Gastroenterology': {
     label: 'Gastroenterology',
-    icon: FaStethoscope,
+    icon: '/images/dp-icons/gastroenterology.svg',
     layout: 'A',
     data: () => import('./layoutA/Gastroenterology'),
   },
   'GeneralMinimalAccessSurgery': {
     label: 'General & Minimal Access Surgery',
-    icon: FaNotesMedical,
+    icon: '/images/dp-icons/General-&-Minimal-Access-Surgery.svg',
     layout: 'A',
     data: () => import('./layoutA/GeneralMinimalAccessSurgery'),
   },
   'GeneralSurgery': {
     label: 'General Surgery',
-    icon: FaNotesMedical,
+    icon: '/images/dp-icons/General-Surgery.svg',
     layout: 'A',
     data: () => import('./layoutA/GeneralSurgery'),
   },
   'Laryngology': {
     label: 'Laryngology',
-    icon: FaUserNurse,
+    icon: '/images/dp-icons/Laryngology.svg',
     layout: 'A',
     data: () => import('./layoutA/Laryngology'),
   },
   'Nephrology': {
     label: 'Nephrology',
-    icon: FaStethoscope,
+    icon: '/images/dp-icons/nephrology.svg',
     layout: 'A',
     data: () => import('./layoutA/Nephrology'),
   },
   'ObstetricsGynaecology': {
     label: 'Obstetrics & Gynaecology',
-    icon: FaBaby,
+    icon: '/images/dp-icons/Obstetrics-Gynecology.svg',
     layout: 'A',
     data: () => import('./layoutA/ObstetricsGynaecology'),
   },
 
-  // Example Layout B department (already present)
+  // Layout B
   'urology': {
     label: 'Urology',
-    icon: FaUserNurse,
+    icon: '/images/dp-icons/urology.svg', // <-- Replace with actual icon if available
     layout: 'B',
     data: () => import('./layoutB/urology'),
   },
 
   'Ophthalmology': {
     label: 'Ophthalmology',
-    icon: FaUserNurse,
+    icon: '/images/dp-icons/Ophthalmology.svg',
     layout: 'B',
     data: () => import('./layoutB/Ophthalmology'),
   },
   'PlasticMicrovascularSurgery': {
     label: 'Plastic & Microvascular Surgery',
-    icon: FaProcedures,
+    icon: '/images/dp-icons/Plastic-&-Microvascular-Surgery.svg',
     layout: 'B',
     data: () => import('./layoutB/plasticMicrovascularSurgery'),
   },
   'CosmeticAestheticSurgery': {
     label: 'Cosmetic & Aesthetic Surgery',
-    icon: FaProcedures,
+    icon: '/images/dp-icons/Cosmetic-Aesthetic-Surgery.svg',
     layout: 'B',
     data: () => import('./layoutB/aesthetic-surgery'),
   },
   'Radiodiagnosis': {
     label: 'Radiodiagnosis',
-    icon: FaMicroscope,
+    icon: '/images/dp-icons/Radiodiagnosis.svg',
     layout: 'B',
     data: () => import('./layoutB/radiodiagnosisData'),
   },
   'RespiratoryMedicine': {
     label: 'Respiratory Medicine',
-    icon: FaLungs,
+    icon: '/images/dp-icons/Respiratory-Medicine.svg',
     layout: 'B',
     data: () => import('./layoutB/respiratoryMedicine'),
   },
   'Rheumatology': {
     label: 'Rheumatology',
-    icon: FaStethoscope,
+    icon: '/images/dp-icons/rheumatology.svg',
     layout: 'B',
     data: () => import('./layoutB/rheumatology'),
   },
-
   'RoboticSurgery': {
     label: 'Robotic Surgery',
-    icon: FaProcedures,
+    icon: '/images/dp-icons/Robotic-Surgery.svg',
     layout: 'B',
     data: () => import('./layoutB/roboticLaparoscopicSurgery'),
   },
-
   'SpeechTherapy': {
     label: 'Speech Therapy',
-    icon: FaUserNurse,
+    icon: '/images/dp-icons/Speech-Therapy.svg',
     layout: 'B',
     data: () => import('./layoutB/speechTherapy'),
   },
-
 };
+

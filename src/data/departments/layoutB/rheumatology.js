@@ -6,7 +6,7 @@ const rheumatology = {
       "We’re known as one of the best hospitals for arthritis and autoimmune care in Thiruvananthapuram, supporting patients with both medical and lifestyle management."
     ],
     cta: { label: "Book a Rheumatology consultation", href: "/appointments/rheumatology" },
-    image: { src: "/images/hero/rheumatology.jpg", alt: "Rheumatology care" },
+    image: { src: "/images/departments/rheumatology.webp", alt: "Rheumatology care" },
     highlightText: [
       "Rheumatology in Trivandrum",
       "Autoimmune disease care specialists",

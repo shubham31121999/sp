@@ -6,7 +6,7 @@ const plasticMicrovascularSurgery = {
       "We are recognized as a leading hospital for plastic and reconstructive surgery in Thiruvananthapuram, combining artistry with clinical excellence."
     ],
     cta: { label: 'Book a surgical consultation', href: '/appointments/plastic-surgery' },
-    image: { src: '/images/hero/plastic.jpg', alt: 'Plastic Surgery' },
+    image: { src: '/images/departments/plastic-and-microvascular-surgery.webp', alt: 'Plastic Surgery' },
     highlightText: [
       'Plastic surgery in Trivandrum',
       'Burn and trauma reconstruction experts',

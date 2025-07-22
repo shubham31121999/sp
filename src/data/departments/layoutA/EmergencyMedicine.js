@@ -1,5 +1,5 @@
 
-  const EmergencyMedicineData = {
+const EmergencyMedicineData = {
   hero: {
     title: 'Every second counts – We’re always ready',
     description: [
@@ -7,7 +7,7 @@
       "Our goal: Stabilize fast, treat efficiently, and save lives."
     ],
     cta: { label: 'Call emergency now', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/emergency-medicine.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

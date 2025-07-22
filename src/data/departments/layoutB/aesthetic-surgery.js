@@ -6,7 +6,7 @@ const cosmeticAestheticSurgery = {
       "As one of the top hospitals for cosmetic surgery in Thiruvananthapuram, we ensure discreet care, minimal downtime, and natural-looking results."
     ],
     cta: { label: 'Book a Cosmetic consultation', href: '/appointments/cosmetic-aesthetic-surgery' },
-    image: { src: '/images/departments/cosmetic-aesthetic.jpg', alt: 'Cosmetic Surgery' },
+    image: { src: '/images/departments/CosmeticAestheticSurgery.webp', alt: 'Cosmetic Surgery' },
     highlightText: [
       'Precision Body Contouring',
       'Discreet, Personalized Cosmetic Care',

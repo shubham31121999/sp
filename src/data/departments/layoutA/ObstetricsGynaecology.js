@@ -1,5 +1,5 @@
 
-  const ObstetricsGynaecologyData = {
+const ObstetricsGynaecologyData = {
   hero: {
     title: 'Empowering women’s health – every step, every stage',
     description: [
@@ -7,7 +7,7 @@
       "Recognized as a leading women’s health centre in Trivandrum, we are equipped to support your health and wellness journey with confidence."
     ],
     cta: { label: 'Book a women’s health consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/obstetrics-and-gynaecology.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

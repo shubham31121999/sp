@@ -1,5 +1,5 @@
 
-  const GastroenterologyData = {
+const GastroenterologyData = {
   hero: {
     title: 'From digestion to liver health, everything starts in the gut',
     description: [
@@ -7,7 +7,7 @@
       "We focus on restoring gut health, managing chronic issues, and preventing complications through tailored, long-term care."
     ],
     cta: { label: 'Book a consultation with a Gastroenterologist', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/Gastroenterology.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

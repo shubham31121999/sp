@@ -1,5 +1,5 @@
 
-  const GeneralSurgeryData = {
+const GeneralSurgeryData = {
   hero: {
     title: 'Precise, safe, and compassionate surgical care',
     description: [
@@ -7,7 +7,7 @@
       "Whether it's hernia repair, gallbladder removal, or appendicitis, our team offers dependable, high-quality care, making us a trusted choice for general surgery in Trivandrum."
     ],
     cta: { label: 'Schedule a surgical consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/general-surgery.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

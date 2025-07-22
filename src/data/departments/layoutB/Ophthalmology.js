@@ -1,5 +1,5 @@
 
-  const OphthalmologyData = {
+const OphthalmologyData = {
 	hero: {
 		title: 'Focused on vision, committed to care',
 		description: [
@@ -7,7 +7,7 @@
 			"Recognized as a top centre for eye care in Trivandrum, we serve patients of all ages with compassion and clinical excellence."
 		],
 		cta: { label: 'Book an Eye checkup', href: '/appointments/cardiology' },
-		image: { src: '/images/cardiac.jpg', alt: 'Urology' },
+		image: { src: '/images/departments/ophthalmology.webp', alt: 'Urology' },
 		highlightText: [
 			'Compassionate Cardiac Care, Always',
 			'Hello World!',

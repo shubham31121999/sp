@@ -8,7 +8,7 @@ const speechTherapy = {
       "We are a top speech therapy center in Trivandrum, equipped with child-friendly spaces and modern tools for voice and language recovery."
     ],
     cta: { label: "Book a Speech therapy assessment", href: "/appointments/speech-therapy" },
-    image: { src: "/images/departments/speech-therapy.jpg", alt: "Speech Therapy" },
+    image: { src: "/images/departments/speech-therapy.webp", alt: "Speech Therapy" },
     highlightText: [
       "Child-friendly, evidence-based therapy",
       "Support for stroke, autism & speech delay",
@@ -50,41 +50,41 @@ const speechTherapy = {
     cta: { label: "Meet our Speech therapy team", href: "/our-doctors#speech-therapy" }
   },
   technologies: {
-  title: "Advanced tools for accurate diagnosis and effective therapy",
-  categoryTabs: ["Pediatric & Adult Therapy Tools", "Speech Diagnostics"],
-  items: [
-    {
-      name: "Video Stroboscopy",
-      description:
-        "High-resolution imaging of vocal cord vibrations to diagnose hoarseness, nodules, and vocal fold paralysis accurately.",
-    },
-    {
-      name: "Speech & Language Evaluation Software",
-      description:
-        "Digital assessment tools for articulation, language comprehension, fluency, and phonology to track progress objectively.",
-    },
-    {
-      name: "FEES (Fiberoptic Endoscopic Evaluation of Swallowing)",
-      description:
-        "Real-time visualization of swallowing mechanisms to assess and treat dysphagia effectively.",
-    },
-    {
-      name: "AAC Devices (Augmentative and Alternative Communication)",
-      description:
-        "Touchscreen-based or symbol-driven devices for non-verbal patients to communicate more easily.",
-    },
-    {
-      name: "Interactive Therapy Modules",
-      description:
-        "Gamified speech therapy programs and apps used for engaging children in articulation, language, and memory tasks.",
-    },
-    {
-      name: "Voice Analysis Software",
-      description:
-        "Used by voice therapists to evaluate pitch, loudness, and voice quality, enabling customized voice therapy plans.",
-    },
-  ],
-},
+    title: "Advanced tools for accurate diagnosis and effective therapy",
+    categoryTabs: ["Pediatric & Adult Therapy Tools", "Speech Diagnostics"],
+    items: [
+      {
+        name: "Video Stroboscopy",
+        description:
+          "High-resolution imaging of vocal cord vibrations to diagnose hoarseness, nodules, and vocal fold paralysis accurately.",
+      },
+      {
+        name: "Speech & Language Evaluation Software",
+        description:
+          "Digital assessment tools for articulation, language comprehension, fluency, and phonology to track progress objectively.",
+      },
+      {
+        name: "FEES (Fiberoptic Endoscopic Evaluation of Swallowing)",
+        description:
+          "Real-time visualization of swallowing mechanisms to assess and treat dysphagia effectively.",
+      },
+      {
+        name: "AAC Devices (Augmentative and Alternative Communication)",
+        description:
+          "Touchscreen-based or symbol-driven devices for non-verbal patients to communicate more easily.",
+      },
+      {
+        name: "Interactive Therapy Modules",
+        description:
+          "Gamified speech therapy programs and apps used for engaging children in articulation, language, and memory tasks.",
+      },
+      {
+        name: "Voice Analysis Software",
+        description:
+          "Used by voice therapists to evaluate pitch, loudness, and voice quality, enabling customized voice therapy plans.",
+      },
+    ],
+  },
 
   comprehensiveCare: {
     title: "Conditions We Treat",

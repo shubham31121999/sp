@@ -1,12 +1,12 @@
 
-  const EndocrinologyData = {
+const EndocrinologyData = {
   hero: {
     title: 'Balancing hormones, restoring health',
     description: [
       "At SP Medifort, the Endocrinology Department delivers comprehensive care for hormone-related disorders—from diabetes and thyroid disease to complex adrenal or pituitary conditions. Each patient receives an individualized plan grounded in evidence-based medicine and delivered with compassion.",
     ],
     cta: { label: 'Book an endocrinology consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/endocrinology.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

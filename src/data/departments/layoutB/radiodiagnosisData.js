@@ -6,7 +6,7 @@ const radiodiagnosisData = {
       "With the latest diagnostic machines and experienced radiologists, we ensure your scans are safe, swift, and clinically actionable. Recognized as one of the most advanced imaging centers in Thiruvananthapuram, our department operates 24x7 for emergency and elective scans."
     ],
     cta: { label: 'Book a diagnostic scan', href: '/appointments/radiodiagnosis' },
-    image: { src: '/images/hero/radiology.jpg', alt: 'Radiodiagnosis' },
+    image: { src: '/images/departments/radiodiagnosis.webp', alt: 'Radiodiagnosis' },
     highlightText: [
       'Radiodiagnosis in Trivandrum',
       'Best imaging center in Thiruvananthapuram',

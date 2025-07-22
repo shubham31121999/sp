@@ -1,5 +1,5 @@
 
-  const GeneralMinimalAccessSurgeryData = {
+const GeneralMinimalAccessSurgeryData = {
   hero: {
     title: 'Smaller cuts, faster recovery – Surgery redefined',
     description: [
@@ -7,7 +7,7 @@
       "We are widely trusted for laparoscopic and general surgery in Trivandrum, with a reputation for safe, patient-centered surgical care."
     ],
     cta: { label: 'Consult a general surgeon today', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/general-and-minimal-access-surgery.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

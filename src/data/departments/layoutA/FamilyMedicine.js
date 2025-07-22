@@ -1,5 +1,5 @@
 
-  const FamilyMedicineData = {
+const FamilyMedicineData = {
   hero: {
     title: 'Whole-family care. One doctor. One destination.',
     description: [
@@ -7,7 +7,7 @@
       "We ensure that every age group receives integrated, relationship-based care with access to specialists when needed"
     ],
     cta: { label: 'Book an appointment with a family physician', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/Family-Medicine.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

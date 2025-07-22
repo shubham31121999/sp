@@ -1,5 +1,5 @@
 
-  const EntData = {
+const EntData = {
   hero: {
     title: 'Integrated ENT care — Hearing, breathing & speech made better',
     description: [
@@ -7,7 +7,7 @@
       "Recognized as one of the best ENT hospitals in Trivandrum, we offer a blend of clinical experience, modern technology, and patient comfort."
     ],
     cta: { label: 'Book an ENT consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/ENT.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

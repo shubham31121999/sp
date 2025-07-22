@@ -1,5 +1,5 @@
 
-  const NephrologyData = {
+const NephrologyData = {
   hero: {
     title: 'Protecting your filters for life',
     description: [
@@ -7,7 +7,7 @@
       "Our goal is to preserve kidney function, delay progression, and offer compassionate care at every stage."
     ],
     cta: { label: 'Book a Kidney care consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
+    image: { src: '/images/departments/nephrology.webp', alt: 'Cardiology' },
     highlightText: [
       'Compassionate Cardiac Care, Always',
       'Hello World!',

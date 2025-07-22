@@ -7,7 +7,7 @@ const roboticLaparoscopicSurgery = {
       "We are recognized as a pioneer in robotic-assisted surgery in South Kerala, offering expertise in routine, emergency, and specialty procedures."
     ],
     cta: { label: "Book a surgical consultation", href: "/appointments/surgery" },
-    image: { src: "/images/hero/robotic-surgery.jpg", alt: "Robotic surgery team in action" },
+    image: { src: "/images/departments/robotic-surgery.webp", alt: "Robotic surgery team in action" },
     highlightText: [
       "Laparoscopic surgery in Trivandrum",
       "Robotic surgery in Thiruvananthapuram",
