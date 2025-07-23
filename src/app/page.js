@@ -24,6 +24,7 @@ import 'swiper/css/navigation';
 import { GiHospitalCross } from 'react-icons/gi';
 import InsurancePartners from '@/components/shared/InsurancePartners';
 import FaqSection from '@/components/shared/FaqSection';
+
 const doctors = [
   {
     name: 'Dr. Arun Kumar R',
@@ -564,19 +565,19 @@ surgical precision, and personalized care across every specialty</p>
     <section className="bg-white py-16 px-4">
       <div className="max-w-7xl mx-auto text-center">
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+        <h2 className="text-3xl md:text-4xl font-bold text-black mb-2">
           Healing Stories
         </h2>
         <p className="text-gray-600 mb-12">Healing That Feels Like Home</p>
 
         {/* Grid Layout */}
-        <div className="hidden md:grid grid-cols-5 gap-4 auto-rows-[200px]">
+        <div className="hidden md:grid grid-cols-5 gap-4 auto-rows-[450px]">
           {/* Column 1 - Center Aligned */}
           <div className="flex flex-col justify-center items-center">
             <div className="w-full">
               <VideoCard
-                src="/videos/sharma.mp4"
-                poster="/images/stories/sharma.jpg"
+                src="/videos/Genesys-Vide-2.mp4"
+                
                 quote="I came from Dubai for my father's surgery. We felt like family from day one."
                 name="Mr. Sharma, Bangalore"
               />
@@ -586,14 +587,14 @@ surgical precision, and personalized care across every specialty</p>
           {/* Column 2 */}
           <div className="flex flex-col gap-4">
             <VideoCard
-              src="/videos/bhavika.mp4"
-              poster="/images/stories/bhavika.jpg"
+              src="/videos/Genesys-Vide-2.mp4"
+              
               title="Liver Failure"
               name="Baby Bhavika"
             />
             <VideoCard
-              src="/videos/jaw-cancer.mp4"
-              poster="/images/stories/jaw.jpg"
+              src="/videos/Genesys-Vide-2.mp4"
+              
               title="Jaw Cancer"
               name="Dr. Abhilasha Agarwal"
             />
@@ -602,8 +603,8 @@ surgical precision, and personalized care across every specialty</p>
           {/* Column 3 - Tall Video */}
           <div>
             <VideoCard
-              src="/videos/sakshi.mp4"
-              poster="/images/stories/sakshi.jpg"
+              src="/videos/Genesys-Vide-2.mp4"
+              
               title="Pre-term Babies"
               name="Ms Sakshi"
               tall
@@ -613,14 +614,14 @@ surgical precision, and personalized care across every specialty</p>
           {/* Column 4 */}
           <div className="flex flex-col gap-4">
             <VideoCard
-              src="/videos/devender.mp4"
-              poster="/images/stories/devender.jpg"
+              src="/videos/Genesys-Vide-2.mp4"
+             
               title="Neurosurgical Treatment"
               name="Mr. Devender Jeet Singh"
             />
             <VideoCard
-              src="/videos/halder.mp4"
-              poster="/images/stories/halder.jpg"
+              src="/videos/Genesys-Vide-2.mp4"
+              
               title="Bone Marrow Transplant"
               name="Patient Father Mr Halder"
             />
@@ -630,8 +631,8 @@ surgical precision, and personalized care across every specialty</p>
           <div className="flex flex-col justify-center items-center">
             <div className="w-full">
               <VideoCard
-                src="/videos/leela.mp4"
-                poster="/images/stories/leela.jpg"
+                src="/videos/Genesys-Vide-2.mp4"
+                
                 quote="The ICU team saved my husband’s life. I’m forever grateful."
                 name="Mrs. Leela K., Kollam"
               />
@@ -719,8 +720,8 @@ surgical precision, and personalized care across every specialty</p>
       </div>
     </section>
     <FaqSection />
-<section class="w-full bg-gradient-to-r from-[#72005F] to-[#9A007D] py-10">
-  <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-10">
+<section class="w-full bg-gradient-to-r from-[#72005F] to-[#9A007D] ">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-10 py-10">
     
     
     <div class="w-full lg:w-1/2 text-white">
@@ -756,11 +757,12 @@ surgical precision, and personalized care across every specialty</p>
     </div>
 
     
-    <div class="w-full lg:w-1/2 relative">
-      <img src="/your-image-path.png" alt="Doctors" class="w-full" />
+    <div class="w-full lg:w-full relative">
+      <img src="/images/Homepage/doctor.png" alt="Doctors" className="w-full object-contain h-full overflow-visible" />
+
 
       
-      <div class="absolute top-4 right-0 space-y-4">
+      <div class="absolute top-4 right-0 space-y-4 py-20">
         <div class="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
           <div class="bg-primary p-2 rounded-full text-white">
             📍

@@ -3,23 +3,23 @@ import React from 'react';
 const VideoCard = ({ src, poster, title, name, quote, tall = false }) => {
   return (
     <div
-      className={`relative rounded-xl overflow-hidden shadow-lg w-full ${
+      className={`relative rounded-2xl overflow-hidden shadow-xl w-full group ${
         tall ? 'md:row-span-2 md:h-[440px] h-[380px]' : 'aspect-[3/4]'
       }`}
     >
       {/* Video */}
       <video
-        className="w-full h-full object-cover"
-        poster={poster}
-        controls
-        preload="none"
-      >
-        <source src={src} type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute top-0 left-0 w-full h-full object-cover z-0"
+        >
+          <source src="/videos/Genesys-Vide-2.mp4" type="video/mp4" />
+        </video>
 
-      {/* Bottom Overlay Info */}
-      <div className="absolute bottom-0 w-full bg-gradient-to-t from-black/70 to-transparent px-4 py-3 text-white">
+      {/* Gradient Overlay */}
+      <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-4 py-3 text-white">
         {quote ? (
           <p className="text-sm italic leading-snug">
             “{quote}”
