@@ -4,7 +4,7 @@ import { Plus, Minus } from "lucide-react"; // npm install lucide-react
 const faqs = [
   {
     question: "Will I receive life-changing treatment at SP Medifort?",
-    answer: "",
+    answer: "Absolutely.At SP Medifort, we provide advanced, personalized treatments designed to make a real difference in your life and health.",
   },
   {
     question: "Is SP Medifort equipped well?",
@@ -13,7 +13,7 @@ const faqs = [
   },
   {
     question: "Will I be looked after while I'm here?",
-    answer: "",
+    answer: "Yes, you’ll be well looked after.Our team is here to ensure your comfort, safety, and care throughout your stay.",
   },
 ];
 

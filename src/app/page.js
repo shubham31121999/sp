@@ -672,7 +672,7 @@ surgical precision, and personalized care across every specialty</p>
      <BlogSection/>
      <InsurancePartners />
 
-         <section className="bg-purple-800 py-16 px-4">
+         <section className="bg-primary py-16 px-4">
       <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10">
         {/* Left Content */}
         <div className="text-white">
@@ -686,12 +686,12 @@ surgical precision, and personalized care across every specialty</p>
 
           <a
             href="#"
-            className="inline-flex items-center gap-2 px-4 py-2 border border-white rounded-full hover:bg-white hover:text-purple-800 transition"
+            className="inline-flex items-center gap-2 px-4 py-2 border border-white rounded-full hover:bg-white hover:text-primary transition"
           >
             Launch Virtual tour
             <span className="w-6 h-6 flex items-center justify-center rounded-full bg-white">
               <svg
-                className="w-3.5 h-3.5 text-purple-800"
+                className="w-3.5 h-3.5 bg-primary"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth="2"
@@ -719,93 +719,80 @@ surgical precision, and personalized care across every specialty</p>
       </div>
     </section>
     <FaqSection />
-    <section class="bg-gradient-to-r from-[#6f005a] to-[#9a005e] py-12 px-4 md:px-10 relative text-white">
-  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+<section class="w-full bg-gradient-to-r from-[#72005F] to-[#9A007D] py-10">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-10">
     
- 
-    <div class="space-y-6">
-      <h2 class="text-2xl md:text-3xl font-bold">Post A Medical Query:</h2>
-      <p class="text-sm">Post a question, and we will get back to you soon.</p>
-
+    
+    <div class="w-full lg:w-1/2 text-white">
+      <h2 class="text-2xl font-bold mb-2">Post A Medical Query:</h2>
+      <p class="mb-6">Post A Question, And We Will Get Back To You Soon.</p>
+      
       <form class="space-y-4">
-        <input type="text" placeholder="Name:" class="w-full px-4 py-2 rounded-full text-black" />
+        <input type="text" placeholder="Name:" class="w-full px-4 py-2 rounded-full text-black focus:outline-none" />
         
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          <input type="text" placeholder="Mobile:" class="px-4 py-2 rounded-full text-black" />
-          <input type="email" placeholder="Email:" class="px-4 py-2 rounded-full text-black" />
+        <div class="flex gap-4">
+          <input type="text" placeholder="Mobile:" class="w-1/2 px-4 py-2 rounded-full text-black focus:outline-none" />
+          <input type="email" placeholder="Email:" class="w-1/2 px-4 py-2 rounded-full text-black focus:outline-none" />
         </div>
-
-        <select class="w-full px-4 py-2 rounded-full text-black">
+        
+        <select class="w-full px-4 py-2 rounded-full text-black focus:outline-none">
           <option>Select Treatment:</option>
+          
         </select>
-
-        <textarea rows="3" placeholder="Your Message Here:" class="w-full px-4 py-2 rounded-xl text-black"></textarea>
-
-        <label class="flex items-start text-xs space-x-2">
-          <input type="checkbox" class="mt-1 accent-pink-600" />
-          <span>I Agree To The T&C And Privacy Policy And I Am Giving My Consent To Receive Updates Through SMS/Email.</span>
-        </label>
-
-        <button class="bg-white text-[#6f005a] rounded-full px-6 py-2 font-semibold hover:bg-pink-100 border border-white">
+        
+        <textarea placeholder="Your Message Here:" rows="4" class="w-full px-4 py-2 rounded-lg text-black focus:outline-none"></textarea>
+        
+        <div class="flex items-center gap-2">
+          <input type="checkbox" id="agree" />
+          <label for="agree" class="text-sm">
+            I Agree To The T&C And Privacy Policy And I Am Giving My Consent To Receive Updates Through SMS/Email.
+          </label>
+        </div>
+        
+        <button type="submit" class="bg-white text-[#72005F] px-6 py-2 rounded-full font-semibold hover:bg-gray-100 transition">
           Submit Now!
         </button>
       </form>
     </div>
 
-   
-    <div class="relative">
-      <img src="your-doctors-image.png" alt="Doctors" class="w-full md:max-w-md mx-auto" />
+    
+    <div class="w-full lg:w-1/2 relative">
+      <img src="/your-image-path.png" alt="Doctors" class="w-full" />
 
-      <div class="absolute top-[10%] right-0 bg-white text-black shadow-lg rounded-xl p-4 w-full md:w-[380px]">
-        <div class="flex items-start space-x-4">
-          <div class="bg-[#6f005a] text-white rounded-full p-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-              viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M12 11c0 1.105-.895 2-2 2s-2-.895-2-2 .895-2 2-2 2 .895 2 2zm0 0V7m0 4v4m0 4h.01" />
-            </svg>
+      
+      <div class="absolute top-4 right-0 space-y-4">
+        <div class="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
+          <div class="bg-primary p-2 rounded-full text-white">
+            📍
           </div>
-          <div>
-            <p class="font-semibold">Visit Us:</p>
-            <p class="text-sm text-gray-600">Reach Our Thiruvananthapuram Campus With Ease Using Online Directions</p>
-          </div>
+          <p class="text-sm">
+            <span class="font-bold text-[#72005F]">Visit Us:</span> Reach Our Thiruvananthapuram Campus With Ease Using Online Directions
+          </p>
         </div>
-      </div>
 
-      <div class="absolute top-[45%] right-0 bg-white text-black shadow-lg rounded-xl p-4 w-full md:w-[380px]">
-        <div class="flex items-start space-x-4">
-          <div class="bg-red-600 text-white rounded-full p-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-              viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M13 16h-1v-4h-1m1-4h.01M12 9.75v.01" />
-            </svg>
+        <div class="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
+          <div class="bg-[#72005F] p-2 rounded-full text-white">
+            📞
           </div>
-          <div>
-            <p class="font-semibold text-red-600">Emergency 24x7:</p>
-            <p class="text-sm text-gray-600">Reach Us On Our Emergency Helpline: <br /> +91-0471 3100 100</p>
-          </div>
+          <p class="text-sm">
+            <span class="font-bold text-[#72005F]">Emergency 24x7:</span> Reach Us On Our Emergency Helpline: +91-0471 3100 100
+          </p>
         </div>
-      </div>
 
-      <div class="absolute bottom-0 right-0 bg-white text-black shadow-lg rounded-xl p-4 w-full md:w-[380px]">
-        <div class="flex items-start space-x-4">
-          <div class="bg-[#6f005a] text-white rounded-full p-2">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
-              viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m2 0a2 2 0 002-2V8a2 2 0 00-2-2H7a2 2 0 00-2 2v6a2 2 0 002 2z" />
-            </svg>
+        <div class="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
+          <div class="bg-[#72005F] p-2 rounded-full text-white">
+            💻
           </div>
-          <div>
-            <p class="font-semibold text-[#6f005a]">Online Consultation:</p>
-            <p class="text-sm text-gray-600">Talk To Our Doctors From Where You Sit</p>
-          </div>
+          <p class="text-sm">
+            <span class="font-bold text-[#72005F]">Online Consultation:</span> Talk To Our Doctors From Where You Sit
+          </p>
         </div>
       </div>
     </div>
+
   </div>
 </section>
+
 
     </>
   );

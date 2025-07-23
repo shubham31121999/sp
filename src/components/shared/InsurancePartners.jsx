@@ -6,9 +6,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 const logos = [
   { src: "/images/Carousel(insurance-company)/car1.jpg" },
-  { src: "/images/Carousel(insurance-company)/car1.webp" },
-  { src: "/images/Carousel(insurance-company)/car2.webp" },
-  { src: "/images/Carousel(insurance-company)/car3.webp" },
+  { src: "/images/Carousel(insurance-company)/car2.jpg" },
+  { src: "/images/Carousel(insurance-company)/car3.jpg" },
+  { src: "/images/Carousel(insurance-company)/car4.jpg" },
 ];
 
 export default function InsurancePartners() {
@@ -42,7 +42,7 @@ export default function InsurancePartners() {
     <Image
       src={logo.src}
       alt={`Insurance Partner ${index + 1}`}
-      layout="fill"
+      fill 
       objectFit="contain"
       className="object-center"
     />
