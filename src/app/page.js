@@ -1,11 +1,12 @@
 'use client';
 import { useRef } from 'react';
+import Image from "next/image";
 import OurTeamB from '@/components/layouts/layoutB/OurTeamB';
 import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination, Autoplay } from 'swiper/modules';
+import { Pagination, Autoplay,Navigation  } from 'swiper/modules';
 import SpecialtiesSlider from '@/components/shared/SpecialtiesSlider';
 import { FaSearch } from 'react-icons/fa';
 import {
@@ -16,10 +17,13 @@ import {
   FaProcedures,
   FaFireAlt
 } from 'react-icons/fa';
-
+import BlogSection from '@/components/shared/BlogSection';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
-
+import VideoCard from '@/components/shared/VideoCard';
+import 'swiper/css/navigation';
 import { GiHospitalCross } from 'react-icons/gi';
+import InsurancePartners from '@/components/shared/InsurancePartners';
+import FaqSection from '@/components/shared/FaqSection';
 const doctors = [
   {
     name: 'Dr. Arun Kumar R',
@@ -52,6 +56,8 @@ const doctors = [
     image: '/images/doctors-card/alex-thomas.png',
   },
 ];
+
+
 export default function Home() {
   const scrollRef = useRef(null);
 
@@ -371,8 +377,436 @@ const team = {
     </div>
   </div>
 </section>
+    {/* 👨‍⚕️ Our Doctors Slider Section */}
+{/* 👨‍⚕️ Our Doctors Slider Section */}
+<section className="py-16 bg-[#ffeff9]">
+  <div className="max-w-6xl mx-auto px-4 relative">
+    <h2 className="text-2xl md:text-4xl font-bold text-center text-primary mb-5">
+      Your Ambassadors of Care
+    </h2>
+    <p className="text-md md:text-lg font-bold text-center text-black mb-3">Meet the experts committed to your recovery. Our doctors bring global experience, 
+surgical precision, and personalized care across every specialty</p>
+
+    {/* Arrows */}
+    <div className="absolute -left-5 top-[50%] z-10 hidden md:block">
+      <button className="bg-white shadow-lg p-2 rounded-full text-primary hover:bg-primary hover:text-white transition" id="doctor-prev">
+        <FaArrowLeft />
+      </button>
+    </div>
+    <div className="absolute -right-5 top-[50%] z-10 hidden md:block">
+      <button className="bg-white shadow-lg p-2 rounded-full text-primary hover:bg-primary hover:text-white transition" id="doctor-next">
+        <FaArrowRight />
+      </button>
+    </div>
+
+    {/* Swiper */}
+    <Swiper
+      modules={[Pagination, Autoplay, Navigation]}
+      spaceBetween={20}
+      slidesPerView={1}
+      breakpoints={{
+        640: { slidesPerView: 2 },
+        1024: { slidesPerView: 3 },
+      }}
+      navigation={{
+        nextEl: '#doctor-next',
+        prevEl: '#doctor-prev',
+      }}
+      autoplay={{ delay: 4000 }}
+      loop
+      className="pb-10"
+    >
+      {doctors.map((doc, index) => (
+        <SwiperSlide key={index}>
+          <div >
+            {/* Full Width Image */}
+            <div className="w-full h-full overflow-hidden">
+              <img
+                src={doc.image}
+                alt={doc.name}
+                className="w-full h-full object-cover"
+              />
+            </div>
+
+            {/* Doctor Info */}
+            
+          </div>
+        </SwiperSlide>
+      ))}
+    </Swiper>
+    <div className="mt-8 flex justify-center">
+  <a
+    href="/doctors"
+    className="bg-[#6E2452] text-white px-3 py-2 rounded-full font-semibold flex items-center gap-3 hover:bg-[#5a1d44] transition"
+  >
+    See All Doctors
+    <span className="bg-white rounded-full p-1">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-4 h-4 text-[#6E2452]"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M9 5l7 7-7 7"
+        />
+      </svg>
+    </span>
+  </a>
+</div>
+
+
+  </div>
+</section>
+
+<section className="bg-[#FDEDF8] py-16 px-4">
+  <div className="max-w-7xl mx-auto text-center">
+    {/* Section Title */}
+    <h2 className="text-2xl md:text-4xl font-bold text-[#6E2452] mb-4">
+      Building the Future of Healthcare
+    </h2>
+    <p className="text-[#222] mb-12 max-w-3xl mx-auto">
+      Empowering the next generation of healthcare professionals through globally recognized
+      clinical education, skill development programs, and observership opportunities.
+    </p>
+
+    {/* Cards Grid */}
+    <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+      {/* Card 1 */}
+      <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+        <div className="h-[200px] w-full overflow-hidden">
+          <img
+            src="/images/education/medicine.jpg"
+            alt="Medicine Program"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="p-6 text-left">
+          <h3 className="text-[#6E2452] font-bold text-lg mb-2">
+            Medicine – CCT-EM (SEMI), MRCEM (UK)
+          </h3>
+          <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
+            <li>Duration: 3 Years</li>
+            <li>MBBS eligibility, MCI/FMGE recognition</li>
+            <li>Prepares for MRCEM (UK)</li>
+            <li>Rotations: ED, ICU, OT</li>
+            <li>Training: Trauma, critical care, procedures</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Card 2 */}
+      <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+        <div className="h-[200px] w-full overflow-hidden">
+          <img
+            src="/images/education/nsdc.jpg"
+            alt="NSDC Course"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="p-6 text-left">
+          <h3 className="text-[#6E2452] font-bold text-lg mb-2">
+            NSDC Course: General Duty Assistant
+          </h3>
+          <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
+            <li>Duration: 1 Year (Theory + OJT)</li>
+            <li>Class XII Science, age 18–26</li>
+            <li>Jobs: Hospitals, Clinics, Homecare</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Card 3 */}
+      <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
+        <div className="h-[200px] w-full overflow-hidden">
+          <img
+            src="/images/education/other.jpg"
+            alt="Other Programs"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="p-6 text-left">
+          <h3 className="text-[#6E2452] font-bold text-lg mb-2">Other Programs:</h3>
+          <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
+            <li>MBBS Observership (Intl. students)</li>
+            <li>Physiotherapy</li>
+            <li>MSW, MHA, Paramedical</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    {/* CTA Button */}
+    <a
+      href="/academics"
+      className="inline-flex items-center gap-2 bg-[#6E2452] text-white px-3 py-2 rounded-full font-semibold hover:bg-[#5a1d44] transition"
+    >
+      Explore Academic Opportunities
+      <span className="bg-white rounded-full p-1">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="w-4 h-4 text-[#6E2452]"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+        </svg>
+      </span>
+    </a>
+  </div>
+</section>
+
+    <section className="bg-white py-16 px-4">
+      <div className="max-w-7xl mx-auto text-center">
+        {/* Heading */}
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">
+          Healing Stories
+        </h2>
+        <p className="text-gray-600 mb-12">Healing That Feels Like Home</p>
+
+        {/* Grid Layout */}
+        <div className="hidden md:grid grid-cols-5 gap-4 auto-rows-[200px]">
+          {/* Column 1 - Center Aligned */}
+          <div className="flex flex-col justify-center items-center">
+            <div className="w-full">
+              <VideoCard
+                src="/videos/sharma.mp4"
+                poster="/images/stories/sharma.jpg"
+                quote="I came from Dubai for my father's surgery. We felt like family from day one."
+                name="Mr. Sharma, Bangalore"
+              />
+            </div>
+          </div>
+
+          {/* Column 2 */}
+          <div className="flex flex-col gap-4">
+            <VideoCard
+              src="/videos/bhavika.mp4"
+              poster="/images/stories/bhavika.jpg"
+              title="Liver Failure"
+              name="Baby Bhavika"
+            />
+            <VideoCard
+              src="/videos/jaw-cancer.mp4"
+              poster="/images/stories/jaw.jpg"
+              title="Jaw Cancer"
+              name="Dr. Abhilasha Agarwal"
+            />
+          </div>
+
+          {/* Column 3 - Tall Video */}
+          <div>
+            <VideoCard
+              src="/videos/sakshi.mp4"
+              poster="/images/stories/sakshi.jpg"
+              title="Pre-term Babies"
+              name="Ms Sakshi"
+              tall
+            />
+          </div>
+
+          {/* Column 4 */}
+          <div className="flex flex-col gap-4">
+            <VideoCard
+              src="/videos/devender.mp4"
+              poster="/images/stories/devender.jpg"
+              title="Neurosurgical Treatment"
+              name="Mr. Devender Jeet Singh"
+            />
+            <VideoCard
+              src="/videos/halder.mp4"
+              poster="/images/stories/halder.jpg"
+              title="Bone Marrow Transplant"
+              name="Patient Father Mr Halder"
+            />
+          </div>
+
+          {/* Column 5 - Center Aligned */}
+          <div className="flex flex-col justify-center items-center">
+            <div className="w-full">
+              <VideoCard
+                src="/videos/leela.mp4"
+                poster="/images/stories/leela.jpg"
+                quote="The ICU team saved my husband’s life. I’m forever grateful."
+                name="Mrs. Leela K., Kollam"
+              />
+            </div>
+          </div>
+        </div>
+
+        {/* Mobile View - Stack */}
+        <div className="grid md:hidden grid-cols-1 gap-4">
+          {/* Stack all videos vertically on small screens */}
+          {/* You can reuse same VideoCard components here */}
+        </div>
+
+        {/* Buttons */}
+        <div className="mt-10 flex justify-center gap-4">
+          <button className="inline-flex items-center gap-2 border border-primary text-primary px-6 py-2 rounded-full font-semibold hover:bg-primary hover:text-white transition">
+            Read More Stories
+            <span className="bg-primary text-white rounded-full p-1">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </button>
+
+          <button className="inline-flex items-center gap-2 bg-primary text-white px-6 py-2 rounded-full font-semibold hover:bg-[#5a1d44] transition">
+            Watch Patient Videos
+            <span className="bg-white text-primary rounded-full p-1">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </section>
     
-     <OurTeamB team={team} />
+
+     <BlogSection/>
+     <InsurancePartners />
+
+         <section className="bg-purple-800 py-16 px-4">
+      <div className="max-w-7xl mx-auto grid md:grid-cols-2 items-center gap-10">
+        {/* Left Content */}
+        <div className="text-white">
+          <h2 className="text-2xl md:text-3xl font-semibold mb-4">
+            Step Inside SP Medifort – Virtually
+          </h2>
+          <p className="mb-6 max-w-lg leading-relaxed text-white/90">
+            Experience our world-class facilities, high-tech operating suites,
+            private ICUs, and healing spaces from wherever you are.
+          </p>
+
+          <a
+            href="#"
+            className="inline-flex items-center gap-2 px-4 py-2 border border-white rounded-full hover:bg-white hover:text-purple-800 transition"
+          >
+            Launch Virtual tour
+            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-white">
+              <svg
+                className="w-3.5 h-3.5 text-purple-800"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </span>
+          </a>
+        </div>
+
+        {/* Right Image */}
+        <div>
+          <Image
+            // src={virtualTourImg}
+            alt="Virtual Tour"
+            className="rounded-2xl"
+            priority
+          />
+        </div>
+      </div>
+    </section>
+    <FaqSection />
+    <section class="bg-gradient-to-r from-[#6f005a] to-[#9a005e] py-12 px-4 md:px-10 relative text-white">
+  <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-8 items-center">
+    
+ 
+    <div class="space-y-6">
+      <h2 class="text-2xl md:text-3xl font-bold">Post A Medical Query:</h2>
+      <p class="text-sm">Post a question, and we will get back to you soon.</p>
+
+      <form class="space-y-4">
+        <input type="text" placeholder="Name:" class="w-full px-4 py-2 rounded-full text-black" />
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <input type="text" placeholder="Mobile:" class="px-4 py-2 rounded-full text-black" />
+          <input type="email" placeholder="Email:" class="px-4 py-2 rounded-full text-black" />
+        </div>
+
+        <select class="w-full px-4 py-2 rounded-full text-black">
+          <option>Select Treatment:</option>
+        </select>
+
+        <textarea rows="3" placeholder="Your Message Here:" class="w-full px-4 py-2 rounded-xl text-black"></textarea>
+
+        <label class="flex items-start text-xs space-x-2">
+          <input type="checkbox" class="mt-1 accent-pink-600" />
+          <span>I Agree To The T&C And Privacy Policy And I Am Giving My Consent To Receive Updates Through SMS/Email.</span>
+        </label>
+
+        <button class="bg-white text-[#6f005a] rounded-full px-6 py-2 font-semibold hover:bg-pink-100 border border-white">
+          Submit Now!
+        </button>
+      </form>
+    </div>
+
+   
+    <div class="relative">
+      <img src="your-doctors-image.png" alt="Doctors" class="w-full md:max-w-md mx-auto" />
+
+      <div class="absolute top-[10%] right-0 bg-white text-black shadow-lg rounded-xl p-4 w-full md:w-[380px]">
+        <div class="flex items-start space-x-4">
+          <div class="bg-[#6f005a] text-white rounded-full p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M12 11c0 1.105-.895 2-2 2s-2-.895-2-2 .895-2 2-2 2 .895 2 2zm0 0V7m0 4v4m0 4h.01" />
+            </svg>
+          </div>
+          <div>
+            <p class="font-semibold">Visit Us:</p>
+            <p class="text-sm text-gray-600">Reach Our Thiruvananthapuram Campus With Ease Using Online Directions</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute top-[45%] right-0 bg-white text-black shadow-lg rounded-xl p-4 w-full md:w-[380px]">
+        <div class="flex items-start space-x-4">
+          <div class="bg-red-600 text-white rounded-full p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M13 16h-1v-4h-1m1-4h.01M12 9.75v.01" />
+            </svg>
+          </div>
+          <div>
+            <p class="font-semibold text-red-600">Emergency 24x7:</p>
+            <p class="text-sm text-gray-600">Reach Us On Our Emergency Helpline: <br /> +91-0471 3100 100</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="absolute bottom-0 right-0 bg-white text-black shadow-lg rounded-xl p-4 w-full md:w-[380px]">
+        <div class="flex items-start space-x-4">
+          <div class="bg-[#6f005a] text-white rounded-full p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none"
+              viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M8 10h.01M12 10h.01M16 10h.01M9 16h6m2 0a2 2 0 002-2V8a2 2 0 00-2-2H7a2 2 0 00-2 2v6a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <div>
+            <p class="font-semibold text-[#6f005a]">Online Consultation:</p>
+            <p class="text-sm text-gray-600">Talk To Our Doctors From Where You Sit</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     </>
   );
 }

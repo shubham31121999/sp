@@ -141,20 +141,20 @@ const LayoutA = ({ data }) => {
       {/* Appointment CTA */}
       {data.appointmentSection && (
         <section className="text-center bg-[#f5e8f5] py-12 px-4 md:px-20">
-          <h2 className="text-2xl font-semibold text-purple-800 mb-4">
+          <h2 className="text-2xl font-semibold text-primary mb-4">
             {data.appointmentSection.heading}
           </h2>
-          <p className="mb-2 text-gray-700">
+          <p className="mb-2 text-black">
             {data.appointmentSection.description}
           </p>
-          <p className="font-semibold text-purple-900 mb-6">
+          <p className="font-semibold text-black mb-6">
             {data.appointmentSection.callToAction}
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             {data.appointmentSection.buttons.map((btn, idx) => (
               <button
                 key={idx}
-                className="bg-purple-700 text-white px-6 py-2 rounded hover:bg-purple-800 transition"
+                className="bg-purple-700 text-white px-6 py-2 rounded hover:bg-accent transition"
               >
                 {btn}
               </button>
