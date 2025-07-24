@@ -5,19 +5,19 @@ const blogData = [
   {
     title: "SP Medifort has introduced Kerala’s first Robotic Brain Surgery Unit",
     date: "12-05-2025",
-    image: "/images/brain-surgery.jpg",
+    image: "/images/img4.png",
     link: "#"
   },
   {
     title: "6 Lifestyle Changes to Protect Your Heart",
     date: "12-05-2025",
-    image: "/images/heart-health.jpg",
+    image: "/images/img5.png",
     link: "#"
   },
   {
     title: "Join us in May 2025 for a free health camp for all",
     date: "12-05-2025",
-    image: "/images/health-camp.jpg",
+    image: "/images/img6.png",
     link: "#"
   }
 ];

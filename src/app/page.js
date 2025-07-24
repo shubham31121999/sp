@@ -63,7 +63,7 @@ const doctors = [
     image: '/images/doctors-card/alex-thomas.png',
   },
 ];
-
+import InternationalPatients from '@/components/shared/InternationalPatients';
 
 export default function Home() {
   const scrollRef = useRef(null);
@@ -500,14 +500,14 @@ surgical precision, and personalized care across every specialty</p>
 
   </div>
 </section>
-
+<InternationalPatients/>
 <section className="bg-[#FDEDF8] py-16 px-4">
   <div className="max-w-7xl mx-auto text-center">
     {/* Section Title */}
     <h2 className="text-2xl md:text-4xl font-bold text-[#6E2452] mb-4">
       Building the Future of Healthcare
     </h2>
-    <p className="text-[#222] mb-12 max-w-3xl mx-auto">
+    <p className="text-black mb-12 max-w-3xl mx-auto text-lg">
       Empowering the next generation of healthcare professionals through globally recognized
       clinical education, skill development programs, and observership opportunities.
     </p>
@@ -518,7 +518,7 @@ surgical precision, and personalized care across every specialty</p>
       <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div className="h-[200px] w-full overflow-hidden">
           <img
-            src="/images/education/medicine.jpg"
+            src="/images/img7.png"
             alt="Medicine Program"
             className="w-full h-full object-cover"
           />
@@ -541,7 +541,7 @@ surgical precision, and personalized care across every specialty</p>
       <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div className="h-[200px] w-full overflow-hidden">
           <img
-            src="/images/education/nsdc.jpg"
+            src="/images/29.png"
             alt="NSDC Course"
             className="w-full h-full object-cover"
           />
@@ -562,7 +562,7 @@ surgical precision, and personalized care across every specialty</p>
       <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div className="h-[200px] w-full overflow-hidden">
           <img
-            src="/images/education/other.jpg"
+            src="/images/img8.png"
             alt="Other Programs"
             className="w-full h-full object-cover"
           />
@@ -605,7 +605,7 @@ surgical precision, and personalized care across every specialty</p>
         <h2 className="text-3xl md:text-4xl font-bold text-black mb-2">
           Healing Stories
         </h2>
-        <p className="text-gray-600 mb-12">Healing That Feels Like Home</p>
+        <p className="text-black text-2xl mb-12">Healing That Feels Like Home</p>
 
         {/* Grid Layout */}
         <div className="hidden md:grid grid-cols-5 gap-4 auto-rows-[450px]">
