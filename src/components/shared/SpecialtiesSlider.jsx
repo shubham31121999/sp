@@ -12,16 +12,42 @@ const specialties = [
     slug: 'cardiac-sciences',
   },
   {
-    title: 'Oncology',
-    description: 'Comprehensive cancer care with cutting-edge therapies and compassionate support.',
-    image: '/images/oncology.jpg',
-    procedures: ['Chemotherapy', 'Radiation Therapy', '+5'],
-    slug: 'oncology',
+    title: 'Neurosciences',
+    description:
+      'Our Neurosciences department offers expert diagnosis and treatment for neurological disorders such as stroke, epilepsy, and brain tumors. With state-of-the-art neuroimaging and advanced neurosurgical capabilities, we deliver holistic and compassionate neurological care.',
+    image: '/images/dep/nephrology.webp',
+    procedures: ['Stroke Management', 'Brain Tumor Surgery', '+10'],
+    slug: 'neurosciences',
   },
-  // Add more specialties here...
+  {
+    title: 'Gastroenterology',
+    description:
+      'The Gastroenterology division at SP Medifort focuses on digestive health using both non-invasive and minimally invasive approaches. We specialize in endoscopic procedures, liver care, and managing complex gastrointestinal disorders.',
+    image: '/images/dep/Gastroenterology.webp',
+    procedures: ['Endoscopy (EGD)', 'Colonoscopy', '+7'],
+    slug: 'gastroenterology',
+  },
+  {
+    title: 'Orthopaedics',
+    description:
+      'Our Orthopaedics department is dedicated to advanced joint, bone, and spine care. We offer comprehensive orthopedic services including trauma management, joint replacements, sports injuries, and minimally invasive spine procedures.',
+    image: '/images/Services/spine-disorder.png',
+    procedures: ['Joint Replacement', 'Arthroscopy', '+12'],
+    slug: 'orthopaedics',
+  },
+  {
+  title: 'Critical Care',
+  description:
+    'The Critical Care Unit at SP Medifort is equipped to handle life-threatening conditions with round-the-clock monitoring, advanced life support systems, and a dedicated team of intensivists. We provide multi-specialty critical care for trauma, sepsis, respiratory failure, post-surgical recovery, and more — ensuring rapid, coordinated, and compassionate interventions.',
+  image: '/images/dep/CriticalCare.webp',
+  procedures: ['Mechanical Ventilation', 'ICU Monitoring & Support', '+6'],
+  slug: 'critical-care',
+}
+
 ];
 
-const categories = ['Cardiac Sciences', 'Oncology', 'Neurosciences', 'Gastroenterology', 'Orthopaedics', 'Transplants'];
+
+const categories = ['Cardiac Sciences', , 'Neurosciences', 'Gastroenterology', 'Orthopaedics', 'Critical Care'];
 import { FaSearch } from 'react-icons/fa';
 
 

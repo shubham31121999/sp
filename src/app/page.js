@@ -24,6 +24,12 @@ import 'swiper/css/navigation';
 import { GiHospitalCross } from 'react-icons/gi';
 import InsurancePartners from '@/components/shared/InsurancePartners';
 import FaqSection from '@/components/shared/FaqSection';
+import {
+  Stethoscope,
+  ClipboardList,
+  Laptop,
+  Home as HomeIcon
+} from 'lucide-react';
 
 const doctors = [
   {
@@ -75,26 +81,43 @@ export default function Home() {
   };
   const [active, setActive] = useState('second-opinion');
 
-  const buttons = [
-    { key: 'second-opinion', label: 'Second Opinion', icon: '🩺' },
-    { key: 'health-checkup', label: 'Get Health Checkup', icon: '📋' },
-    { key: 'virtual-consult', label: 'Book A Virtual Consultation', icon: '💻' },
-    { key: 'homecare', label: 'Homecare', icon: '🏡' },
-  ];
+ const buttons = [
+  {
+    key: 'second-opinion',
+    label: 'Second Opinion',
+    icon: <Stethoscope  size={24} />,
+  },
+  {
+    key: 'health-checkup',
+    label: 'Get Health Checkup',
+    icon: <ClipboardList  size={24} />,
+  },
+  {
+    key: 'virtual-consult',
+    label: 'Book A Virtual Consultation',
+    icon: <Laptop  size={24} />,
+  },
+  {
+    key: 'homecare',
+    label: 'Homecare',
+    icon: <HomeIcon  size={24} />,
+  },
+];
+
 
   const slides = [
     {
-      image: '/images/slider-1.jpg',
+      image: '/images/img1.jpg',
       title: 'Experience Healthcare in a New Light',
       description: `At SP Medifort, we've created an advanced hospital setup in South Kerala with 475 beds, 10 high-tech operation theatres, and 170 ICU beds—designed to offer the kind of care that makes a real difference.`,
     },
     {
-      image: '/images/slider-2.jpg',
+      image: '/images/img2.jpg',
       title: 'Driven by Innovation, Guided by Compassion',
       description: `Combining cutting-edge technology with human touch to create better patient outcomes every day.`,
     },
     {
-      image: '/images/slider-3.jpg',
+      image: '/images/img3.jpg',
       title: 'Your Health, Our Priority',
       description: `Our team of expert doctors and support staff work around the clock to ensure holistic, trusted care.`,
     },
@@ -197,21 +220,35 @@ const team = {
           </div>
 
           {/* Buttons */}
-          <div className="bg-white shadow-lg rounded-2xl overflow-hidden flex flex-col md:flex-row divide-y md:divide-y-0 md:divide-x divide-gray-200">
-            {buttons.map((btn) => (
-              <button
-                key={btn.key}
-                onClick={() => setActive(btn.key)}
-                className={`flex-1 flex items-center gap-3 justify-center px-4 py-3 font-semibold text-sm md:text-base transition 
-                  ${active === btn.key
-                    ? 'bg-[#6E2452] text-white'
-                    : 'text-[#6E2452] hover:bg-gray-50'}
-                `}
-              >
-                <span className="text-xl">{btn.icon}</span> {btn.label}
-              </button>
-            ))}
-          </div>
+<div className="relative rounded-2xl shadow-lg bg-white overflow-hidden">
+  {/* Simulated thick white inner border */}
+  <div className="absolute inset-0 m-2 rounded-2xl border-4 border-white  z-10 pointer-events-none"></div>
+
+  {/* Actual content with z-20 so it's above the border layer */}
+  <div className="relative z-20 flex flex-col md:flex-row 
+    divide-y-2 md:divide-y-0 md:divide-x-2 divide-gray-300 rounded-2xl border-4 border-white ">
+    {buttons.map((btn) => (
+      <button
+        key={btn.key}
+        onClick={() => setActive(btn.key)}
+        className={`flex-1 flex items-center gap-3 justify-center px-4 py-3 font-semibold text-sm md:text-base transition
+          ${active === btn.key
+            ? 'bg-[#6E2452] text-white'
+            : 'text-[#6E2452] hover:bg-gray-50'}`}
+      >
+        <span className={`text-xl transition ${active === btn.key ? 'text-white' : 'text-[#6E2452]'}`}>
+          {btn.icon}
+        </span>
+        <span>{btn.label}</span>
+      </button>
+    ))}
+  </div>
+  <div className="absolute inset-0 m-2 rounded-2xl border-4 border-white  z-10 pointer-events-none"></div>
+  
+</div>
+
+
+
         </div>
       </section>
 
@@ -260,21 +297,21 @@ const team = {
   <div className="max-w-8xl mx-auto    grid grid-cols-1 md:grid-cols-2 items-center relative z-10">
     
     {/* ⬅️ Text Content */}
-    <div className="p-6 md:p-10 relative">
+    <div className="p-6 md:p-10 relative max-w-2xl px-5">
       {/* Optional Watermark Icon */}
       <div className="absolute right-0 bottom-0 opacity-10 w-28 h-28 md:w-40 md:h-40 bg-[url('/images/watermark.svg')] bg-no-repeat bg-contain pointer-events-none"></div>
 
-      <h2 className="text-2xl md:text-3xl font-bold text-[#222] mb-4">
+      <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
         Why SP Medifort Is Among the Best Hospitals in Thiruvananthapuram
       </h2>
 
-      <p className="text-gray-700 mb-4">
+      <p className="text-black mb-4">
         SP Medifort is a well-known multispeciality hospital in Thiruvananthapuram. We offer treatment in more than 30 different medical fields. The hospital combines advanced infrastructure, modern tools like robotic surgery and AI-based diagnostics, and a team of experienced doctors. Everything is designed to help patients get quality care with empathy.
       </p>
 
       
 
-      <button className="bg-[#6E2452] text-white px-6 py-2 rounded-full font-semibold flex items-center gap-2 hover:bg-[#5a1d44] transition">
+      <button className="bg-primary text-white px-6 py-2 rounded-full font-semibold flex items-center gap-2 hover:bg-primary transition">
         Know More About Us
         <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
@@ -303,7 +340,7 @@ const team = {
                overflow-hidden z-10 shadow-xl"
   >
     <img
-      src="/images/hero-section.png"
+      src="/images/spmed.jpg"
       alt="SP Medifort Lobby"
       className="w-full h-full object-fill"
     />
