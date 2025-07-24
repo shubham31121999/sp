@@ -164,14 +164,14 @@ const team = {
       {/* 🔹 Background Video Section */}
       <section className="relative w-full min-h-screen flex items-end justify-center text-white overflow-hidden pb-10">
         <video
-          autoPlay
-          
-          muted
-          playsInline
-          className="absolute top-0 left-0 w-full h-full object-cover z-0"
-        >
-          <source src="/videos/Genesys-Vide-2.mp4" type="video/mp4" />
-        </video>
+  autoPlay
+  muted
+  playsInline
+  className="absolute top-0 left-0 w-full h-full object-cover z-0"
+>
+  <source src="/videos/sp.mp4" type="video/mp4" />
+</video>
+
 
         <div className="absolute top-0 left-0 w-full h-[80dvh] bg-gradient-to-b from-[#6E2452] to-transparent z-10 pointer-events-none" />
 
