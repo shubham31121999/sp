@@ -165,7 +165,7 @@ const team = {
       <section className="relative w-full min-h-screen flex items-end justify-center text-white overflow-hidden pb-10">
         <video
           autoPlay
-          loop
+          
           muted
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
