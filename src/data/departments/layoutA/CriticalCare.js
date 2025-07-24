@@ -8,10 +8,7 @@ import React from 'react';
     ],
     cta: { label: 'Contact our Critical Care team', href: '/appointments/cardiology' },
     image: { src: '/images/cardiac.jpg', alt: 'Cardiology' },
-    highlightText: [
-      'Compassionate Cardiac Care, Always',
-      'Hello World!',
-    ],
+    
   },
 
   whyChoose: {

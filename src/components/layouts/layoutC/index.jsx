@@ -1,11 +1,11 @@
 import React from 'react';
 
-function LayoutB() {
+function LayoutC() {
   return (
     <div>
-      LayoutB
+      LayoutC
     </div>
   );
 }
 
-export default LayoutB;
+export default LayoutC;
