@@ -30,7 +30,7 @@ import {
   Laptop,
   Home as HomeIcon
 } from 'lucide-react';
-
+import ContactSection from '@/components/shared/ContactSection';
 const doctors = [
   {
     name: 'Dr. Arun Kumar R',
@@ -613,7 +613,7 @@ surgical precision, and personalized care across every specialty</p>
           <div className="flex flex-col justify-center items-center">
             <div className="w-full">
               <VideoCard
-                src="/videos/Genesys-Vide-2.mp4"
+                src="/videos/vid1.mp4"
                 
                 quote="I came from Dubai for my father's surgery. We felt like family from day one."
                 name="Mr. Sharma, Bangalore"
@@ -624,13 +624,13 @@ surgical precision, and personalized care across every specialty</p>
           {/* Column 2 */}
           <div className="flex flex-col gap-4">
             <VideoCard
-              src="/videos/Genesys-Vide-2.mp4"
+              src="/videos/vid2.mp4"
               
               title="Liver Failure"
               name="Baby Bhavika"
             />
             <VideoCard
-              src="/videos/Genesys-Vide-2.mp4"
+              src="/videos/vid2.mp4"
               
               title="Jaw Cancer"
               name="Dr. Abhilasha Agarwal"
@@ -640,7 +640,7 @@ surgical precision, and personalized care across every specialty</p>
           {/* Column 3 - Tall Video */}
           <div>
             <VideoCard
-              src="/videos/Genesys-Vide-2.mp4"
+              src="/videos/vid3.mp4"
               
               title="Pre-term Babies"
               name="Ms Sakshi"
@@ -651,13 +651,13 @@ surgical precision, and personalized care across every specialty</p>
           {/* Column 4 */}
           <div className="flex flex-col gap-4">
             <VideoCard
-              src="/videos/Genesys-Vide-2.mp4"
+              src="/videos/vid4.mp4"
              
               title="Neurosurgical Treatment"
               name="Mr. Devender Jeet Singh"
             />
             <VideoCard
-              src="/videos/Genesys-Vide-2.mp4"
+              src="/videos/vid4.mp4"
               
               title="Bone Marrow Transplant"
               name="Patient Father Mr Halder"
@@ -668,7 +668,7 @@ surgical precision, and personalized care across every specialty</p>
           <div className="flex flex-col justify-center items-center">
             <div className="w-full">
               <VideoCard
-                src="/videos/Genesys-Vide-2.mp4"
+                src="/videos/vid1.mp4"
                 
                 quote="The ICU team saved my husband’s life. I’m forever grateful."
                 name="Mrs. Leela K., Kollam"
@@ -723,32 +723,34 @@ surgical precision, and personalized care across every specialty</p>
           </p>
 
           <a
-            href="#"
-            className="inline-flex items-center gap-2 px-4 py-2 border border-white rounded-full hover:bg-white hover:text-primary transition"
-          >
-            Launch Virtual tour
-            <span className="w-6 h-6 flex items-center justify-center rounded-full bg-white">
-              <svg
-                className="w-3.5 h-3.5 bg-primary"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M9 5l7 7-7 7"
-                />
-              </svg>
-            </span>
-          </a>
+  href="#"
+  className="inline-flex items-center gap-2 px-4 py-2 border border-white rounded-full hover:bg-white hover:text-primary transition group"
+>
+  Launch Virtual Tour
+  <span className="w-6 h-6 flex items-center justify-center rounded-full bg-white">
+    <svg
+      className="w-4 h-4 text-primary"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      viewBox="0 0 24 24"
+    >
+      <path
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        d="M9 5l7 7-7 7"
+      />
+    </svg>
+  </span>
+</a>
+
         </div>
 
         {/* Right Image */}
         <div>
-          <Image
+          <img
             // src={virtualTourImg}
+            src = "images/img9.png"
             alt="Virtual Tour"
             className="rounded-2xl"
             priority
@@ -757,8 +759,10 @@ surgical precision, and personalized care across every specialty</p>
       </div>
     </section>
     <FaqSection />
-<section class="w-full bg-gradient-to-r from-[#72005F] to-[#9A007D] ">
-  <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-10 py-10">
+
+    <ContactSection />
+{/* <section class="w-full bg-gradient-to-r from-[#72005F] to-[#9A007D] ">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col lg:flex-row items-center gap-10 ">
     
     
     <div class="w-full lg:w-1/2 text-white">
@@ -795,7 +799,11 @@ surgical precision, and personalized care across every specialty</p>
 
     
     <div class="w-full lg:w-full relative">
-      <img src="/images/Homepage/doctor.png" alt="Doctors" className="w-full object-contain h-full overflow-visible" />
+      <div class="w-full h-full lg:w-full relative overflow-hidden">
+  <img src="/images/img10.png" alt="Doctors" class="w-full h-full object-cover" />
+</div>
+
+
 
 
       
@@ -830,7 +838,7 @@ surgical precision, and personalized care across every specialty</p>
     </div>
 
   </div>
-</section>
+</section> */}
 
 
     </>

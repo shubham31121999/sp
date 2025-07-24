@@ -25,12 +25,12 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="bg-pink-100 py-16 px-4">
+    <section className="bg-[#FDEDF8] py-16 px-4">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-semibold text-purple-900 mb-4">
+        <h2 className="text-2xl md:text-5xl font-semibold text-primary mb-4">
           Frequently Asked Questions
         </h2>
-        <p className="text-gray-700 mb-8 max-w-2xl">
+        <p className="text-black mb-8 max-w-2xl">
           Find answers to common questions about our services, treatments,
           appointments, and patient care options to help you make informed
           health decisions.
@@ -48,10 +48,10 @@ export default function FaqSection() {
                 onClick={() => toggle(index)}
                 className="flex justify-between items-center cursor-pointer"
               >
-                <h3 className="text-purple-900 font-semibold text-base">
+                <h3 className="text-primary font-semibold  text-2xl">
                   {faq.question}
                 </h3>
-                <span className="bg-pink-200 text-purple-900 rounded-full w-6 h-6 flex items-center justify-center">
+                <span className="bg-pink-200 text-black rounded-full w-6 h-6 flex items-center justify-center">
                   {openIndex === index && faq.answer ? (
                     <Minus size={16} />
                   ) : (
@@ -60,7 +60,7 @@ export default function FaqSection() {
                 </span>
               </div>
               {openIndex === index && faq.answer && (
-                <p className="mt-4 text-sm text-gray-800 leading-relaxed">
+                <p className="mt-4 text-sm text-black leading-relaxed">
                   {faq.answer.split("advanced medical technology").map((part, i, arr) =>
                     i === arr.length - 1 ? (
                       part
@@ -69,7 +69,7 @@ export default function FaqSection() {
                         {part}
                         <a
                           href="#"
-                          className="text-blue-700 underline font-medium"
+                          className="text-accent underline font-medium"
                         >
                           advanced medical technology
                         </a>

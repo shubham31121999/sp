@@ -15,7 +15,7 @@ const VideoCard = ({ src, poster, title, name, quote, tall = false }) => {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         >
-          <source src="/videos/Genesys-Vide-2.mp4" type="video/mp4" />
+          <source src={src} type="video/mp4" />
         </video>
 
       {/* Gradient Overlay */}
