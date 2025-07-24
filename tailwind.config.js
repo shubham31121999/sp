@@ -30,10 +30,8 @@ module.exports = {
       },
       animation: {
         marquee: 'marquee 25s linear infinite',
+        'spin-slow': 'spin 15s linear infinite',
       },
-      animation: {
-    'spin-slow': 'spin 15s linear infinite',
-  },
     },
   },
   plugins: [],
