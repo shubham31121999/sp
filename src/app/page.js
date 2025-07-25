@@ -518,7 +518,7 @@ surgical precision, and personalized care across every specialty</p>
       <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div className="h-[200px] w-full overflow-hidden">
           <img
-            src="/images/img7.png"
+            src="/images/demo/img7.png"
             alt="Medicine Program"
             className="w-full h-full object-cover"
           />
@@ -562,11 +562,11 @@ surgical precision, and personalized care across every specialty</p>
       <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300">
         <div className="h-[200px] w-full overflow-hidden">
           <img
-            src="/images/img8.png"
+            src="/images/demo/img8.png"
             alt="Other Programs"
             className="w-full h-full object-cover"
           />
-        </div>
+      </div>
         <div className="p-6 text-left">
           <h3 className="text-[#6E2452] font-bold text-lg mb-2">Other Programs:</h3>
           <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
