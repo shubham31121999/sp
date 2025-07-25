@@ -12,8 +12,8 @@ const prefix = "/mainClient/out";
 export default function Footer() {
   return (
     <footer className="bg-white text-dark font-body border-t border-gray-100 pt-10">
-      <div className="w-full px-4 md:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 pb-10">
+      <div className="w-full  pl-4">
+        <div className="grid grid-cols-1 md:grid-cols-5 gap-8 ">
           {/* For Patients */}
           <div>
             <h3 className="text-lg font-semibold text-primary mb-3">
@@ -36,7 +36,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link  href="HealthCheckPackages">
+                <Link  href="#">
                   Health Packages
                 </Link>
               </li>
@@ -70,8 +70,8 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link  href="/HealthCheckPackages">
-                  HealthCheckPackages
+                <Link  href="#">
+                  Health Check Packages
                 </Link>
               </li>
               <li>
@@ -162,21 +162,21 @@ export default function Footer() {
                 <span className="font-bold">+91-0471 3100 100</span>
               </p>
               <p>
-                <span className="font-semibold text-primary">Email:</span>
-                <p className="font-bold">info@spmedifort.com</p>
+                <span className="font-semibold text-primary">Email:</span>{" "}
+                <span className="font-bold">info@spmedifort.com</span>
               </p>
-              <p className="text-primary font-semibold">
-                <Link className="font-bold" href="#">
+              <p >
+                <Link  href="#">
                   Post a Medical Query
                 </Link>
               </p>
-              <p className="text-primary font-semibold">
-                <Link className="font-bold" href="#">
+              <p >
+                <Link  href="#">
                   Get Directions to the Hospital
                 </Link>
               </p>
-              <p className="text-primary font-semibold">
-                <Link className="font-bold" href="#">
+              <p >
+                <Link  href="#">
                   Feedback & Complaints
                 </Link>
               </p>
@@ -193,13 +193,13 @@ export default function Footer() {
               className="object-contain"
               priority
             />
-            <div className="w-full max-w-[280px]">
+            <div className="w-full max-w-[280px] pr-4">
               <button className="w-full bg-primary text-white px-6 py-2 rounded-full text-sm font-semibold shadow-md hover:bg-primary/90 transition">
                 Emergency 24x7
               </button>
             </div>
 
-            <div className="w-full max-w-[280px]">
+            <div className="w-full max-w-[280px] pr-4">
               <button className="w-full border-2 border-primary text-primary px-6 py-2 rounded-full text-sm font-semibold shadow-sm hover:bg-primary hover:text-white transition">
                 Book An Appointment!
               </button>
@@ -208,7 +208,7 @@ export default function Footer() {
         </div>
 
         {/* Divider */}
-        <div className="border-t border-gray-200 pt-6 pb-4 text-center text-xs text-dark">
+        <div className="border-t border-gray-200 pt-6  text-center text-xs text-dark">
           <div className="space-x-4 text-sm py-3">
             <Link className="font-bold" href="#">
               Privacy Policy
@@ -236,7 +236,7 @@ export default function Footer() {
               <FaYoutube />
             </Link>
           </div>
-          <p className="py-3 text-sm font-bold">
+          <p className="py-3 text-sm ">
             Empowering Lives. Redefining Healthcare.
           </p>
           <div className="border-t border-gray-200 py-6 text-center text-sm font-bold text-dark bg-[#feeef8]">

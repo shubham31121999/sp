@@ -50,17 +50,48 @@ const doctors = [
   {
     name: 'Dr. Arun Kumar R',
     specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/arun-kumar.png',
+    image: '/images/doctors-card/arun-viswanth.png',
   },
   {
     name: 'Dr. Aathithya S',
     specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/aathithya.png',
+    image: '/images/doctors-card/ashok-thomas.png',
   },
   {
     name: 'Dr. Alex Thomas N',
     specialty: 'ORTHOPEDICS',
-    image: '/images/doctors-card/alex-thomas.png',
+    image: '/images/doctors-card/athul-babu-j.png',
+  },
+  
+  {
+    name: 'Dr. Aathithya S',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/hari-kumar.png',
+  },
+  {
+    name: 'Dr. Alex Thomas N',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/justin-thomas.png',
+  },
+  {
+    name: 'Dr. Arun Kumar R',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/niranjan.png',
+  },
+  {
+    name: 'Dr. Aathithya S',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/praveen-s-jose.png',
+  },
+  {
+    name: 'Dr. Alex Thomas N',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/rohit.png',
+  },
+  {
+    name: 'Dr. Alex Thomas N',
+    specialty: 'ORTHOPEDICS',
+    image: '/images/doctors-card/shibu.png',
   },
 ];
 import InternationalPatients from '@/components/shared/InternationalPatients';
@@ -171,6 +202,18 @@ const team = {
         position: 'Consultant',
         image: '/images/doctors/rahul-patel.jpg',
       },
+      {
+        name: 'Dr. Rahul Patel',
+        designation: 'Orthopaedic Surgeon',
+        position: 'Consultant',
+        image: '/images/doctors-card/aathithya.png',
+      },
+      {
+        name: 'Dr. Rahul Patel',
+        designation: 'Orthopaedic Surgeon',
+        position: 'Consultant',
+        image: '/images/doctors-card/aathithya.png',
+      },
        
     ],
     description:
@@ -188,7 +231,7 @@ const team = {
       <section className="relative w-full min-h-screen flex items-end justify-center text-white overflow-hidden pb-10">
         <video
   autoPlay
-  muted
+  
   playsInline
   className="absolute top-0 left-0 w-full h-full object-cover z-0"
 >
@@ -423,7 +466,7 @@ const team = {
     <h2 className="text-2xl md:text-4xl font-bold text-center text-primary mb-5">
       Your Ambassadors of Care
     </h2>
-    <p className="text-md md:text-lg font-bold text-center text-black mb-3">Meet the experts committed to your recovery. Our doctors bring global experience, 
+    <p className="text-md md:text-lg  text-center text-gray-500 mb-3">Meet the experts committed to your recovery. Our doctors bring global experience, 
 surgical precision, and personalized care across every specialty</p>
 
     {/* Arrows */}
@@ -475,7 +518,7 @@ surgical precision, and personalized care across every specialty</p>
     </Swiper>
     <div className="mt-8 flex justify-center">
   <a
-    href="/doctors"
+    href="#"
     className="bg-[#6E2452] text-white px-3 py-2 rounded-full font-semibold flex items-center gap-3 hover:bg-[#5a1d44] transition"
   >
     See All Doctors

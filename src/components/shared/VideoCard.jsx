@@ -20,7 +20,7 @@ const VideoCard = ({ src, poster, title, name, quote, tall = false }) => {
 
       {/* Gradient Overlay */}
       <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 to-transparent px-4 py-3 text-white">
-        {quote ? (
+        {/* {quote ? (
           <p className="text-sm italic leading-snug">
             “{quote}”
             <br />
@@ -31,7 +31,7 @@ const VideoCard = ({ src, poster, title, name, quote, tall = false }) => {
             <p className="text-sm font-semibold">{title}</p>
             <p className="text-xs">{name}</p>
           </>
-        )}
+        )} */}
       </div>
     </div>
   );
