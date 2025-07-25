@@ -26,8 +26,8 @@ export default function FaqSection() {
 
   return (
     <section className="bg-[#FDEDF8] py-16 px-4">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-5xl font-semibold text-primary mb-4">
+      <div className="max-w-7xl mx-auto">
+        <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-4">
           Frequently Asked Questions
         </h2>
         <p className="text-black mb-8 max-w-2xl">
@@ -48,7 +48,7 @@ export default function FaqSection() {
                 onClick={() => toggle(index)}
                 className="flex justify-between items-center cursor-pointer"
               >
-                <h3 className="text-primary font-semibold  text-2xl">
+                <h3 className="text-primary font-semibold  text-xl">
                   {faq.question}
                 </h3>
                 <span className="bg-pink-200 text-black rounded-full w-6 h-6 flex items-center justify-center">

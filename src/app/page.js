@@ -94,7 +94,7 @@ export default function Home() {
   },
   {
     key: 'virtual-consult',
-    label: 'Book A Virtual Consultation',
+    label: 'Book Virtual Consultation',
     icon: <Laptop  size={24} />,
   },
   {
@@ -109,17 +109,17 @@ export default function Home() {
     {
       image: '/images/img1.jpg',
       title: 'Experience Healthcare in a New Light',
-      description: `At SP Medifort, we've created an advanced hospital setup in South Kerala with 475 beds, 10 high-tech operation theatres, and 170 ICU beds—designed to offer the kind of care that makes a real difference.`,
+      description: `At SP Medifort, we've created an advanced hospital setup in South Kerala with 475 beds, 10 high-tech operation theatres, and 170 ICU beds, designed to offer the kind of care that makes a real difference.`,
     },
     {
       image: '/images/img2.jpg',
-      title: 'Driven by Innovation, Guided by Compassion',
+      title: 'Driven by Innovation. Guided by Compassion',
       description: `Combining cutting-edge technology with human touch to create better patient outcomes every day.`,
     },
     {
       image: '/images/img3.jpg',
       title: 'Your Health, Our Priority',
-      description: `Our team of expert doctors and support staff work around the clock to ensure holistic, trusted care.`,
+      description: `Our team of expert doctors and support staff work around the clock to ensure holistic and trusted care.`,
     },
   ];
 const alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');

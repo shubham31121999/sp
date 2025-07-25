@@ -5,24 +5,24 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 const logos = [
-  { src: "/images/Carousel(insurance-company)/car1.jpg" },
-  { src: "/images/Carousel(insurance-company)/car2.jpg" },
-  { src: "/images/Carousel(insurance-company)/car3.jpg" },
-  { src: "/images/Carousel(insurance-company)/car4.jpg" },
+  { src: "/images/Homepage/img1.jpg" },
+  { src: "/images/Homepage/img2.jpg" },
+  { src: "/images/Homepage/img3.jpg" },
+  { src: "/images/Homepage/img4.jpg" },
 ];
 
 export default function InsurancePartners() {
   return (
     <section className="bg-white py-16 px-4 text-center">
-      <h2 className="text-2xl font-semibold text-black mb-2">
+      <h2 className="text-3xl font-semibold text-black mb-2">
         Affiliations & Insurance Partners
       </h2>
-      <p className="text-black mb-10 max-w-2xl mx-auto">
+      <p className="text-black mb-10 text-lg mx-auto">
         We have partnered with more than 40 established insurance providers and TPAs to bill easily and conveniently.
       </p>
 
-      <div className="bg-white shadow-xl rounded-2xl p-6 md:p-5 max-w-4xl mx-auto">
-        <h3 className="text-lg font-medium text-black mb-6">
+      <div className="bg-white shadow-xl rounded-2xl p-6 md:p-5 max-w-7xl mx-auto">
+        <h3 className="text-2xl font-medium text-black mb-6 mt-2">
           Our Partners Include:
         </h3>
 

@@ -40,7 +40,7 @@ export default function BlogSection() {
               />
             </div>
             <div className="p-4">
-              <p className="text-xs text-black mb-2">published on {blog.date}</p>
+              <p className="text-xs text-black mb-2">Published on {blog.date}</p>
               <h3 className="text-base font-semibold text-black mb-4">{blog.title}</h3>
               <a href={blog.link} className="text-sm text-primary font-medium flex items-center gap-2 group">
   Know More

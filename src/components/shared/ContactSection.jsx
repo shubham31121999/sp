@@ -14,19 +14,19 @@ export default function ContactSection() {
             <input
               type="text"
               placeholder="Name:"
-              className="w-full px-4 py-2 rounded-full text-black focus:outline-none"
+              className="w-full px-4 py-2 rounded-full text-black placeholder-black focus:outline-none"
             />
 
             <div className="flex gap-4">
               <input
                 type="text"
                 placeholder="Mobile:"
-                className="w-1/2 px-4 py-2 rounded-full text-black focus:outline-none"
+                className="w-1/2 px-4 py-2 rounded-full text-black placeholder-black focus:outline-none"
               />
               <input
                 type="email"
                 placeholder="Email:"
-                className="w-1/2 px-4 py-2 rounded-full text-black focus:outline-none"
+                className="w-1/2 px-4 py-2 rounded-full text-black  placeholder-black focus:outline-none"
               />
             </div>
 
@@ -41,7 +41,7 @@ export default function ContactSection() {
             <textarea
               placeholder="Your Message Here:"
               rows="4"
-              className="w-full px-4 py-2 rounded-lg text-black focus:outline-none"
+              className="w-full px-4 py-2 rounded-lg text-black  placeholder-black focus:outline-none"
             ></textarea>
 
             <div className="flex items-center gap-2">
