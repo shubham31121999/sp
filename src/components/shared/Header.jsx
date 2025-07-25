@@ -14,7 +14,7 @@ export default function Header() {
   const navLinks = [
     { href: '#', label: 'DISCOVER SP MEDIFORT' },
     // { href: '#', label: 'SPECIALITES & TREATMENT' },
-    { href: '/departments', label: 'SPECIALITES & TREATMENT' },
+    { href: '#', label: 'SPECIALITES & TREATMENT' },
     { href: '#', label: 'SERVICES' }, 
     { href: '#', label: 'INTERNATIONAL PATIENTS' },
     { href: '#', label: 'HOSPITAL FACILITIES' },
