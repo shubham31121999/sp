@@ -25,15 +25,15 @@ import {
 const techImg1 =
   "/images/Services/medicalRecords/EMR-integration-for-seamless-access-to-test-results.webp";
 const techImg2 =
-  "/images/Services/medicalRecords/EEG-Machines-with-Video-Monitoring-for-Seizure-Detection.webp";
+  "/images/Services/medicalRecords/Barcode-enabled-patient-record-tracking.webp";
 const techImg3 =
-  "/images/Services/medicalRecords/High-speed-Digital-12-Lead-ECG-Machines.webp";
+  "/images/Services/medicalRecords/Secure-access-controlled-physical-record-rooms.webp";
 const techImg4 =
-  "/images/Services/medicalRecords/NCV-Equipment-with-real-time-nerve-and-muscle-conduction-tracking.webp";
+  "/images/Services/medicalRecords/Multi-level-authentication-for-sensitive-file-retrieval.webp";
 const techImg5 =
-  "/images/Services/medicalRecords/Online-report-access-for-patient-and-consultant-convenience.webp";
+  "/images/Services/medicalRecords/Backup-servers-to-ensure-zero-data-loss.webp";
 const techImg6 =
-  "/images/Services/medicalRecords/Portable-ECG-systems-for-bedside-and-ICU-use.webp";
+  "/images/Services/medicalRecords/Online-request-portals-for-record-retrieval-and-insurance-coordination.webp";
 
 const techImages = [techImg1, techImg2, techImg3, techImg4, techImg5, techImg6];
 const icons = [
@@ -384,7 +384,7 @@ const MyPage = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden w-full max-w-[427px] mx-auto">
                 <img
-                  src="/images/Services/medicalRecords/ECG(why-choose).webp"
+                  src="/images/Services/medicalRecords/Medical-Records(why-choose).webp"
                   alt="Why Choose SP Medifort"
                   className="w-full h-auto object-cover rounded-2xl"
                 />
@@ -495,7 +495,7 @@ const MyPage = () => {
             style={{ zIndex: 0 }}
           /> */}
           <img
-            src="/images/Services/medicalRecords/ECG(footer).webp"
+            src="/images/Services/medicalRecords/Medical-Records(footer).webp"
             alt=""
             className="absolute inset-0 w-full h-full object-cover"
             style={{ zIndex: 0 }}

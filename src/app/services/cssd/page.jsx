@@ -23,16 +23,17 @@ import {
 } from "react-icons/md";
 
 const techImg1 =
-  "/images/Services/clinicalLaboratory/NABL-Accredited-Diagnostic-Facility.webp";
+  "/images/Services/cssd/Fully-automated-Washer-Disinfectors-and-Ultrasonic-Cleaners.webp";
 const techImg2 =
-  "/images/Services/clinicalLaboratory/Fully-Automated-Biochemistry-Analysers.webp";
-const techImg3 = "/images/Services/clinicalLaboratory/CLIA-methods.webp";
+  "/images/Services/cssd/High-capacity-Autoclaves-for-steam-sterilization.webp";
+const techImg3 =
+  "/images/Services/cssd/ETO-Sterilizer-for-heat-sensitive-instruments.webp";
 const techImg4 =
-  "/images/Services/clinicalLaboratory/Automated-Coagulation-Analysers.webp";
+  "/images/Services/cssd/Hydrogen-Peroxide-Plasma-Sterilizer-for-low-temp-cycles.webp";
 const techImg5 =
-  "/images/Services/clinicalLaboratory/Blood-Culture-Systems-&-Biofire.webp";
+  "/images/Services/cssd/HEPA-filtered-clean-rooms-for-packing-and-storage.webp";
 const techImg6 =
-  "/images/Services/clinicalLaboratory/EMR-Integrated-Reporting-for-Doctor-AccessEMR-Integrated-Reporting-for-Doctor-Access.webp";
+  "/images/Services/cssd/Color-coded-zones-for-Decontamination-Sterile-Prep-and-Dispatch.webp";
 
 const techImages = [techImg1, techImg2, techImg3, techImg4, techImg5, techImg6];
 const icons = [
@@ -377,7 +378,7 @@ const MyPage = () => {
             <div className="relative">
               <div className="relative rounded-2xl overflow-hidden w-full max-w-[427px] mx-auto">
                 <img
-                  src="/images/Services/clinicalLaboratory/Clinical-Laboratory(why-choose).webp"
+                  src="/images/Services/cssd/CSSD-(Central-Sterile-Services-Department)(why-choose).webp"
                   alt="Why Choose SP Medifort"
                   className="w-full h-auto object-cover rounded-2xl"
                 />
@@ -482,7 +483,7 @@ const MyPage = () => {
       {data.appointmentSection && (
         <section className="relative w-full min-h-[350px] flex items-center overflow-hidden px-4 md:px-16 py-14 md:py-28">
           <img
-            src="/images/Services/clinicalLaboratory/Clinical-Laboratory(footer).webp"
+            src="/images/Services/cssd/CSSD-(Central-Sterile-Services-Department)(footer).webp"
             alt=""
             className="absolute inset-0 w-full h-full object-cover"
             style={{ zIndex: 0 }}
