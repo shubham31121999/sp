@@ -8,7 +8,7 @@ const specialties = [
     description:
       'SP Medifort’s Cardiology Department is one of the most comprehensive heart care centers in South Kerala. From emergency cardiac support to preventive heart screenings and interventional procedures, we provide personalized cardiology in Thiruvananthapuram backed by innovation, empathy, and outcomes.',
     image: '/images/cardiac.jpg',
-    procedures: ['Coronary Angiography', 'CABG (Bypass Surgery)', '+8'],
+    procedures: ['Coronary Angiography', 'CABG (Bypass Surgery)', ],
     slug: 'cardiac-sciences',
   },
   {
@@ -16,7 +16,7 @@ const specialties = [
     description:
       'Our Neurosciences department offers expert diagnosis and treatment for neurological disorders such as stroke, epilepsy, and brain tumors. With state of the art neuroimaging and advanced neurosurgical capabilities, we deliver holistic and compassionate neurological care.',
     image: '/images/dep/nephrology.webp',
-    procedures: ['Stroke Management', 'Brain Tumor Surgery', '+10'],
+    procedures: ['Stroke Management', 'Brain Tumor Surgery', ],
     slug: 'neurosciences',
   },
   {
@@ -24,7 +24,7 @@ const specialties = [
     description:
       'The Gastroenterology division at SP Medifort focuses on digestive health using both non-invasive and minimally invasive approaches. We specialize in endoscopic procedures, liver care, and managing complex gastrointestinal disorders.',
     image: '/images/dep/Gastroenterology.webp',
-    procedures: ['Endoscopy (EGD)', 'Colonoscopy', '+7'],
+    procedures: ['Endoscopy (EGD)', 'Colonoscopy', ],
     slug: 'gastroenterology',
   },
   {
@@ -32,7 +32,7 @@ const specialties = [
     description:
       'Our Orthopaedics department is dedicated to advanced joint, bone, and spine care. We offer comprehensive orthopedic services including trauma management, joint replacements, sports injuries, and minimally invasive spine procedures.',
     image: '/images/Services/spine-disorder.png',
-    procedures: ['Joint Replacement', 'Arthroscopy', '+12'],
+    procedures: ['Joint Replacement', 'Arthroscopy', ],
     slug: 'orthopaedics',
   },
   {
@@ -40,7 +40,7 @@ const specialties = [
   description:
     'The Critical Care Unit at SP Medifort is equipped to handle life threatening conditions with round the clock monitoring, advanced life support systems, and a dedicated team of intensivists. We provide multi specialty critical care for trauma, sepsis, respiratory failure, post surgical recovery, and more ensuring rapid, coordinated, and compassionate interventions.',
   image: '/images/dep/CriticalCare.webp',
-  procedures: ['Mechanical Ventilation', 'ICU Monitoring & Support', '+6'],
+  procedures: ['Mechanical Ventilation', 'ICU Monitoring & Support', ],
   slug: 'critical-care',
 }
 
@@ -86,7 +86,10 @@ const SpecialtiesSlider = () => {
             <h3 className="text-xl md:text-2xl font-bold text-[#86005c] mb-2">{current.title}</h3>
             <p className="text-gray-700 text-sm md:text-base mb-4">
               {current.description}{' '}
-              <a href={`/departments/${current.slug}`} className="text-primary underline ml-1">
+              {/* <a href={`/departments/${current.slug}`} className="text-primary underline ml-1">
+                Read More
+              </a> */}
+              <a href={`#`} className="text-primary underline ml-1">
                 Read More
               </a>
             </p>

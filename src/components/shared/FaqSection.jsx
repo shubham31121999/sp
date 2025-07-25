@@ -12,8 +12,18 @@ const faqs = [
       "Absolutely. From robot surgery to AI diagnostics, we have some of South Kerala's most advanced medical technology.",
   },
   {
-    question: "Will I be looked after while I'm here?",
-    answer: "Yes, you’ll be well looked after.Our team is here to ensure your comfort, safety, and care throughout your stay.",
+    question: "Is emergency care available 24x7 at SP Medifort?",
+    answer: "Yes. Our 30-bed emergency wing with ICU, trauma, and burns unit is open round-the-clock for immediate care.",
+  },
+  {
+    question: "Do you offer support for international patients before arrival?",
+    answer:
+      "Yes. Our International Patient Desk assists with visa, travel, appointments, and accommodation, right from the start.",
+  },
+  {
+    question: "What specialties make SP Medifort stand out as a multispeciality hospital in Thiruvananthapuram?",
+    answer:
+      "We offer 50+ specialties, with strengths in cardiology, neurology, oncology, orthopaedics, and robotic surgery.",
   },
 ];
 
@@ -69,7 +79,7 @@ export default function FaqSection() {
                         {part}
                         <a
                           href="#"
-                          className="text-accent underline font-medium"
+                          className="text-black"
                         >
                           advanced medical technology
                         </a>

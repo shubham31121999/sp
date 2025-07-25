@@ -749,11 +749,11 @@ surgical precision, and personalized care across every specialty</p>
         {/* Right Image */}
         <div>
           <img
-            // src={virtualTourImg}
-            src = "images/img9.png"
+            
+            src = "images/demo/img9.png"
             alt="Virtual Tour"
             className="rounded-2xl"
-            priority
+           
           />
         </div>
       </div>
