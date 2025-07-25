@@ -14,13 +14,14 @@ export default function Header() {
   const navLinks = [
     { href: '#', label: 'DISCOVER SP MEDIFORT' },
     // { href: '#', label: 'SPECIALITES & TREATMENT' },
+    { href: '/departments', label: 'SPECIALITES & TREATMENT' },
     { href: '#', label: 'SERVICES' }, 
     { href: '#', label: 'INTERNATIONAL PATIENTS' },
     { href: '#', label: 'HOSPITAL FACILITIES' },
     { href: '#', label: 'CONTACT US' },
     // { href: '/about', label: 'DISCOVER SP MEDIFORT' },
     // { href: '#', label: 'DISCOVER SP MEDIFORT' },
-    { href: '/departments', label: 'SPECIALITES & TREATMENT' },
+    
     // { href: '/services', label: 'SERVICES' }, 
     // { href: '/international-patients', label: 'INTERNATIONAL PATIENTS' },
     // { href: '/facilities', label: 'HOSPITAL FACILITIES' },
