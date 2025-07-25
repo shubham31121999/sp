@@ -4,12 +4,12 @@ import { Plus, Minus } from "lucide-react"; // npm install lucide-react
 const faqs = [
   {
     question: "Will I receive life-changing treatment at SP Medifort?",
-    answer: "Absolutely.At SP Medifort, we provide advanced, personalized treatments designed to make a real difference in your life and health.",
+    answer: "Absolutely. At SP Medifort, we specialize in advanced, evidence-based treatments that have helped countless patients recover from complex conditions, including cardiac, neurological, and critical care challenges.",
   },
   {
     question: "Is SP Medifort equipped well?",
     answer:
-      "Absolutely. From robot surgery to AI diagnostics, we have some of South Kerala's most advanced medical technology.",
+      "Yes. SP Medifort is equipped with some of South Kerala’s most advanced medical technology, including robotic surgery systems, AI-powered diagnostics, and a 3D hybrid cath lab. ",
   },
   {
     question: "Is emergency care available 24x7 at SP Medifort?",
@@ -40,7 +40,7 @@ export default function FaqSection() {
         <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-4">
           Frequently Asked Questions
         </h2>
-        <p className="text-black mb-8 max-w-2xl">
+        <p className="text-black mb-8 max-w-6xl">
           Find answers to common questions about our services, treatments,
           appointments, and patient care options to help you make informed
           health decisions.

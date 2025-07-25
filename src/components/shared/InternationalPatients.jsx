@@ -25,7 +25,7 @@ const InternationalPatients = () => {
         {/* Left Side */}
         <div className="md:w-1/2">
           <h2 className="text-3xl font-semibold text-gray-800 mb-4">
-            Recommended by Patients from 25+ Countries
+            Recommended by Patients from 100+ Countries
           </h2>
           <p className="text-gray-600 mb-6">
             SP Medifort is a Top Healthcare Destination for International Patients, offering:

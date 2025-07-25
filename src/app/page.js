@@ -126,27 +126,27 @@ const alphabets = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
 const whyChooseCards = [
   {
     icon: <FaMicroscope size={28} className="text-[#6E2452]" />,
-    text: 'Fully Robotic Zeiss Kinevo Neuro Microscope in South Kerala',
+    text: '1st Fully Robotic Zeiss Kinevo Neuro Microscope in South Kerala',
   },
   {
     icon: <FaCogs size={28} className="text-[#6E2452]" />,
-    text: '3D Hybrid Cath Lab (GE Allia) with AI in South Asia',
+    text: '1st 3D Hybrid Cath Lab (GE Allia) with AI in South Asia',
   },
   {
     icon: <FaXRay size={28} className="text-[#6E2452]" />,
-    text: 'Fully Motorized X-ray Suite in the region',
+    text: '1st Fully Motorized X-ray Suite in the Region',
   },
   {
     icon: <FaParking size={28} className="text-[#6E2452]" />,
-    text: 'Multi-level 650-car covered parking',
+    text: 'Multi-Level 650-Car Covered Parking',
   },
   {
     icon: <FaProcedures size={28} className="text-[#6E2452]" />,
-    text: 'ICU beds with remote monitoring 24x7 & Level-D isolation',
+    text: '170 ICU Beds with Remote Monitoring 24x7 & Level-D Isolation',
   },
   {
     icon: <FaFireAlt size={28} className="text-[#6E2452]" />,
-    text: 'Bed emergency wing with independent Burns Unit',
+    text: '30-Bed Emergency Wing with an Independent Burns Unit',
   },
 ];
 const team = {
@@ -302,11 +302,12 @@ const team = {
       <div className="absolute right-0 bottom-0 opacity-10 w-28 h-28 md:w-40 md:h-40 bg-[url('/images/watermark.svg')] bg-no-repeat bg-contain pointer-events-none"></div>
 
       <h2 className="text-2xl md:text-3xl font-bold text-black mb-4">
-        Why SP Medifort Is Among the Best Hospitals in Thiruvananthapuram
+        Why SP Medifort is Among the Best Hospitals in Thiruvananthapuram
       </h2>
 
       <p className="text-black mb-4">
-        SP Medifort is a well-known multispeciality hospital in Thiruvananthapuram. We offer treatment in more than 30 different medical fields. The hospital combines advanced infrastructure, modern tools like robotic surgery and AI-based diagnostics, and a team of experienced doctors. Everything is designed to help patients get quality care with empathy.
+        SP Medifort is a leading multispecialty hospital in Thiruvananthapuram, offering expert care across 50+ medical fields. Equipped with cutting-edge technology like robotic surgery and AI-based diagnostics, we combine advanced infrastructure with a compassionate, patient-first approach. From 24/7 emergency services to evidence-based treatments, our experienced doctors are committed to ensuring a seamless and supportive healing journey, making us a trusted choice among Trivandrum private hospitals.
+
       </p>
 
       
@@ -532,7 +533,7 @@ surgical precision, and personalized care across every specialty</p>
             <li>MBBS eligibility, MCI/FMGE recognition</li>
             <li>Prepares for MRCEM (UK)</li>
             <li>Rotations: ED, ICU, OT</li>
-            <li>Training: Trauma, critical care, procedures</li>
+            <li>Training: Trauma and critical care procedures</li>
           </ul>
         </div>
       </div>
@@ -553,7 +554,7 @@ surgical precision, and personalized care across every specialty</p>
           <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
             <li>Duration: 1 Year (Theory + OJT)</li>
             <li>Class XII Science, age 18–26</li>
-            <li>Jobs: Hospitals, Clinics, Homecare</li>
+            <li>Jobs: Hospitals, Clinics and Homecare</li>
           </ul>
         </div>
       </div>
@@ -572,7 +573,7 @@ surgical precision, and personalized care across every specialty</p>
           <ul className="text-sm list-disc list-inside text-[#222] space-y-1">
             <li>MBBS Observership (Intl. students)</li>
             <li>Physiotherapy</li>
-            <li>MSW, MHA, Paramedical</li>
+            <li>MSW, MHA and Paramedical</li>
           </ul>
         </div>
       </div>
@@ -719,7 +720,7 @@ surgical precision, and personalized care across every specialty</p>
           </h2>
           <p className="mb-6 max-w-lg leading-relaxed text-white/90">
             Experience our world-class facilities, high-tech operating suites,
-            private ICUs, and healing spaces from wherever you are.
+            private ICUs, and healing spaces from anywhere.
           </p>
 
           <a
@@ -753,7 +754,7 @@ surgical precision, and personalized care across every specialty</p>
             src = "images/demo/img9.png"
             alt="Virtual Tour"
             className="rounded-2xl"
-           
+            priority
           />
         </div>
       </div>
