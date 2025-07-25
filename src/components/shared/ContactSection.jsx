@@ -65,15 +65,15 @@ export default function ContactSection() {
         <div className="w-full lg:w-full relative">
           <div className="w-full h-full relative overflow-visible">
             <Image
-              src="/images/img10.png"
+              src="/images/dct.png"
               alt="Doctors"
               width={ 800}
-              height={1200}
+              height={800}
               className="w-full h-full object-cover"
             />
           </div>
 
-          <div className="absolute top-4 right-0 space-y-4 py-20 pr-4">
+          <div className="absolute top-20 right-0 space-y-4  pr-2 mt-[12rem]">
             {/* Card 1 */}
             <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
               <div className="bg-primary p-2 rounded-full text-white text-lg">

@@ -9,7 +9,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <Header /> {/* ✅ This shows on all pages including Home */}
-        <FloatingButtons/>
+        {/* <FloatingButtons/> */}
         <main>{children}</main>
         <Footer />
       </body>
