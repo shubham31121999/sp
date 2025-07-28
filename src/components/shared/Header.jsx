@@ -12,12 +12,20 @@ export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { href: '/about', label: 'DISCOVER SP MEDIFORT' },
-    { href: '/departments', label: 'SPECIALITES & TREATMENT' },
-    { href: '/services', label: 'SERVICES' }, 
-    { href: '/international-patients', label: 'INTERNATIONAL PATIENTS' },
-    { href: '/facilities', label: 'HOSPITAL FACILITIES' },
-    { href: '/contact', label: 'CONTACT US' },
+    { href: '#', label: 'DISCOVER SP MEDIFORT' },
+    // { href: '#', label: 'SPECIALITES & TREATMENT' },
+    { href: '#', label: 'SPECIALITES & TREATMENT' },
+    { href: '#', label: 'SERVICES' }, 
+    { href: '#', label: 'INTERNATIONAL PATIENTS' },
+    { href: '#', label: 'HOSPITAL FACILITIES' },
+    { href: '#', label: 'CONTACT US' },
+    // { href: '/about', label: 'DISCOVER SP MEDIFORT' },
+    // { href: '#', label: 'DISCOVER SP MEDIFORT' },
+    
+    // { href: '/services', label: 'SERVICES' }, 
+    // { href: '/international-patients', label: 'INTERNATIONAL PATIENTS' },
+    // { href: '/facilities', label: 'HOSPITAL FACILITIES' },
+    // { href: '/contact', label: 'CONTACT US' },
   ];
 
   const serviceLinks = Object.entries(layoutMap).map(([slug, info]) => ({
@@ -43,7 +51,7 @@ export default function Header() {
         <div className="hidden md:flex justify-between items-center w-full">
           {/* Left Nav Links */}
           <div className="flex gap-5">
-            {navLinks.slice(0, 2).map((link) => (
+            {navLinks.slice(0, 3).map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -55,14 +63,14 @@ export default function Header() {
 
             {/* SERVICES Dropdown */}
             {/* SERVICES Dropdown */}
-            <div className="relative group">
+            {/* <div className="relative group">
               <Link
                 href="/services"
                 className="text-white text-sm tracking-wide font-semibold transition-colors duration-200"
               >
                 SERVICES
               </Link>
-            </div>
+            </div> */}
 
           </div>
 

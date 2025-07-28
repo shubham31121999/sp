@@ -3,20 +3,45 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import { ChevronRight, HeartPulse, ShieldCheck, Award, UserCheck, Hospital, Users } from "lucide-react";
-import Breadcrumb from "@/components/shared/Breadcrumb";
+import { motion } from 'framer-motion';
+import {
+  ChevronRight,
+  HeartPulse,
+  ShieldCheck,
+  Award,
+  UserCheck,
+  Hospital,
+  Users,
+  Globe,
+  Handshake,
+  Building2,
+  MessageCircle,
+  Smartphone
+} from "lucide-react";
+import { CheckCircle
+ } from 'lucide-react';
+
+const features = [
+  "475+ Beds | 170 ICU Beds",
+  "10 Modular OTs",
+  "3D Hybrid Cath Lab (1st in South Asia)",
+  "Robotic Zeiss Kinevo Microscope",
+  "Multi-level Parking | Patient-friendly Zones",
+  "Labs, Pharmacy, Burn Unit, AI Imaging & More",
+];
 const Section = ({ title, children }) => (
-  <section className="space-y-6" data-aos="fade-up">
-    <h2 className="text-3xl font-title font-bold text-dark border-b-4 border-primary inline-block pb-2">{title}</h2>
-    <div>{children}</div>
+  <section className="space-y-4" data-aos="fade-up">
+    <h2 className="text-2xl md:text-3xl font-title font-bold text-dark border-b-4 border-primary inline-block pb-1 animate__animated animate__fadeInUp">{title}</h2>
+    <div className="grid gap-4 md:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mt-2">{children}</div>
   </section>
 );
 
 const Card = ({ title, content, icon: Icon }) => (
-  <div className="bg-white rounded-2xl border border-primary shadow-md hover:shadow-xl transition-all p-6 space-y-3 group" data-aos="zoom-in">
-    {Icon && <Icon className="w-10 h-10 text-primary group-hover:scale-110 transition-transform" />}
-    <h3 className="text-xl font-semibold text-dark font-title">{title}</h3>
-    <p className="text-text text-sm font-body whitespace-pre-line">{content}</p>
+  <div className="bg-white rounded-2xl border border-primary shadow-md group hover:bg-primary hover:text-white hover:border-secondary transition-all duration-300 p-4 space-y-3 relative overflow-hidden" data-aos="zoom-in-up">
+    <div className="absolute -top-4 -right-4 w-16 h-16 bg-secondary opacity-10 rounded-full blur-xl group-hover:scale-110 transition-transform"></div>
+    {Icon && <Icon className="w-8 h-8 text-primary group-hover:text-white transition-colors" />}
+    <h3 className="text-lg font-semibold font-title leading-snug">{title}</h3>
+    <p className="text-sm text-text font-body group-hover:text-white whitespace-pre-line leading-relaxed">{content}</p>
   </div>
 );
 
@@ -26,133 +51,181 @@ const AboutUs = () => {
   }, []);
 
   return (
-    <div className="px-4 md:px-16 py-10 bg-light text-dark font-body space-y-20">
-      {/* Breadcrumb */}
-      
+    <div className="px-4 md:px-10 py-10 bg-gradient-to-br from-light via-white to-light text-dark font-body space-y-14">
+      <nav className="text-sm text-text flex items-center space-x-2 mb-2" aria-label="breadcrumb">
+        <span>Home</span>
+        <ChevronRight className="w-4 h-4" />
+        <span className="text-primary font-medium">About Us</span>
+      </nav>
 
-      {/* Page Header with Image */}
-      <div className="relative rounded-xl overflow-hidden bg-white shadow-lg" data-aos="fade-up">
-        <Breadcrumb />
+      <div className="relative rounded-xl overflow-hidden shadow-xl bg-gradient-to-r from-primary to-secondary" data-aos="fade-up">
         <img
           src="/banner/about-hero.jpg"
           alt="SP Medifort Hospital"
-          className="w-full h-64 md:h-96 object-cover"
+          className="w-full h-64 md:h-80 object-cover mix-blend-overlay"
         />
-        <div className="absolute inset-0 bg-primary/60 flex flex-col justify-center items-center text-center px-6">
-          <h1 className="text-4xl md:text-6xl font-title font-bold text-white mb-4 tracking-tight leading-tight drop-shadow">
+        <div className="absolute inset-0 flex flex-col justify-center items-center text-center px-6">
+          <h1 className="text-3xl md:text-5xl font-title font-bold text-white mb-2 tracking-tight drop-shadow-lg animate__animated animate__fadeInDown">
             About Us – SP Medifort Hospital
           </h1>
-          <p className="text-xl text-white max-w-3xl leading-relaxed">
+          <p className="text-base md:text-lg text-white max-w-2xl leading-relaxed animate__animated animate__fadeInUp">
             Where Innovation Meets Compassion — A Legacy of Excellence in Patient-Centred Care.
           </p>
-          <div className="mt-6 w-20 h-1 bg-white rounded-full animate-pulse"></div>
+          <div className="mt-4 w-16 h-1 bg-white rounded-full animate-pulse"></div>
         </div>
       </div>
 
       <Section title="Our Story">
-        <div className="grid md:grid-cols-2 gap-8">
-          <Card icon={HeartPulse} title="A Vision of Healing" content={`Established to redefine healthcare in South India, SP Medifort Hospital blends world-class care, affordability, and empathy. Today, we serve thousands across Kerala, India, and beyond.`} />
-          <Card icon={ShieldCheck} title="Our Purpose" content={`Empower lives through exceptional healthcare.`} />
-        </div>
+        <Card
+          title="Our Beginnings"
+          icon={HeartPulse}
+          content={`Born from a dream to make world-class healthcare accessible in South India, SP Medifort Hospital was founded with a mission to heal, care, and innovate.`}
+        />
+        <Card
+          title="Modern Vision, Rooted in Compassion"
+          icon={Globe}
+          content={`We blend advanced medical technology with a deeply humane approach to patient care — ensuring holistic healing for every individual.`}
+        />
+        <Card
+          title="Trusted by Thousands"
+          icon={Users}
+          content={`Over the years, we’ve earned the trust of families across Kerala and beyond by delivering consistent, ethical, and result-oriented care.`}
+        />
+        <Card
+          title="Driven by Purpose"
+          icon={Award}
+          content={`Every decision we take is guided by our core purpose: to serve with excellence, empathy, and unwavering integrity.`}
+        />
+        <Card
+          title="Care Conversations"
+          icon={MessageCircle}
+          content={`We listen to our patients through care feedback and proactive support. Conversations lead to improvements in comfort and confidence.`}
+        />
+        <Card
+          title="Mobile Health Access"
+          icon={Smartphone}
+          content={`Through our mobile platform and telemedicine, we connect patients with specialists from the comfort of their homes.`}
+        />
       </Section>
 
       <Section title="Mission & Vision">
-        <div className="grid md:grid-cols-2 gap-8">
-          <Card icon={UserCheck} title="Mission" content={`To deliver compassionate, evidence-based, and ethical care to every patient — every time.`} />
-          <Card icon={Award} title="Vision" content={`To be South India's most trusted healthcare institution by advancing clinical excellence and personalized patient experiences.`} />
-        </div>
+        <Card
+          title="Our Mission"
+          icon={ShieldCheck}
+          content="To deliver compassionate, evidence-based, and ethical care to every patient — every time."
+        />
+        <Card
+          title="Our Vision"
+          icon={Award}
+          content="To be South India's most trusted healthcare institution by advancing clinical excellence and personalized experiences."
+        />
       </Section>
 
-      <Section title="Core Values">
-        <div className="grid md:grid-cols-3 gap-6">
-          {[
-            { title: "Compassion", content: "We treat every patient like family." },
-            { title: "Excellence", content: "We strive for clinical brilliance in everything we do." },
-            { title: "Innovation", content: "We invest in the future of medicine." },
-            { title: "Integrity", content: "We uphold transparency, ethics, and trust." },
-            { title: "Respect", content: "We honour every individual’s dignity, culture, and beliefs." },
-          ].map((val, i) => <Card key={i} icon={HeartPulse} {...val} />)}
-        </div>
+      <Section title="Our Core Values">
+        {[{ icon: UserCheck, title: "Compassion", content: "We treat every patient like family." }, { icon: Award, title: "Excellence", content: "We strive for clinical brilliance in everything we do." }, { icon: Globe, title: "Innovation", content: "We invest in the future of medicine." }, { icon: ShieldCheck, title: "Integrity", content: "We uphold transparency, ethics, and trust." }, { icon: Users, title: "Respect", content: "We honour every individual’s dignity, culture, and beliefs." }].map((val, idx) => (
+          <Card key={idx} {...val} />
+        ))}
       </Section>
 
       <Section title="Leadership Team">
-        <div className="grid md:grid-cols-3 gap-6">
-          {[
-            "Dr. S P Asokan – Chairman & Managing Director",
-            "S P Subramonian – Joint Chairman & Managing Director",
-            "Dr. Aathithya S P – Executive Director",
-            "Advaith Asokan Bala – Executive Director",
-            "Dr. Athulya Asokan Bhagya – Executive Director",
-          ].map((name, i) => <Card key={i} icon={Users} title={name} content="Click to view profile" />)}
-        </div>
+        {[{ title: "Dr. S P Asokan", content: "Chairman & MD" }, { title: "S P Subramonian", content: "Joint Chairman & MD" }, { title: "Dr. Aathithya S P", content: "Executive Director" }, { title: "Advaith Asokan Bala", content: "Executive Director" }, { title: "Dr. Athulya Asokan Bhagya", content: "Executive Director" }].map((leader, i) => (
+          <Card key={i} title={leader.title} content={leader.content} icon={Building2} />
+        ))}
       </Section>
 
-      <Section title="Infrastructure & Facilities">
-        <Card icon={Hospital} title="A Healing Environment Built for the Future" content={`475+ beds | 10 Modular OTs | 3D Hybrid Cath Lab | Robotic Neuro Microscope | AI Systems | 128-slice CT | Spacious lounges & parking`} />
-      </Section>
+        <section className="px-4 py-10 bg-white w-full" id="infrastructure">
+      <h2 className="text-2xl md:text-4xl font-bold text-center mb-10">
+        Infrastructure & Facilities
+      </h2>
+
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: true }}
+        className="max-w-3xl mx-auto border border-gray-200 rounded-2xl p-6 bg-white shadow-md"
+      >
+        {/* Card Header */}
+        <div className="flex items-center gap-4 mb-6">
+          <div className="p-3 bg-primary/10 text-primary rounded-full">
+            <Hospital size={32} />
+          </div>
+          <h3 className="text-xl md:text-2xl font-semibold">
+            Healing Environment Built for the Future
+          </h3>
+        </div>
+
+        {/* Feature Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-1 gap-4">
+          {features.map((feature, idx) => (
+            <div
+              key={idx}
+              className="flex items-start gap-3 bg-gray-50 border border-gray-200 rounded-xl p-3 hover:shadow-md transition"
+            >
+              <CheckCircle className="text-primary mt-1" size={20} />
+              <p className="text-sm md:text-base text-gray-800">{feature}</p>
+            </div>
+          ))}
+        </div>
+      </motion.div>
+    </section>
 
       <Section title="Our Team">
-        <div className="grid md:grid-cols-3 gap-6">
-          {[
-            "50+ Specialty Consultants",
-            "Critical Care Experts (24x7)",
-            "Trained Emergency Response Team",
-            "Skilled ICU Nurses",
-            "Diagnostic Technicians",
-            "Rehab & Physio Experts",
-          ].map((item, i) => <Card key={i} icon={Users} title={item} content="" />)}
-        </div>
+        <Card
+          title="Compassionate. Competent. Committed."
+          icon={Users}
+          content={`• 50+ Specialty Consultants\n• 24x7 Critical Care Experts\n• ICU Trained Nurses\n• Skilled Technicians\n• Rehab & Physio Experts`}
+        />
       </Section>
 
       <Section title="Awards & Accreditations">
-        <div className="grid md:grid-cols-2 gap-6">
-          {[
-            "JCI Accredited (8th Edition)",
-            "NABH Accreditation in Process",
-            "Most Technologically Advanced Hospital (2025)",
-            "AI Implementation Excellence Award",
-          ].map((item, i) => <Card key={i} icon={Award} title={item} content="" />)}
-        </div>
+        <Card
+          title="Recognized Excellence"
+          icon={Award}
+          content={`• JCI 8th Edition Accredited\n• NABH Accreditation in Process\n• AI Implementation Excellence Award\n• Kerala Health Awards 2025`}
+        />
       </Section>
 
       <Section title="Milestones & Timeline">
-        <Card icon={Award} title="2021 - 2026+" content={`2021: Conceptualized\n2022: Construction Began\n2024: Soft Launch\n2025: Grand Opening\n2026+: Telemedicine & Clinics`} />
+        <Card
+          title="A Journey of Growth"
+          icon={Globe}
+          content={`• 2021: Conceptualized by S Pottivelu\n• 2022: Construction Begins\n• 2024: Soft Launch\n• 2025: Grand Opening\n• 2026: Telemedicine Expansion`}
+        />
       </Section>
 
       <Section title="Quality & Safety Initiatives">
-        <div className="grid md:grid-cols-2 gap-6">
-          {[
-            "Infection Control & Prevention",
-            "Digital EHR & Consent",
-            "Surgical Safety Checklists",
-            "ICU AI Surveillance",
-            "Internal Clinical Audits",
-            "24x7 ACLS Emergency Response",
-          ].map((item, i) => <Card key={i} icon={ShieldCheck} title={item} content="" />)}
-        </div>
+        <Card
+          title="Every Patient. Every Procedure."
+          icon={ShieldCheck}
+          content={`• Infection Control\n• Digital EHR & Consents\n• AI ICU Surveillance\n• Clinical Outcome Audits\n• ACLS-Trained Emergency Staff`}
+        />
       </Section>
 
       <Section title="CSR & Community Outreach">
-        <Card icon={Users} title="Healthcare Beyond the Hospital" content={`Free Health Camps | Cancer Awareness | Tribal Units | Health Education | Blood Donation | School & Environmental Campaigns`} />
+        <Card
+          title="Healthcare Beyond the Hospital"
+          icon={Handshake}
+          content={`• Monthly Free Camps\n• Cancer Awareness in Schools\n• Tribal Medical Units\n• Women's & Elder Wellness Drives\n• \"Healthy Start\" & \"Together\" School Campaigns`}
+        />
       </Section>
 
       <Section title="Our Group of Hospitals">
-        <div className="grid md:grid-cols-3 gap-6">
-          {[
-            {
-              title: "SP Fort Hospital",
-              content: "Multi-specialty tertiary care, decades of trust.\nCall: 0471 2450540",
-            },
-            {
-              title: "SP Health Plus",
-              content: "Urban hub for preventive & diagnostic care.\nCall: +91 471 245 0850",
-            },
-            {
-              title: "SP Well Fort",
-              content: "Wellness hospital for recovery & rehab.\nCall: 0471 4567890",
-            },
-          ].map((h, i) => <Card key={i} icon={Hospital} {...h} />)}
-        </div>
+        <Card
+          title="SP Fort Hospital"
+          icon={Hospital}
+          content={`Thiruvananthapuram\nMulti-specialty tertiary care\n📞 0471 2450540`}
+        />
+        <Card
+          title="SP Health Plus"
+          icon={Hospital}
+          content={`Urban Healthcare Hub\nPreventive & Diagnostic Focus\n📞 +91 471 245 0850`}
+        />
+        <Card
+          title="SP Well Fort"
+          icon={Hospital}
+          content={`Recovery & Wellness Center\nRehabilitation & Lifestyle\n📞 0471 4567890`}
+        />
       </Section>
     </div>
   );

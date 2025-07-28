@@ -1,4 +1,3 @@
-// import { FaHeart, FaUserNurse } from "react-icons/fa"; // Add more icons as needed
 
 // export const layoutMap = {
 //   'cardiac-science': {
