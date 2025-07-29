@@ -7,6 +7,8 @@ import CareerFaq from "@/components/Career/CareerFaq";
 import CareerStreams from "@/components/Career/CareerStreams";
 import EmployeeBenefit from "@/components/Career/EmployeeBenefit";
 import CareerTraining from "@/components/Career/CareerTraining";
+import CtaSection from "@/components/Career/Cta";
+import EmployeeTestimonials from "@/components/Career/EmployeeTestimonials";
 
 const Page = () => {
   useEffect(() => {
@@ -19,6 +21,8 @@ const Page = () => {
       <CareerStreams />
       <EmployeeBenefit />
       <CareerTraining />
+      <CtaSection />
+      <EmployeeTestimonials />
     </>
   );
 };
