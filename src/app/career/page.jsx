@@ -12,6 +12,7 @@ const Page = () => {
   useEffect(() => {
     AOS.init({ duration: 1000 });
   }, []);
+  
   return (
     <>
       <CareerHero />
