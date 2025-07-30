@@ -61,6 +61,7 @@ module.exports = {
         white: '#FFFFFF',
         dark: '#333333',
         light: '#F4F4F4',
+        lighter:"#FDF2F9",
       },
       keyframes: {
         marquee: {
