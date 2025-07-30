@@ -52,11 +52,11 @@ const HospitalLocation = () => {
       <h2 className="text-2xl md:text-4xl font-semibold text-primary mb-16 text-center">
         Employee Benefits & Perks
       </h2>
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16 items-stretch">
+      <div className="max-w-5xl mx-auto flex flex-wrap gap-10 justify-center px-3">
         {data.map((item, index) => (
           <div
             key={index}
-            className="relative bg-[#f9f3f2] rounded-2xl shadow-xl p-6 font-nunito flex flex-col"
+            className="relative w-full sm:w-[45%] lg:w-[30%]  bg-[#f9f3f2] rounded-2xl shadow-xl p-6 font-nunito flex flex-col"
           >
             {/* Title Row with Number Badge */}
             <div className="flex items-center relative mb-4">

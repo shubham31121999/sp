@@ -1,0 +1,56 @@
+import React from "react";
+import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { IoArrowForward } from "react-icons/io5";
+
+const HealthCta = () => {
+  return (
+    <section
+      style={{
+        background: "url('/images/health-packages/cta-bg.jpeg')",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+    >
+      <div
+        data-aos="fade-up"
+        data-aos-delay={100}
+        className=" w-full h-full py-20 px-4"
+      >
+        <div className="max-w-6xl mx-auto text-white">
+          <h2 className="text-3xl md:text-5xl font-bold mb-16">
+            Need Help Selecting a <br className="hidden md:block" /> Package?
+          </h2>
+          <div className="flex flex-col lg:flex-row md:gap-16 ">
+            <div className="flex flex-col justify-end md:items-start gap-6 mb-10 md:w-1/2">
+              <button className="flex items-center justify-between gap-3 px-6 py-3 rounded-full text-white bg-[#D95DB0] font-semibold text-lg w-full md:w-auto hover:scale-105 transition border-[3px] border-white">
+                Book an Appointment
+                <span className="w-8 h-8 flex items-center justify-center bg-transparent border-2 border-[#870064] rounded-full">
+                  <IoArrowForward className="text-[#870064]" size={20} />
+                </span>
+              </button>
+              <button className="flex items-center justify-between gap-3 px-6 py-3 rounded-full text-white bg-[#D95DB0] font-semibold text-lg w-full md:w-auto hover:scale-105 transition border-[3px] border-white">
+                Explore Health Packages
+                <span className="w-8 h-8 flex items-center justify-center bg-transparent border-2 border-[#870064] rounded-full">
+                  <IoArrowForward className="text-[#870064]" size={20} />
+                </span>
+              </button>
+            </div>
+
+            <div className="flex flex-col md:items-start gap-6 mb-10 md:w-1/2">
+              <div className="flex items-center gap-3 text-white bg-[#D95DB0] pr-5 rounded-full text-2xl w-full md:w-auto border-[3px] border-white">
+                <FaPhoneAlt className="border-t-[3px] border-b-[3px] p-2 border-r-[3px] border-white rounded-full text-5xl" />
+                00000000
+              </div>
+              <div className="flex items-center gap-3 text-white bg-[#D95DB0] pr-5 rounded-full text-2xl w-full md:w-auto border-[3px] border-white">
+                <FaEnvelope className="border-t-[3px] border-b-[3px] p-2 border-r-[3px] border-white rounded-full text-5xl" />
+                patientcare@spmedifort.com
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HealthCta;
