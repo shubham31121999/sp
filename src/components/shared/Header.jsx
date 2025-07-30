@@ -11,35 +11,35 @@ import MobileMenu from "./MobileHeader";
 const navLinks = [
   { href: "#", label: "DISCOVER SP MEDIFORT" },
   { href: "#", label: "SPECIALITES & TREATMENT" },
-  { href: "#", label: "SERVICES" },
-  { href: "#", label: "INTERNATIONAL PATIENTS" },
-  { href: "#", label: "HOSPITAL FACILITIES" },
-  { href: "#", label: "CONTACT US" },
+  { href: "", label: "SERVICES" },
+  { href: "/patient-care", label: "INTERNATIONAL PATIENTS" },
+  { href: "/hospital-facilities", label: "HOSPITAL FACILITIES" },
+  { href: "/contact", label: "CONTACT US" },
 ];
 
 const discoverItems = [
-  { name: "About Us", href: "/discover/about" },
-  { name: "Careers", href: "/discover/careers" },
+  { name: "About Us", href: "/our-story" },
+  { name: "Careers", href: "/career" },
 ];
 
 const treatmentItems = [
   {
     name: "Physiotherapy & Rehabilitation",
-    href: "/services/physiotherapy-rehabilitation",
+    href: "/services/physiotherapyRehabilitation",
   },
-  { name: "Clinical Laboratory", href: "/services/clinical-laboratory" },
+  { name: "Clinical Laboratory", href: "/services/clinicalLaboratory" },
   { name: "Pharmacy", href: "/services/pharmacy" },
-  { name: "Cath Lab", href: "/services/cath-lab" },
-  { name: "Nursing Services", href: "/services/nursing-services" },
-  { name: "Blood Centre", href: "/services/blood-centre" },
-  { name: "Medical Records", href: "/services/medical-records" },
+  { name: "Cath Lab", href: "/services/cathLab" },
+  { name: "Nursing Services", href: "/services/nursingServices" },
+  { name: "Blood Centre", href: "/services/bloodCentre" },
+  { name: "Medical Records", href: "/services/medicalRecords" },
   {
     name: "Audiology & Speech Therapy",
-    href: "/services/audiology-speech-therapy",
+    href: "/services/audioSpeech",
   },
-  { name: "Imaging Services", href: "/services/imaging-services" },
-  { name: "EMG / EEG / ECG", href: "/services/emg-eeg-ecg" },
-  { name: "Dietetics & Nutrition", href: "/services/dietetics-nutrition" },
+  { name: "Imaging Services", href: "/services/imaging" },
+  { name: "EMG / EEG / ECG", href: "/services/emgEeGEcg" },
+  { name: "Dietetics & Nutrition", href: "/services/dieteticsNutrition" },
   {
     name: "CSSD (Central Sterile Services Department)",
     href: "/services/cssd",
@@ -86,11 +86,11 @@ const departmentItems = [
 ];
 
 const servicesItems = [
-  { name: "Medical Services", href: "/services/medical-services" },
-  { name: "Health Check Packages", href: "/services/#" },
-  { name: "Find a Doctor", href: "/services/#" },
-  { name: "Book Appointment", href: "/services/#" },
-  { name: "Patient Testimonial", href: "/services/#" },
+  // { name: "Medical Services", href: "/services/medical-services" },
+  { name: "Health Check Packages", href: "/health-check-packages" },
+  { name: "Find a Doctor", href: "/find-a-doctor" },
+  // { name: "Book Appointment", href: "/services/#" },
+  // { name: "Patient Testimonial", href: "/services/#" },
 ];
 
 const patientsItems = [
@@ -99,7 +99,7 @@ const patientsItems = [
 ];
 
 const facilitiesItems = [
-  { name: "Hospital Facilities", href: "/facilities/hospital-facilities" },
+  { name: "Hospital Facilities", href: "/hospital-facilities" },
   { name: "Advanced Technology & Infrastructure", href: "/facilities/parking" },
 ];
 
@@ -148,7 +148,13 @@ export default function Header() {
               return menuProps ? (
                 <div key={link.label} className="group">
                   <span className="cursor-pointer text-xs font-thin xl:text-sm lg:font-medium">
-                    {link.label}
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="text-sm font-semibold"
+                    >
+                      {link.label}
+                    </Link>
                   </span>
                   <MegaMenu {...menuProps} label={link.label} />
                 </div>
@@ -184,7 +190,13 @@ export default function Header() {
               return menuProps ? (
                 <div key={link.label} className={`group `}>
                   <span className="cursor-pointer text-xs font-thin xl:text-sm lg:font-medium">
-                    {link.label}
+                    <Link
+                      key={link.href}
+                      href={link.href}
+                      className="text-sm font-semibold"
+                    >
+                      {link.label}
+                    </Link>
                   </span>
 
                   {/* <MegaMenu {...menuProps} label={link.label} /> */}
@@ -222,7 +234,7 @@ export default function Header() {
           </button>
         </div>
         <div className="absolute top-24 md:top-[84px] bg-white text-black w-full left-0">
-          {isOpen && <MobileMenu />}
+          {isOpen && <MobileMenu setIsOpen={setIsOpen} />}
         </div>
       </div>
 
