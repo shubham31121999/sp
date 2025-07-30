@@ -2,7 +2,7 @@ const AnesthesiologyData = {
   hero: {
     title: 'Silent guardians of every safe surgery',
     description: [
-      "At SP Medifort, our Department of Anesthesiology works behind the scenes but plays a central role in every surgical success. From preoperative assessment to post-op pain management, our anesthesiologists ensure that every patient receives safe, personalized anesthesia care tailored to their age, health, and procedure.Whether you're undergoing minor surgery or a complex robotic procedure, our anesthesia specialists in Trivandrum are involved at every step to monitor your vitals, keep you pain-free, and ensure safe recovery."
+      "At SP Medifort, our Department of Anesthesiology works behind the scenes but plays a central role in every surgical success. From preoperative assessment to post-op pain management, our anesthesiologists ensure that every patient receives safe, personalized anesthesia care tailored to their age, health, and procedure. Whether you are undergoing minor surgery or a complex robotic procedure, our anesthesia specialists in Trivandrum are involved at every step to monitor your vitals, keep you pain-free, and ensure safe recovery."
     ],
     cta: { label: 'Consult our Anesthesia team', href: '/appointments/cardiology' },
     image: { src: '/images/departments/Anesthesiology.webp', alt: 'Anesthesiology' },
@@ -52,8 +52,6 @@ const AnesthesiologyData = {
       label: 'Learn how we keep surgeries safe',
       href: '/facilities#cardiac',
     }
-
-
   },
   team: {
     title: 'Our Team of Experts',

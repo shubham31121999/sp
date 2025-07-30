@@ -8,8 +8,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header /> 
-     
+        <Header />
+        {/* <FloatingButtons/> */}
         <main>{children}</main>
         <Footer />
       </body>
