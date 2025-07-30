@@ -1,4 +1,7 @@
-import Header from '@/components/shared/Header';
+import React from 'react';
+  
+  
+  import Header from '@/components/shared/Header';
 import Footer from '@/components/shared/Footer';
 
 import '@/styles/globals.css';
@@ -8,12 +11,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-<<<<<<< HEAD
         <Header /> 
      
-=======
->>>>>>> fahad
-        <Header />
+        
         {/* <FloatingButtons/> */}
         <main>{children}</main>
         <Footer />

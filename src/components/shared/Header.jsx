@@ -11,7 +11,7 @@ import MobileMenu from "./MobileHeader";
 const navLinks = [
   { href: "#", label: "DISCOVER SP MEDIFORT" },
   { href: "#", label: "SPECIALITES & TREATMENT" },
-  { href: "", label: "SERVICES" },
+  { href: "#", label: "SERVICES" },
   { href: "/patient-care", label: "INTERNATIONAL PATIENTS" },
   { href: "/hospital-facilities", label: "HOSPITAL FACILITIES" },
   { href: "/contact", label: "CONTACT US" },
