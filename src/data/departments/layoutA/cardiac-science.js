@@ -347,3 +347,166 @@ const cardiacScienceData = {
 };
 
 export default cardiacScienceData;
+// const cardiacScienceData = {
+//   seo: {
+//     title: "Cardiac Science at SP Medifort Hospital, Thiruvananthapuram",
+//     description:
+//       "SP Medifort – Best cardiology hospital in Trivandrum offering advanced heart care, minimally invasive treatments, and 24x7 cardiac emergency support.",
+//     keywords: [
+//       "Cardiology hospital in Trivandrum",
+//       "Best heart hospital in Thiruvananthapuram",
+//       "Cardiology center Trivandrum",
+//       "Heart specialist hospital in Trivandrum",
+//       "Top cardiology hospital in Thiruvananthapuram",
+//       "Best cardiologist in Trivandrum",
+//       "Heart specialist in Thiruvananthapuram",
+//       "Top heart surgeon in Trivandrum",
+//       "Best cardiology hospital in Kerala",
+//       "Affordable heart surgery in Trivandrum",
+//       "Laser angioplasty",
+//       "3D Cathlab with AI"
+//     ],
+//     breadcrumb: ["Home", "Specialties & Treatments", "Cardiology"],
+//   },
+
+//   hero: {
+//     title: "Advanced Heart Care with a Human Touch",
+//     description: [
+//       "SP Medifort’s Cardiac Science Department is one of the most comprehensive heart care centers in South Kerala.",
+//       "From emergency cardiac support to preventive heart screenings and interventional procedures, we provide personalized cardiology services in Trivandrum backed by innovation, empathy, and outcomes.",
+//       "Whether it's managing hypertension or performing a complex angioplasty, our approach is focused on quick diagnosis, minimally invasive treatment, and long-term heart wellness."
+//     ],
+//     cta: { label: "Book a Cardiology consultation", href: "/appointments/cardiology" },
+//     image: { src: "/images/departments/Cardiac-Science.webp", alt: "Cardiology" },
+//     highlightText: [
+//       "1st 3D Hybrid Cath Lab (GE Allia) in South Asia",
+//       "24x7 Cardiac Emergency Response Team",
+//       "Advanced Interventional Cardiology Without Open Surgery"
+//     ],
+//   },
+
+//   whyChoose: {
+//     title: "Why choose SP Medifort for Cardiac care?",
+//     subTitle: "Pioneering Cardiac Interventions in Kerala",
+//     cards: [
+//       { icon: "iconamoon:3d-bold", title: "First 3D AI-powered Cath Lab (GE Allia) in South Asia" },
+//       { icon: "fluent:laser-tool-20-filled", title: "First Laser Angioplasty in South Kerala" },
+//       { icon: "mdi:heart-pulse", title: "24x7 Heart Emergency Unit & Cardiac ICU" },
+//       { icon: "mdi:heart-cog-outline", title: "Complex coronary angioplasties & device closures" },
+//       { icon: "material-symbols:heart-check", title: "Preventive cardiology & lifestyle management" },
+//       { icon: "streamline-plump:customer-support-7-remix", title: "Cardiac rehabilitation & post-op support" },
+//     ],
+//     description:
+//       "We are proud to be considered the best heart hospital in Trivandrum with a record of exceptional cardiac outcomes.",
+//     cta: { label: "See our Cardiac facilities", href: "/facilities#cardiac" },
+//     subSpecialties: ["Cardiology", "Interventional Cardiology"],
+//   },
+
+//   team: {
+//     title: "Our Team of Experts",
+//     subTitle: "Meet Kerala’s leading heart specialists",
+//     doctors: [
+//       { name: "DR. SHIFAS BABU M", designation: "INTERVENTIONAL CARDIOLOGY", position: "SENIOR CONSULTANT, MD, DM, DrNB, MNAMS, FACC", image: "/images/doctors-card/shibu.png" },
+//       { name: "DR. PRAVEEN G L", designation: "INTERVENTIONAL CARDIOLOGY", position: "CONSULTANT, MBBS, MD, DM, DrNB(Cardiology)", image: "/images/doctors-card/shibu.png" },
+//       { name: "DR. K VENUGOPAL", designation: "INTERVENTIONAL CARDIOLOGY", position: "SENIOR CONSULTANT, MD, DM, FCSI, FICC, FACC, FESC", image: "/images/doctors-card/shibu.png" },
+//       { name: "DR. TAHSIN NEDUVANCHERY", designation: "INTERVENTIONAL CARDIOLOGY", position: "SENIOR CONSULTANT, MBBS, MD, DM", image: "/images/doctors-card/shibu.png" }
+//     ],
+//     description: "Each of our cardiologists in Thiruvananthapuram combines technical skill with a commitment to compassionate care.",
+//     cta: { label: "Meet our Cardiologists", href: "/our-doctors#cardiology" },
+//   },
+
+//   technologies: {
+//     title: "Advanced technology and expertise",
+//     tagline: "Beyond Stents; we see in 3D, we act in minutes",
+//     categoryTabs: ["Interventional Cardiology", "Cardiology"],
+//     items: [
+//       {
+//         name: "128 Slice CT – GE Revolution",
+//         description:
+//           "High-resolution (0.28 mm), ultra-fast cardiac CT that provides detailed 3D images of the heart and blood vessels, enabling precise evaluation of coronary artery disease."
+//       },
+//       {
+//         name: "MRI – GE SIGNA",
+//         description:
+//           "Advanced cardiac MRI for functional and structural heart assessment, detecting myocardial damage, perfusion, and congenital anomalies."
+//       },
+//       {
+//         name: "Ultrasound (USG) Scan",
+//         description:
+//           "Real-time imaging to assess blood flow and cardiac structures for cardiovascular screening and follow-up."
+//       },
+//       {
+//         name: "Electrocardiogram (ECG)",
+//         description:
+//           "Baseline test recording heart’s electrical activity to detect rhythm disturbances and ischemia."
+//       },
+//       {
+//         name: "Holter Monitoring",
+//         description:
+//           "Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during routine ECG."
+//       },
+//       {
+//         name: "Treadmill Stress Test (TMT)",
+//         description:
+//           "Evaluates cardiac function under physical stress to diagnose ischemic heart disease and exercise tolerance."
+//       },
+//       {
+//         name: "2D/3D Echocardiography with Strain Imaging",
+//         description:
+//           "Detects subtle myocardial dysfunction using advanced strain analysis."
+//       },
+//       {
+//         name: "CT Coronary Angiogram",
+//         description:
+//           "Non-invasive imaging to detect coronary blockages with high precision using contrast-enhanced CT."
+//       },
+//       {
+//         name: "Blood Tests & Cardiac Risk Factors Screening",
+//         description:
+//           "Includes cardiac enzymes (Troponin), lipid profile, and markers for diabetes, hypertension, and inflammation."
+//       },
+//     ],
+//   },
+
+//   insuranceFinance: {
+//     title: "Insurance and Finance",
+//     subtitle: "Affordable & accessible Cardiac care",
+//     items: [
+//       { title: "Insurance Approval for Cardiac Procedures", description: "Covered by all leading insurers and TPAs" },
+//       { title: "Insurance Support & Financial Counseling", description: "Packages for procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation" },
+//       { title: "Insurance Approval for Planned Surgeries", description: "We assist patients in obtaining prior approval for a hassle-free experience." },
+//       { title: "Insurance Support & Patient Counseling", description: "Dedicated department for end-to-end claims assistance and personalized support." },
+//     ],
+//     cta: { label: "Explore coverage & payment plans", link: "#" },
+//   },
+
+//   patientJourney: {
+//     title: "Patient journey",
+//     subtitle: "From diagnosis to recovery — We stay with you",
+//     steps: [
+//       { title: "OPD Consult + ECG" },
+//       { title: "Tests", description: "Echo, TMT, Angio, etc." },
+//       { title: "Medication or procedure planning" },
+//       { title: "Admission (if needed)" },
+//       { title: "Stenting / surgery" },
+//       { title: "ICU + ward recovery" },
+//       { title: "Cardiac rehab & follow-up" },
+//     ],
+//     cta: "Start your Cardiac journey with us",
+//   },
+
+//   faqs: [
+//     { question: "How fast can I get a stent in an emergency?", answer: "We provide 24x7 angioplasty with a door-to-balloon time under 60 minutes." },
+//     { question: "Are checkups needed if I have no symptoms?", answer: "Yes, heart disease can be silent. Annual screenings help prevent emergencies." },
+//   ],
+
+//   appointmentSection: {
+//     heading: "Appointment and consultations",
+//     helpline: { label: "Cardiac helpline:", number: "04713100100", icon: "/icons/phone-plus.svg" },
+//     support: { label: "24/7 Patient Support", icon: "/icons/ambulance.svg" },
+//     whatsapp: { icon: "/icons/whatsapp.svg", link: "https://wa.me/919999999999" },
+//     form: { heading: "Post a Cardiac query", fields: ["Name", "Phone", "Email", "Query"], submitLabel: "Submit" },
+//   },
+// };
+
+// export default cardiacScienceData;
