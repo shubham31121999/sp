@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Header /> {/* ✅ This shows on all pages including Home */}
+        <Header />
         {/* <FloatingButtons/> */}
         <main>{children}</main>
         <Footer />

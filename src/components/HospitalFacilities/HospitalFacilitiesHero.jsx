@@ -13,16 +13,16 @@ const HospitalFacilitiesHero = () => {
         <div className="bg-[#f3dede]  flex items-center justify-center px-6 py-20">
             <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                 {/* Text Section */}
-                <div data-aos="fade-right" className="space-y-7">
+                <div data-aos="fade-right" className="space-y-5">
                     <div>
-                        <div className="inline-block border-[3px] border-white text-white text-base font-medium px-4 py-2 rounded-md mb-6">
+                        <div className="inline-block border-[3px] border-primary text-primary text-base font-medium px-4 py-2 rounded-md mb-6">
                            Home &gt; Medical Services
                         </div>
                         <h1 className="text-4xl lg:text-6xl font-medium text-[#800065] mb-4">
                           Hospital Facilities at SP Medifort Hospital
                         </h1>
                     </div>
-                    <div className="lg:pb-6">
+                    <div className="">
                         <h2 className="text-xl lg:text-2xl font-semibold text-[#44002E] mb-2">
                            Driven by Care, Powered by Precision 
                         </h2>
