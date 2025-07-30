@@ -1,23 +1,6 @@
 import React from 'react';
   
-  const Aesthetic-surgery = () =>  {
-	return (
-	  <div>
-	  </div>
-	);
-  }
-  
-  export default Aesthetic-surgery;
-  import React from 'react';
-  
-  const Aesthetic-surgery = () =>  {
-	return (
-	  <div>
-	  </div>
-	);
-  }
-  
-  export default Aesthetic-surgery;
+ 
   const cosmeticAestheticSurgery = {
   hero: {
     title: 'Enhancing beauty with precision and care',
