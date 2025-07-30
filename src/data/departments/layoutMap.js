@@ -123,7 +123,7 @@ export const layoutMap = {
   // Layout B
   'urology': {
     label: 'Urology',
-    icon: '/images/dp-icons/urology.svg', // <-- Replace with actual icon if available
+    icon: '/images/dp-icons/urology.svg', 
     layout: 'B',
     data: () => import('./layoutB/urology'),
   },
@@ -140,12 +140,7 @@ export const layoutMap = {
     layout: 'B',
     data: () => import('./layoutB/plasticMicrovascularSurgery'),
   },
-  'CosmeticAestheticSurgery': {
-    label: 'Cosmetic & Aesthetic Surgery',
-    icon: '/images/dp-icons/Cosmetic-Aesthetic-Surgery.svg',
-    layout: 'B',
-    data: () => import('./layoutB/aesthetic-surgery'),
-  },
+  
   'Radiodiagnosis': {
     label: 'Radiodiagnosis',
     icon: '/images/dp-icons/Radiodiagnosis.svg',
