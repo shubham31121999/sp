@@ -10,6 +10,8 @@ export default function RootLayout({ children }) {
       <body>
         <Header /> 
      
+        <Header />
+        {/* <FloatingButtons/> */}
         <main>{children}</main>
         <Footer />
       </body>
