@@ -15,7 +15,7 @@ const Admission = () => {
       {data.whyChoose?.length > 0 && (
         <section className="py-12 px-4 md:px-20">
           <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
-            <div>
+            <div data-aos="fade-right">
               <h2 className="text-[32px] sm:text-[40px] md:text-[48px] font-bold text-[#870064] leading-[50px] mb-8">
                Admission & Discharge Process
               </h2>
@@ -36,7 +36,7 @@ const Admission = () => {
                 ))}
               </ul>
             </div>
-            <div className="relative lg:ml-auto">
+            <div data-aos="fade-left" className="relative lg:ml-auto">
               <div className="relative rounded-2xl overflow-hidden w-full max-w-[427px] mx-auto ">
                 <img
                   src="/images/patient/Medical-Records(why-choose).jpg"

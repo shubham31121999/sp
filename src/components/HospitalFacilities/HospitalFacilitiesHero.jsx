@@ -22,7 +22,7 @@ const HospitalFacilitiesHero = () => {
                           Hospital Facilities at SP Medifort Hospital
                         </h1>
                     </div>
-                    <div className="pb-6">
+                    <div className="lg:pb-6">
                         <h2 className="text-xl lg:text-2xl font-semibold text-[#44002E] mb-2">
                            Driven by Care, Powered by Precision 
                         </h2>
@@ -50,7 +50,7 @@ const HospitalFacilitiesHero = () => {
                     <img
                         src="/images/HospitalFacilities/Hospital Facilities at SP Medifort Hospital.png"
                         alt="Nurse with patient"
-                        className="w-full h-[600px] object-cover"
+                        className="w-full lg:h-[600px] object-cover"
                     />
                 </div>
             </div>

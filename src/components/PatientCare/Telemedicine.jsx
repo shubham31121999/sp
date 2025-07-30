@@ -4,16 +4,16 @@ import { FaArrowRight } from "react-icons/fa";
 const Telemedicine = () => {
     return (
         <section className="bg-white py-6 lg:py-12 px-4 md:px-16">
-            <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#870064] mb-3 text-center">
+            <h2 data-aos="fade-up" className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#870064] mb-3 text-center">
                 Telemedicine & Online Consultations
             </h2>
-            <p className="text-base text-black mb-8 lg:mb-16 text-center">
+            <p data-aos="fade-up" data-aos-delay={100} className="text-base text-black mb-8 lg:mb-16 text-center">
                 Expert Care. Now Just a Click Away
             </p>
             <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
                 {/* Left Text Section */}
-                <div className="space-y-10">
+                <div data-aos="fade-right" className="space-y-10">
                     <p className="text-[#44002E] text-lg font-medium mb-6">
                         Skip the travel and waiting room, connect with our top doctors from anywhere using SP Medifort’s secure telemedicine platform. Whether it’s a follow-up, second opinion, or first consultation, your care is now just a video call away.
                     </p>
@@ -53,7 +53,7 @@ const Telemedicine = () => {
                 </div>
 
                 {/* Right Image Section */}
-                <div className="rounded-xl overflow-hidden">
+                <div data-aos="fade-left" className="rounded-xl overflow-hidden">
                     <Image
                         src="/images/patient/Frame 171.png"
                         alt="Telemedicine Consultation"

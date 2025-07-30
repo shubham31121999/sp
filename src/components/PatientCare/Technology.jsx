@@ -30,13 +30,15 @@ const technologies = [
 const Technology = () => {
   return (
     <section className="max-w-7xl mx-auto bg-white py-8 sm:py-12 px-4 md:px-16">
-      <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#870064] mb-8 sm:mb-10 text-center">
+      <h2 data-aos="fade-up" className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#870064] mb-8 sm:mb-10 text-center">
         Emergency Services (24x7)
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
         {technologies.map((tech, idx) => (
           <div
             key={idx}
+             data-aos="fade-up"
+             data-aos-delay={idx * 100}
             className="relative aspect-square w-full rounded-xl overflow-hidden group shadow-md"
           >
             <img

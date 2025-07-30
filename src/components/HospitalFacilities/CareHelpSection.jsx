@@ -11,7 +11,9 @@ const CareHelpSection = () => {
                 backgroundSize: 'cover'
             }}
         >
-            <div className=" w-full h-full py-20 px-4">
+            <div
+                data-aos="fade-up"
+                data-aos-delay={100} className=" w-full h-full py-20 px-4">
                 <div className="max-w-6xl mx-auto text-white">
                     <h2 className="text-3xl md:text-5xl font-bold mb-16">
                         Need Help with Your <br className="hidden md:block" /> Care Journey?

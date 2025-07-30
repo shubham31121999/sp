@@ -20,11 +20,11 @@ const International = () => {
         <>
             {data.whyChoose?.length > 0 && (
                 <section className="py-12 px-4 md:px-20">
-                    <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#870064] mb-8 sm:mb-10 text-center">
+                    <h2 data-aos="fade-up" className="text-2xl sm:text-3xl md:text-5xl font-bold text-[#870064] mb-8 sm:mb-10 text-center">
                         International Patient Care
                     </h2>
                     <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center ">
-                        <div>
+                        <div data-aos="fade-right">
                             <ul className="space-y-4">
                                 {data.whyChoose.map((item, idx) => (
                                     <li
@@ -39,7 +39,7 @@ const International = () => {
                                 ))}
                             </ul>
                         </div>
-                        <div className="relative lg:ml-auto">
+                        <div data-aos="fade-left" className="relative lg:ml-auto">
                             <div className="relative rounded-2xl overflow-hidden w-full max-w-[427px] mx-auto ">
                                 <img
                                     src="/images/patient/Medical-Records(why-choose).jpg"
