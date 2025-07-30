@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 import MegaMenu from './MegaMenu';
+import MobileMenu from './MobileHeader';
 
 const navLinks = [
   { href: '#', label: 'DISCOVER SP MEDIFORT' },
@@ -75,8 +76,8 @@ const servicesItems = [
 ];
 
 const patientsItems = [
-  { name: 'Patient Care', href: '/international/patient-Care' },
-  { name: 'International Patient Care', href: '/international/international-patient-care' },
+  // { name: 'Patient Care', href: '/international/patient-Care' },
+  // { name: 'International Patient Care', href: '/international/international-patient-care' },
 ];
 
 const facilitiesItems = [
@@ -118,24 +119,19 @@ export default function Header() {
   };
 
   return (
-      <header className="w-full bg-primary text-white shadow-md sticky top-0 z-50 font-body">
+    <header className="w-full bg-primary text-white shadow-md sticky top-0 z-50 font-body">
       <div className="max-w-[1440px] mx-auto flex items-center justify-between px-4">
-        {/* Mobile Menu Toggle */}
-        <div className="md:hidden">
-          <button onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
-            {isOpen ? <X size={28} /> : <Menu size={28} />}
-          </button>
-        </div>
-
+       
+       
         {/* Desktop Navigation */}
-        <div className="hidden md:flex justify-between items-center w-full">
+        <div className="hidden lg:flex justify-between items-center w-full">
           {/* Left-side links */}
           <div className="flex gap-6" style={{ lineHeight: '100px' }}>
             {navLinks.slice(0, 3).map((link) => {
               const menuProps = getMenuProps(link.label);
               return menuProps ? (
                 <div key={link.label} className="group">
-                  <span className="cursor-pointer text-sm font-semibold">
+                  <span className="cursor-pointer text-xs font-thin xl:text-sm lg:font-medium">
                     {link.label}
                   </span>
                   <MegaMenu {...menuProps} label={link.label} />
@@ -162,15 +158,16 @@ export default function Header() {
           </Link>
 
           {/* Right-side links */}
-          <div className="flex gap-6">
+           <div className="flex gap-6" style={{ lineHeight: '100px' }}>
             {navLinks.slice(3).map((link) => {
               const menuProps = getMenuProps(link.label);
               return menuProps ? (
-                <div key={link.label} className="group">
-                  <span className="cursor-pointer text-sm font-semibold">
+                <div key={link.label} className={`group `}>
+                  <span className="cursor-pointer text-xs font-thin xl:text-sm lg:font-medium">
                     {link.label}
                   </span>
-                  <MegaMenu {...menuProps} label={link.label} />
+                 
+                  {/* <MegaMenu {...menuProps} label={link.label} /> */}
                 </div>
               ) : (
                 <Link key={link.href} href={link.href} className="text-sm font-semibold">
@@ -182,17 +179,26 @@ export default function Header() {
         </div>
 
         {/* Mobile Logo */}
-        <div className="md:hidden mx-auto">
+        <div className="lg:hidden lg:mx-auto">
           <Link href="/">
             <Image
               src="/images/navbar/sp-medifort-logo.png"
               alt="SP Medifort"
-              width={120}
+              width={200}
               height={40}
-              className="object-contain"
+              className="w-24 lg:w-28 py-2 object-contain"
               priority
             />
           </Link>
+        </div>
+         {/* Mobile Menu Toggle */}
+         <div className="lg:hidden">
+          <button onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
+            {isOpen ? <X size={28} /> : <Menu size={28} />}
+          </button>
+        </div>
+        <div className='absolute top-24 md:top-[84px] bg-white text-black w-full left-0'>
+          {isOpen && <MobileMenu />}
         </div>
       </div>
 

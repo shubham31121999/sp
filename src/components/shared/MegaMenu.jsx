@@ -26,23 +26,23 @@ const MegaMenu = ({ type = 'specialities', data = {}, label = 'Menu' }) => {
             >
               Treatment Services <IoIosArrowForward className="text-xl" />
             </div>
-            <div
+            {/* <div
               onMouseEnter={() => setActiveTab('department')}
               className={`font-semibold flex justify-between items-center text-lg cursor-pointer ${
                 activeTab === 'department' ? 'text-[#d4007f]' : 'text-black'
               }`}
             >
               Departments <IoIosArrowForward className="text-xl" />
-            </div>
+            </div> */}
           </div>
 
           <div className="pl-6">
-            <div className="grid grid-rows-8 grid-flow-col gap-x-20 gap-y-6">
+            <div className="grid grid-rows-8 grid-flow-col gap-x-20 gap-y-6 w-full">
               {currentItems.map((item, idx) => (
                 <Link
                   key={idx}
                   href={item.href}
-                  className="text-lg text-gray-800 hover:text-primary hover:font-medium whitespace-nowrap"
+                  className="text-lg w-full text-gray-800 hover:text-primary hover:font-medium whitespace-nowrap"
                 >
                   {item.name}
                 </Link>
@@ -61,12 +61,12 @@ const MegaMenu = ({ type = 'specialities', data = {}, label = 'Menu' }) => {
           </div>
 
           <div className="pl-6">
-            <div className="grid grid-rows-8 grid-flow-col gap-x-20 gap-y-6">
+            <div className="grid grid-rows-8 grid-flow-col gap-x-20 gap-y-6 w-full">
               {currentItems.map((item, idx) => (
                 <Link
                   key={idx}
                   href={item.href}
-                  className="text-lg text-gray-800 hover:text-primary hover:font-medium whitespace-nowrap"
+                  className="text-lg w-full text-gray-800 hover:text-primary hover:font-medium whitespace-nowrap"
                 >
                   {item.name}
                 </Link>
