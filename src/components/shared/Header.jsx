@@ -11,7 +11,7 @@ import MobileMenu from "./MobileHeader";
 const navLinks = [
   { href: "#", label: "DISCOVER SP MEDIFORT" },
   { href: "#", label: "SPECIALITES & TREATMENT" },
-  { href: "#", label: "SERVICES" },
+  { href: "", label: "SERVICES" },
   { href: "/patient-care", label: "INTERNATIONAL PATIENTS" },
   { href: "/hospital-facilities", label: "HOSPITAL FACILITIES" },
   { href: "/contact", label: "CONTACT US" },
@@ -48,11 +48,11 @@ const treatmentItems = [
 
 const departmentItems = [
   { name: "Cardiac Science", href: "/departments/cardiac-science" },
-  { name: "Anesthesiology", href: "/departments/anesthesiology" },
-  { name: "Critical Care", href: "/departments/critical-care" },
+  { name: "Anesthesiology", href: "/departments/Anesthesiology" },
+  { name: "Critical Care", href: "/departments/CriticalCare" },
   {
     name: "Dental Oral & Maxillo Facial Surgery",
-    href: "/departments/dental-oral-maxillofacial",
+    href: "/departments/DentalOralMaxillofacialSurgery",
   },
   { name: "Department of Surgery", href: "/departments/surgery" },
   { name: "Dermatology", href: "/departments/dermatology" },

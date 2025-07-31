@@ -4,9 +4,6 @@ import Image from "next/image";
 import OurTeamB from '@/components/layouts/layoutB/OurTeamB';
 import { useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-import "swiper/css";
-import "swiper/css/pagination";
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Pagination, Autoplay,Navigation  } from 'swiper/modules';
@@ -725,69 +722,13 @@ surgical precision, and personalized care across every specialty</p>
         </div>
 
         {/* Mobile View - Stack */}
-                <div className="md:hidden">
-          <Swiper
-            modules={[Pagination]}
-            pagination={{ clickable: true }}
-            spaceBetween={16}
-            slidesPerView={1}
-            className="pb-10"
-          >
-            <SwiperSlide>
-              <VideoCard
-                src="/videos/vid1.mp4"
-                quote="I came from Dubai for my father's surgery. We felt like family from day one."
-                name="Mr. Sharma, Bangalore"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <VideoCard
-                src="/videos/vid2.mp4"
-                title="Liver Failure"
-                name="Baby Bhavika"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <VideoCard
-                src="/videos/vid2.mp4"
-                title="Jaw Cancer"
-                name="Dr. Abhilasha Agarwal"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <VideoCard
-                src="/videos/vid3.mp4"
-                title="Pre-term Babies"
-                name="Ms Sakshi"
-                tall
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <VideoCard
-                src="/videos/vid4.mp4"
-                title="Neurosurgical Treatment"
-                name="Mr. Devender Jeet Singh"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <VideoCard
-                src="/videos/vid4.mp4"
-                title="Bone Marrow Transplant"
-                name="Patient Father Mr Halder"
-              />
-            </SwiperSlide>
-            <SwiperSlide>
-              <VideoCard
-                src="/videos/vid1.mp4"
-                quote="The ICU team saved my husband’s life. I’m forever grateful."
-                name="Mrs. Leela K., Kollam"
-              />
-            </SwiperSlide>
-          </Swiper>
+        <div className="grid md:hidden grid-cols-1 gap-4">
+          {/* Stack all videos vertically on small screens */}
+          {/* You can reuse same VideoCard components here */}
         </div>
 
         {/* Buttons */}
-        {/* <div className="mt-10 flex justify-center gap-4">
+        <div className="mt-10 flex justify-center gap-4">
           <button className="inline-flex items-center gap-2 border border-primary text-primary px-6 py-2 rounded-full font-semibold hover:bg-primary hover:text-white transition">
             Read More Stories
             <span className="bg-primary text-white rounded-full p-1">
@@ -805,39 +746,7 @@ surgical precision, and personalized care across every specialty</p>
               </svg>
             </span>
           </button>
-        </div> */}
-        <div className="mt-10 flex flex-col sm:flex-row justify-center gap-4">
-  <button className="inline-flex items-center justify-center gap-2 border border-primary text-primary px-6 py-3 rounded-full font-semibold hover:bg-primary hover:text-white transition w-full sm:w-auto">
-    Read More Stories
-    <span className="bg-primary text-white rounded-full p-1">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-4 h-4"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-      </svg>
-    </span>
-  </button>
-
-  <button className="inline-flex items-center justify-center gap-2 bg-primary text-white px-6 py-3 rounded-full font-semibold hover:bg-[#5a1d44] transition w-full sm:w-auto">
-    Watch Patient Videos
-    <span className="bg-white text-primary rounded-full p-1">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        className="w-4 h-4"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke="currentColor"
-      >
-        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-      </svg>
-    </span>
-  </button>
-</div>
-
+        </div>
       </div>
     </section>
     

@@ -63,7 +63,7 @@ const EndocrinologyData = {
         name: 'DR. KARTHIK  V,',
         designation: 'MD(Medicine), DM, DrNB(endocrinology)',
         position: 'CONSULTANT',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/endocrinology/1.png'
       },
     ],
     description: 'Our emergency doctors in Trivandrum are backed by on-call surgeons, cardiologists, anesthetists, neurologists, and intensivists — all working in sync.',

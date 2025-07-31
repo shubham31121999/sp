@@ -59,7 +59,7 @@ const FamilyMedicineData = {
         name: 'Dr. Dhanya Louis J S,',
         designation: 'MBBS, DNB(Family Medicine)',
         position: 'Family Medicine, Senior Consultant,',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/family-medicine/1.png'
       },
     ],
     description: 'Whether you"re searching for a family doctor near you in Trivandrum, or need regular chronic care, we are here.',

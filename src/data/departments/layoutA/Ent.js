@@ -64,38 +64,38 @@ const EntData = {
         name: 'DR. JOHNNY  LOPEZ,',
         designation: 'MBBS, DLO,',
         position: 'SENIOR CONSULTANT',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/ent/1.png'
       },
       {
         name: 'DR. JOHN  PANICKER,',
         designation: 'MBBS, MS(ENT)',
         position: 'SENIOR CONSULTANT',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/ent/2.png'
       },
       {
         name: 'DR. ANWAR  RASHEED,',
         designation: 'MBBS, MS(ENT)',
         position: 'SENIOR CONSULTANT',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/ent/3.png'
       },
       {
         name: 'DR. NIDHIN S B,',
         designation: 'Mbbs, MS(ENT),  DNB(ENT), MNAMS, AASC, Fellowship in Laryngology(RCS)',
         position: 'ASSOCIATE CONSULTANT',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/ent/4.png'
       },
       {
         name: 'DR. JOEL G MATHEW,',
         designation: 'MBBS, DLO, DNB(ENT), Fellow of American Academy of Otorhinolaryngology& Head and Neck Surgery',
         position: 'CONSULTANT',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/ent/5.png'
       },
-      {
-        name: 'DR. BINNY  SAMUEL JOHN,',
-        designation: 'MBBS, MS(Otorhinolaryngology)',
-        position: 'REGISTRAR',
-        image: '/images/doctors-card/shibu.png'
-      },
+      // {
+      //   name: 'DR. BINNY  SAMUEL JOHN,',
+      //   designation: 'MBBS, MS(Otorhinolaryngology)',
+      //   position: 'REGISTRAR',
+      //   image: '/images/doctors-card/shibu.png'
+      // },
     ],
     description: 'ENT doctors in Trivandrum are skilled in handling routine to highly complex ENT disorders.',
     cta: {

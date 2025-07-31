@@ -65,19 +65,19 @@ const CriticalCare = {
         name: 'DR. SUJEESH  R',
         designation: 'CRITICAL CARE',
         position: 'HOD, SENIOR CONSULTANT & INFECTION CONTROL OFFICER',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/critical-care/1.png'
       },
       {
         name: 'DR. SABARI  JAYARAM',
         designation: 'CRITICAL CARE',
         position: 'INTENSIVIST',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/critical-care/2.png'
       },
       {
         name: 'DR. NEELIMA V S',
         designation: 'CRITICAL CARE',
         position: 'INTENSIVIST',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/critical-care/3.png'
       },
 
 

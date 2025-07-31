@@ -73,41 +73,40 @@ export default function ContactSection() {
             />
           </div>
 
-          <div className="absolute top-20 right-0 space-y-4 pr-2 mt-[12rem] hidden sm:block">
-  {/* Card 1 */}
-  <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
-    <div className="bg-primary p-2 rounded-full text-white text-lg">
-      <MdLocationOn />
-    </div>
-    <p className="text-sm">
-      <span className="font-bold text-[#72005F]">Visit Us:</span> Reach
-      Our Thiruvananthapuram Campus With Ease Using Online Directions
-    </p>
-  </div>
+          <div className="absolute top-20 right-0 space-y-4  pr-2 mt-[12rem]">
+            {/* Card 1 */}
+            <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
+              <div className="bg-primary p-2 rounded-full text-white text-lg">
+                <MdLocationOn />
+              </div>
+              <p className="text-sm">
+                <span className="font-bold text-[#72005F]">Visit Us:</span> Reach
+                Our Thiruvananthapuram Campus With Ease Using Online Directions
+              </p>
+            </div>
 
-  {/* Card 2 */}
-  <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
-    <div className="bg-[#72005F] p-2 rounded-full text-white text-lg">
-      <MdPhone />
-    </div>
-    <p className="text-sm">
-      <span className="font-bold text-[#72005F]">Emergency 24x7:</span>{" "}
-      Reach Us On Our Emergency Helpline: +91-0471 3100 100
-    </p>
-  </div>
+            {/* Card 2 */}
+            <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
+              <div className="bg-[#72005F] p-2 rounded-full text-white text-lg">
+                <MdPhone />
+              </div>
+              <p className="text-sm">
+                <span className="font-bold text-[#72005F]">Emergency 24x7:</span>{" "}
+                Reach Us On Our Emergency Helpline: +91-0471 3100 100
+              </p>
+            </div>
 
-  {/* Card 3 */}
-  <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
-    <div className="bg-[#72005F] p-2 rounded-full text-white text-lg">
-      <MdComputer />
-    </div>
-    <p className="text-sm">
-      <span className="font-bold text-[#72005F]">Online Consultation:</span>{" "}
-      Talk To Our Doctors From Where You Sit
-    </p>
-  </div>
-</div>
-
+            {/* Card 3 */}
+            <div className="bg-white rounded-full shadow px-6 py-2 flex items-center gap-4 w-[370px]">
+              <div className="bg-[#72005F] p-2 rounded-full text-white text-lg">
+                <MdComputer />
+              </div>
+              <p className="text-sm">
+                <span className="font-bold text-[#72005F]">Online Consultation:</span>{" "}
+                Talk To Our Doctors From Where You Sit
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>
