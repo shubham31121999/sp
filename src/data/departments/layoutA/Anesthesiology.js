@@ -2,15 +2,11 @@ const AnesthesiologyData = {
   hero: {
     title: 'Silent guardians of every safe surgery',
     description: [
-      "At SP Medifort, our Department of Anesthesiology works behind the scenes but plays a central role in every surgical success. From preoperative assessment to post-op pain management, our anesthesiologists ensure that every patient receives safe, personalized anesthesia care tailored to their age, health, and procedure.",
-      "Whether you are undergoing minor surgery or a complex robotic procedure, our anesthesia specialists in Trivandrum are involved at every step to monitor your vitals, keep you pain-free, and ensure safe recovery."
+      "At SP Medifort, our Department of Anesthesiology works behind the scenes but plays a central role in every surgical success. From preoperative assessment to post-op pain management, our anesthesiologists ensure that every patient receives safe, personalized anesthesia care tailored to their age, health, and procedure. Whether you are undergoing minor surgery or a complex robotic procedure, our anesthesia specialists in Trivandrum are involved at every step to monitor your vitals, keep you pain free, and ensure safe recovery."
     ],
     cta: { label: 'Consult our Anesthesia team', href: '/appointments/cardiology' },
     image: { src: '/images/departments/Anesthesiology.webp', alt: 'Anesthesiology' },
-    highlightText: [
-      'Compassionate Cardiac Care, Always',
-      'Hello World!',
-    ],
+    
   },
 
   whyChoose: {
@@ -112,37 +108,37 @@ const AnesthesiologyData = {
   // ...existing data
   technologies: {
     title: 'Advanced technology and expertise',
-    categoryTabs: ['Interventional Cardiology', 'Cardiology'],
+    
     items: [
-      {
-        name: 'Ultrasound (USG) scan',
-        description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
-      },
-      {
-        name: 'Prognosis machine',
-        description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
-      },
       {
         name: '128 Slice CT GE Revolution',
         description:
-          'Real-time imaging for assessing blood flow and cardiac structures, used for general cardiovascular screening and follow-up.',
+          'This high-speed CT scanner provides ultra-clear imaging with reduced radiation exposure. It enables rapid, accurate diagnosis of complex conditions, including cardiac and vascular diseases.',
       },
       {
         name: 'MRI GE SIGNA',
         description:
-          'A baseline and essential test that records the heart’s electrical activity to detect rhythm disturbances and myocardial ischemia.',
+          'A state-of-the-art MRI system that delivers superior image quality for soft tissue, neurological, and musculoskeletal evaluations. It enhances diagnostic confidence while ensuring patient comfort.',
       },
       {
-        name: 'Advanced Monitoring Systems - Centricity',
+        name: 'Ultrasound (USG) Scan',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          ' A non-invasive imaging technique widely used for abdominal, obstetric, vascular, and musculoskeletal assessments. It offers real-time visualization, making it essential for diagnostics and guided procedures.',
       },
       {
-        name: 'Ultrasound-Guided Regional Anaesthesia ',
+        name: 'Point-of-Care Testing (POCT)',
         description:
-          'Evaluates cardiac function under physical stress to diagnose ischemic heart disease and determine exercise tolerance.',
+          ' POCT allows immediate lab-quality results at the patient’s bedside or in the operating room. It speeds up clinical decision-making and improves patient outcomes in critical settings.',
+      },
+      {
+        name: 'Ultrasound-Guided Regional Anaesthesia',
+        description:
+          'This technique enhances precision during anaesthetic delivery by providing real-time imaging of nerves and surrounding structures. It improves safety and reduces complications in pain management.',
+      },
+      {
+        name: 'Target-Controlled Infusion (TCI) Systems',
+        description:
+          ' TCI systems deliver anesthetic drugs with pinpoint accuracy based on individual patient profiles. This ensures optimal sedation levels and faster recovery times.',
       },
       {
         name: 'Target-Controlled Infusion (TCI) Systems',
@@ -150,9 +146,9 @@ const AnesthesiologyData = {
           'Non-invasive ultrasound-based cardiac imaging with strain analysis to detect subtle myocardial dysfunction before symptoms arise.',
       },
       {
-        name: 'Point-of-Care Testing (POCT)',
+        name: ' Advanced Monitoring Systems – Centricity',
         description:
-          'A non-invasive imaging test to visualize coronary arteries and detect blockages with high precision using contrast-enhanced CT.',
+          'Centricity offers continuous, integrated monitoring of vital signs, medication, and diagnostics in one interface. It enhances patient safety and streamlines critical care workflows.',
       },
       {
         name: 'Advanced Airway Management Tools',
@@ -161,79 +157,63 @@ const AnesthesiologyData = {
 
       },
       {
-        name: 'Enhanced Recovery and Pain Management Technologies',
-        description:
-          ' Comprehensive blood tests evaluating diabetes, hypertension, and inflammation markers linked to heart disease.',
-
-      },
-      {
-        name: 'Simulation-Based Training',
-        description:
-          ' Comprehensive blood tests evaluating diabetes, hypertension, and inflammation markers linked to heart disease.',
-
-      },
-      {
         name: 'Robotics and Automation',
         description:
-          ' Comprehensive blood tests evaluating diabetes, hypertension, and inflammation markers linked to heart disease.',
+          'Robotic systems assist in surgical precision, reducing human error and improving outcomes. Automation also supports efficiency in diagnostics, medication delivery, and post-operative care.',
 
       },
+      
     ],
 
   },
   ctaSection: {
     text: "These technologies allow us to deliver safe, optimized care even in high-risk and elderly patients.",
     button: {
-      label: "See our Anesthesia monitoring technology",
+      label: "See our Anesthesia monitoring tech",
       link: "/departments/cardiac-science#cath-lab",
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    'Full-Time Anaesthesiologist Team in OTs & ICUs',
+    'Precision Pain Management for Faster Recovery',
+    'Preoperative Risk Clinics for Safer Surgeries',
   ],
   comprehensiveCare: {
     title: 'Our comprehensive services',
     subtitle: 'Comfort through every stage of surgery',
     description:
-      'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
+      'From pre-op to recovery, our anesthesia team ensures safety, comfort, and precision at every stage of your surgical journey.',
     items: [
       {
-        title: 'General anesthesia for open & robotic surgeries',
+        title: 'General Anesthesia for Open & Robotic Surgeries',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: 'Ensures complete unconsciousness and pain relief during complex open or robotic procedures, allowing surgeons to operate with precision and patients to remain fully immobile and comfortable.',
       },
       {
-        title: 'Spinal, epidural, and regional nerve blocks',
+        title: 'Spinal, Epidural, and Regional Nerve Blocks',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: ' Delivers targeted anesthesia to specific body regions, commonly used in orthopedic and obstetric procedures, providing excellent pain relief and reducing the need for general anesthesia.',
       },
       {
-        title: 'Emergency anesthesia support for trauma & critical care',
+        title: 'Sedation for Daycare and Minor Procedures',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: ' Offers light to moderate sedation for short procedures, keeping patients relaxed and pain-free, with quicker recovery and discharge compared to full anesthesia.',
       },
 
       {
-        title: 'Sedation for daycare and minor procedures',
+        title: ' Emergency Anesthesia Support for Trauma & Critical Care',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: ' Provides rapid, life-saving anesthesia in trauma or emergencies, ensuring safe surgical access, patient stability, and critical care support during high-risk interventions.',
       },
       {
-        title: 'Pre-anesthesia checkup clinics for risk minimization',
+        title: 'Pre-Anesthesia Checkup Clinics for Risk Minimization',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Assesses patient health, allergies, and history before surgery to customize anesthesia plans and reduce perioperative complications and risks.',
       },
       {
-        title: 'Difficult airway management',
+        title: ' Difficult Airway Management',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: '  Uses specialized tools and techniques to manage complex airways safely, ensuring proper ventilation during anesthesia in high-risk or emergency scenarios.',
       },
     ],
   },
@@ -277,7 +257,7 @@ const AnesthesiologyData = {
 
   insuranceFinance: {
     title: "Insurance and Finance",
-    subtitle: "Affordable & accessible Cardiac care",
+    subtitle: "Included in Surgical & ICU packages",
     items: [
       {
         title: "All insured surgical admissions",
@@ -354,7 +334,7 @@ const AnesthesiologyData = {
     heading: "Appointment and consultations",
     helpline: {
       label: "Anesthesiology helpline:",
-      number: "04713100100",
+      number: "0471 3100100",
       icon: "/icons/phone-plus.svg" // or any other icon path
     },
     support: {
@@ -366,7 +346,7 @@ const AnesthesiologyData = {
       link: "https://wa.me/919999999999"
     },
     form: {
-      heading: "Post a Cardiac query",
+      heading: "Post a Anesthesiology query",
       fields: ["Name", "Phone", "Email", "Query"],
       submitLabel: "Submit"
     }

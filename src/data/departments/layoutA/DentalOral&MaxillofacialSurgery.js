@@ -4,14 +4,11 @@ const DentalOralMaxillofacialSurgery = {
   hero: {
     title: 'From Smile correction to Advanced Surgical care beyond dentistry',
     description: [
-      "At SP Medifort, our Dental and Oral & Maxillofacial Surgery Department blends the precision of dentistry with the expertise of facial surgery. We manage everything from routine dental extractions to complex jaw surgeries, facial traumas management, cysts, tumors and oral cancer resection, and reconstructive procedures  all under one roof.We are among the few hospitals in Trivandrum offering full scope of oral & maxillofacial surgery inside a tertiary care setting."
+      "At SP Medifort, our Dental and Oral & Maxillofacial Surgery Department blends the precision of dentistry with the expertise of facial surgery. We manage everything from routine dental extractions to complex jaw surgeries, facial trauma management, cysts, tumors and oral cancer resection, and reconstructive procedures, all under one roof.We are among the few hospitals in Trivandrum offering a full scope of oral & maxillofacial surgery inside a tertiary care setting."
     ],
     cta: { label: 'Book a Dental or Maxillofacial consult', href: '/appointments/cardiology' },
     image: { src: '/images/departments/dental-oral-and-maxillofacial-surgery.webp', alt: 'Cardiology' },
-    highlightText: [
-      'Compassionate Cardiac Care, Always',
-      'Hello World!',
-    ],
+    
   },
 
   whyChoose: {
@@ -35,21 +32,17 @@ const DentalOralMaxillofacialSurgery = {
       },
       {
         icon: 'mdi:heart-cog-outline',
-        title: 'Advanced facial imaging',
-
-      },
-      {
-        icon: 'material-symbols:heart-check',
         title: 'Integration with ENT, oncology, plastic surgery and orthopaedics',
 
       },
       {
-        icon: 'streamline-plump:customer-support-7-remix',
+        icon: 'material-symbols:heart-check',
         title: 'Facilities for both minor dental treatments & complex reconstructive procedures',
 
       },
+      
     ],
-    description: 'We’re not just a dental clinic in Thiruvananthapuram , we’re a full-scope surgical destination.',
+    description: 'We’re not just a dental clinic in Thiruvananthapuram, we’re a full-scope surgical destination.',
     cta: {
       label: 'Explore services beyond dentistry',
       href: '/facilities#cardiac',
@@ -126,37 +119,37 @@ const DentalOralMaxillofacialSurgery = {
   // ...existing data
   technologies: {
     title: 'Advanced technology and expertise',
-    categoryTabs: ['Interventional Cardiology', 'Cardiology'],
+    
     items: [
       {
         name: '128 Slice CT GE Revolution',
         description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
+          'Offers high-resolution imaging for detailed visualization of facial bones, sinuses, and jaw structure, essential for trauma, implant, and reconstructive planning.',
       },
       {
-        name: 'MRI – GE SIGNA',
+        name: 'MRI GE SIGNA',
         description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
+          'Provides in-depth imaging of soft tissues, nerves, and joints, making it crucial in diagnosing TMJ disorders and head and neck pathology.',
       },
       {
         name: 'Ultrasound (USG) Scan',
         description:
-          'Real-time imaging for assessing blood flow and cardiac structures, used for general cardiovascular screening and follow-up.',
+          ' Used for non-invasive evaluation of soft tissue lesions, lymph nodes, and vascular structures, especially in neck swellings and salivary gland conditions.',
       },
       {
-        name: 'ROBOTIC VISUALIZATION SYSTEM® – KINEVO® 900',
+        name: 'ROBOTIC VISUALIZATION SYSTEM',
         description:
-          'A baseline and essential test that records the heart’s electrical activity to detect rhythm disturbances and myocardial ischemia.',
+          'Enhances surgical precision with high-definition, magnified 3D visuals, enabling minimally invasive access in deep facial and jaw regions.',
       },
       {
         name: 'ERBE VIO 3 with APC',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          ' An advanced electrosurgical system offering bloodless cutting and tissue coagulation, ensuring cleaner surgical fields and faster healing.',
       },
       {
-        name: 'RVG- Dentascan',
+        name: 'RVG – Dentascan',
         description:
-          'Evaluates cardiac function under physical stress to diagnose ischemic heart disease and determine exercise tolerance.',
+          'Digital radiographic system that delivers high-definition 3D scans of dental structures, aiding in implant planning and endodontic evaluations.',
       },
 
     ],
@@ -170,51 +163,47 @@ const DentalOralMaxillofacialSurgery = {
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    'Advanced Dental Implants & Smile Design',
+    'Surgical Jaw Corrections & Facial Trauma Management',
+    'Laser Dentistry for Painless Treatments',
+    
   ],
   comprehensiveCare: {
-    title: 'Key procedures and services',
-    subtitle: 'Full spectrum of Heart care',
+    title: 'Our Comprehensive services include',
+    subtitle: 'Precision-driven, image-guided surgery',
     description:
-      'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
+      'Our oral and maxillofacial surgery unit performs a wide range of advanced interventions from corrective jaw surgery to facial reconstruction.',
     items: [
       {
         title: 'Impacted wisdom tooth removal',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: ' Surgical extraction of wisdom teeth that are misaligned or embedded in bone, preventing pain, infection, and damage to adjacent teeth',
       },
       {
-        title: 'Facial & jaw fracture Management',
+        title: 'Facial & jaw fracture management',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: ' Involves stabilization and reconstruction of facial bones following trauma, ensuring functional and aesthetic restoration through plating or conservative care.',
       },
       {
         title: 'TMJ disorders (Conservative and Surgical)',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: ' Treats jaw joint dysfunction with medication, splints, or surgical intervention when necessary, improving pain, function, and range of motion.',
       },
 
       {
         title: 'Corrective jaw surgery (orthognathic)',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: 'Realigns jaws in patients with bite or facial asymmetry, enhancing both appearance and function for long-term dental stability.',
       },
       {
-        title: 'Reconstruction of Head and Neck after resective surgery',
+        title: 'Dental implants and implant-supported prosthesis',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Titanium implants placed into the jawbone provide a permanent base for crowns or bridges, restoring bite strength and natural appearance.',
       },
       {
-        title: 'Biopsies & minor oral surgical procedures',
+        title: 'Reconstruction of the head and neck after resective surgery',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: 'Involves bone grafts, flaps, or prosthetic reconstruction following tumor removal to restore facial contour and oral functionality.',
       },
       {
         title: 'Dental implants and Implant supported Prosthesis',
@@ -224,18 +213,18 @@ const DentalOralMaxillofacialSurgery = {
       {
         title: 'Biopsies & minor oral surgical procedures',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: ' Includes diagnostic tissue sampling and removal of small cysts or growths under local anesthesia with minimal recovery time.',
       },
 
       {
         title: 'Full Mouth Rehabilitation',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: ' Comprehensive treatment combining surgery, implants, and prosthetics to restore full oral function in patients with extensive tooth and jaw damage.',
       },
       {
         title: 'Prosthetic Jaw surgeries',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Involves placement of custom jaw prosthetics in cases of deformity, joint degeneration, or after cancer surgery, restoring jaw function and facial balance.',
       },
 
 
@@ -243,33 +232,21 @@ const DentalOralMaxillofacialSurgery = {
   },
   scopeOfCare: [
     {
-      title: 'Cardiology',
-      overview:
-        'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
+      title: 'DentalOral & MaxillofacialSurgery',
+     
 
       sections: [
+        
         {
-          title: 'Symptoms & Risk Conditions',
-          items: [
-            'Chest pain',
-            'Irregular heartbeat (Arrhythmia)',
-            'High blood pressure (Hypertension)',
-            'High cholesterol',
-            'Palpitations & syncope (fainting spells)',
-            'Breathlessness (dyspnea)',
-            'Recurrent chest pain or breathlessness',
-          ],
-        },
-        {
-          title: 'Medical Cardiac Conditions',
+          
           items: [
             'Impacted teeth (Canines and 3rd molars)',
             'Facial Bony fractures',
-            'Swellings, cysts, tumors of Head & Neck',
+            'Swellings, cysts, tumors of the Head & Neck',
             'Jaw misalignment or chewing difficulty',
             'Temporomandibular joint pain/dislocation',
             'Oral infections and abscesses',
-            'Non healing Ulcers',
+            'Non-healing Ulcers',
             'Tooth loss requiring implants',
             'Sharp teeth or Decayed teeth'
           ],
@@ -283,21 +260,19 @@ const DentalOralMaxillofacialSurgery = {
 
   insuranceFinance: {
     title: "Insurance and Finance",
-    subtitle: "Affordable & accessible Cardiac care",
+    subtitle: "Covered when it goes beyond routine dental",
     items: [
       {
         title: "Trauma care is insurance-covered",
-        description: "Covered by all leading insurers and TPAs",
+        
       },
       {
-        title: "Maxillofacial procedures part of medical surgery billing",
-        description:
-          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
+        title: "Maxillofacial procedures are part of medical surgery billing",
+        
       },
       {
         title: "Pre-approval & estimates shared for planned procedures",
-        description:
-          "We assist patients in obtaining prior insurance approval for all planned surgical procedures, ensuring a smooth and hassle-free experience.",
+        
       },
 
     ],
@@ -311,9 +286,9 @@ const DentalOralMaxillofacialSurgery = {
     title: "Patient journey",
     subtitle: "From diagnosis to recovery,We stay with you",
     steps: [
-      { title: "Consultation with maxillofacial/dental surgeon" },
+      { title: "Consultation with a maxillofacial/dental surgeon" },
       { title: "3D imaging and surgical planning" },
-      { title: "Procedure in dental suite or OR" },
+      { title: "Procedure in the dental suite or OR" },
       { title: "Post-op monitoring (daycare or inpatient)" },
       { title: "Review and rehabilitation (if reconstructive)" },
       { title: "Long-term dental follow-up" },
@@ -323,18 +298,18 @@ const DentalOralMaxillofacialSurgery = {
   },
   successStories: {
     items: [
-      { type: 'text', text: 'Advance imaging reports & treatment plan shared pre-arrival' },
+      { type: 'text', text: 'My jaw was fractured in a road accident. Thanks to SP Medifort’s maxillofacial team, I’ve fully recovered.' },
       { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
-      { type: 'text', text: 'Combined treatment planning with ENT, plastic, and oncology teams' },
+      { type: 'text', text: 'I came for full dental implants. The planning, precision, and recovery were world-class.' },
       { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
-      { type: 'text', text: 'Interpreter & concierge support' },
-      { type: 'image', src: '/images/card3.jpg', alt: 'Covered woman smiling' },
-      { type: 'text', text: 'Post-surgical digital follow-ups' },
-      { type: 'image', src: '/images/card4.jpg', alt: 'Covered woman smiling' },
-      { type: 'text', text: 'Aesthetic jaw correction & implants for international medical travelers' },
+      // { type: 'text', text: 'Interpreter & concierge support' },
+      // { type: 'image', src: '/images/card3.jpg', alt: 'Covered woman smiling' },
+      // { type: 'text', text: 'Post-surgical digital follow-ups' },
+      // { type: 'image', src: '/images/card4.jpg', alt: 'Covered woman smiling' },
+      // { type: 'text', text: 'Aesthetic jaw correction & implants for international medical travelers' },
     ],
     cta: {
-      label: 'Plan your dental travel',
+      label: 'More oral surgery success stories',
       link: '/patient-stories'
     }
   },
@@ -343,12 +318,12 @@ const DentalOralMaxillofacialSurgery = {
   FAQ object in the array has a question and an answer property. */
   faqs: [
     {
-      question: 'What’s the difference between a dentist and maxillofacial surgeon?',
-      answer: 'A maxillofacial surgeon is an expertise in facial surgeries- managing facial trauma, tumors and cysts of head and neck, oral cancer resection and orthognathic procedures; beyond basic dental treatment.',
+      question: 'What’s the difference between a dentist and a maxillofacial surgeon?',
+      answer: ' A maxillofacial surgeon is an expert in facial surgeries- managing facial trauma, tumors and cysts of the head and neck, oral cancer resection and orthognathic procedures; beyond basic dental treatment.',
     },
     {
-      question: 'Will I need anaethesia for jaw surgery?',
-      answer: ' Minor procedures may require local; major ones are done under general anesthesia with full monitoring.',
+      question: 'Will I need anesthesia for jaw surgery?',
+      answer: '  Minor procedures may require local anesthesia; major ones are done under general anesthesia with full monitoring.',
     },
 
   ],
@@ -368,7 +343,7 @@ const DentalOralMaxillofacialSurgery = {
       link: "https://wa.me/919999999999"
     },
     form: {
-      heading: "Post a Cardiac query",
+      heading: "Post a Dental query",
       fields: ["Name", "Phone", "Email", "Query"],
       submitLabel: "Submit"
     }

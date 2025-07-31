@@ -1,17 +1,13 @@
-
+import React from 'react';
 const EmergencyMedicineData = {
   hero: {
-    title: 'Every second counts – We’re always ready',
+    title: 'Every second counts – We are always ready',
     description: [
-      "SP Medifort’s Emergency Medicine Department is built to handle every kind of critical situation — whether it's a road traffic accident, cardiac event, stroke, or sudden trauma. With 24x7 emergency care in Trivandrum, we ensure rapid triage, expert evaluation, and life-saving treatment in minutes.",
-      "Our goal: Stabilize fast, treat efficiently, and save lives."
+      "SP Medifort’s Emergency Medicine Department is built to handle every kind of critical situation, whether it's a road traffic accident, cardiac event, stroke, or sudden trauma. With 24*7 emergency care in Trivandrum, we ensure rapid triage, expert evaluation, and life-saving treatment in minutes.Our goal: Stabilize fast, treat efficiently, and save lives."
     ],
     cta: { label: 'Call emergency now', href: '/appointments/cardiology' },
     image: { src: '/images/departments/emergency-medicine.webp', alt: 'Cardiology' },
-    highlightText: [
-      'Compassionate Cardiac Care, Always',
-      'Hello World!',
-    ],
+    
   },
 
   whyChoose: {
@@ -55,6 +51,18 @@ const EmergencyMedicineData = {
         icon: 'streamline-plump:customer-support-7-remix',
         title: 'Direct access to Radiology department, OT, Cath Lab, ICU & Neuro Unit',
       },
+      {
+        icon: 'streamline-plump:customer-support-7-remix',
+        title: 'All team members are trained in Basic Life Support (BLS)',
+      },
+      {
+        icon: 'streamline-plump:customer-support-7-remix',
+        title: 'Advanced Cardiac Life Support (ACLS)',
+      },
+      {
+        icon: 'streamline-plump:customer-support-7-remix',
+        title: ' Advanced Trauma Life Support (ATLS)',
+      },
     ],
     description: 'We are among the most trusted accident and emergency hospitals in Thiruvananthapuram, prepared for any critical scenario.',
     cta: {
@@ -93,7 +101,7 @@ const EmergencyMedicineData = {
       //   image: '/images/doctors-card/shibu.png'
       // },
     ],
-    description: 'Our emergency doctors in Trivandrum are backed by on-call surgeons, cardiologists, anesthetists, neurologists, and intensivists — all working in sync.',
+    description: 'Our emergency doctors in Trivandrum are backed by on-call surgeons, cardiologists, anesthetists, neurologists, and intensivists, all working in sync.',
     cta: {
       label: 'Meet our emergency team',
       href: '/our-doctors#cardiology'
@@ -103,37 +111,37 @@ const EmergencyMedicineData = {
   // ...existing data
   technologies: {
     title: 'Advanced technology and expertise',
-    categoryTabs: ['Interventional Cardiology', 'Cardiology'],
+    
     items: [
       {
         name: '128 Slice CT GE Revolution',
         description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
+          'High-speed, high-resolution imaging used to detect internal injuries, bleeding, and trauma complications within seconds.',
       },
       {
         name: 'MRI GE SIGNA',
         description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
+          '  Advanced imaging that helps evaluate soft tissue injuries, brain trauma, or spinal cord damage with exceptional clarity.',
       },
       {
-        name: 'Portable Ultrasound (USG) Scan ( FAST | eFAST)',
+        name: 'Portable Ultrasound (USG) Scan (FAST | eFAST)',
         description:
-          'Real-time imaging for assessing blood flow and cardiac structures, used for general cardiovascular screening and follow-up.',
+          ' Bedside ultrasound for immediate assessment of internal bleeding or fluid in trauma cases, critical for fast decision-making.',
       },
       {
         name: 'Prognosis Machine',
         description:
-          'A baseline and essential test that records the heart’s electrical activity to detect rhythm disturbances and myocardial ischemia.',
+          ' Offers real-time monitoring of vitals and predictive analytics to guide emergency response and triage.',
       },
       {
         name: 'Hemodialysis Machines',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          ' Life-saving equipment for patients with acute kidney injury or toxic ingestion needing urgent blood purification.',
       },
       {
         name: 'CRRT (Continuous Renal Replacement Therapy) Machines',
         description:
-          'Evaluates cardiac function under physical stress to diagnose ischemic heart disease and determine exercise tolerance.',
+          ' Enables continuous dialysis in unstable patients, providing gentle and precise removal of waste and fluids in ICU settings',
       },
     ],
 
@@ -146,78 +154,61 @@ const EmergencyMedicineData = {
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    '30-Bed Emergency Wing with Burn Unit',
+    '24x7 Trauma, Stroke & Cardiac Care',
+    'Dedicated Emergency Response Team On-Call',
   ],
   comprehensiveCare: {
     title: 'Comprehensive emergency services',
-    subtitle: 'We treat all life-threatening conditions',
+    subtitle: 'Efficient Care for all life-threatening conditions',
     description:
-      'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
+      'We treat all life-threatening conditions with speed, accuracy, and multi-specialty collaboration, available 24x7.',
     items: [
       {
         title: 'Emergency medicine',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: ' Our ER team stabilizes patients using evidence-based protocols for trauma, shock, and acute medical crises.',
       },
       {
         title: 'Heart attacks',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: ' Immediate cardiac intervention including ECG, thrombolysis, and cath lab support to restore blood flow and save heart muscle.',
       },
       {
         title: 'Acute strokes',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: ' Rapid stroke assessment and intervention with thrombolytics, imaging, and neurology input for best outcomes.',
       },
 
       {
         title: 'Poisoning',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: ' Toxicology support, gastric lavage, and antidote administration available round-the-clock for accidental or intentional poisoning.',
       },
       {
         title: 'Anaphylaxis',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Emergency allergy care with adrenaline shots, oxygen support, and airway management to prevent life-threatening reactions.',
       },
     ],
   },
   scopeOfCare: [
     {
-      title: 'Cardiology',
-      overview:
-        'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
+      title: 'Conditions we handle 24*7',
+      
 
       sections: [
+        
         {
-          title: 'Symptoms & Risk Conditions',
+          title: 'Common emergencies we’re equipped for',
           items: [
-            'Chest pain',
-            'Irregular heartbeat (Arrhythmia)',
-            'High blood pressure (Hypertension)',
-            'High cholesterol',
-            'Palpitations & syncope (fainting spells)',
-            'Breathlessness (dyspnea)',
-            'Recurrent chest pain or breathlessness',
-          ],
-        },
-        {
-          title: 'Medical Cardiac Conditions',
-          items: [
-            'Coronary Artery Disease (CAD) – early stages',
-            'Heart failure & Cardiomyopathy',
-            'Valve disorders (initial diagnosis and follow-up)',
-            'Bradycardia, Tachycardia (managed with medication or monitoring)',
-            'Weak heart (low ejection fraction)',
-            'Inflammatory conditions:\n - Pericarditis\n - Endocarditis',
-            'Heart block (early detection & monitoring)',
+            'Loss of consciousness or collapse',
+            'Difficulty breathing/chest pain',
+            'Severe abdominal pain',
+            'Road traffic trauma or fall',
+            'Allergic reactions or burns',
+            'Fever with convulsions in children',
+            'Accidents, industrial injuries, or assaults',
           ],
         },
       ],
@@ -233,15 +224,14 @@ const EmergencyMedicineData = {
     items: [
       {
         title: "Immediate stabilization is done without delay or deposit",
-        description: "Covered by all leading insurers and TPAs",
+
       },
       {
         title: "Covered under 40+ private insurers",
-        description:
-          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
+        
       },
       {
-        title: "24x7 insurance support for planned admissions after ER",
+        title: "24*7 insurance support for planned admissions after ER",
         description:
           "We assist patients in obtaining prior insurance approval for all planned surgical procedures, ensuring a smooth and hassle-free experience.",
       },
@@ -274,10 +264,10 @@ const EmergencyMedicineData = {
     items: [
       {
         type: 'text',
-        text: "My father had a stroke, and we got emergency care in 15 minutes. He's recovering well today. Meenakshi, Trivandrum"
+        text: "“My father had a stroke, and we got emergency care in 15 minutes. He's recovering well today.” — Meenakshi, Trivandrum."
       },
       { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
-      { type: 'text', text: 'I was brought here after a highway accident. They saved my life. Ajay R., Kollam' },
+      { type: 'text', text: '“I was brought here after a highway accident. They saved my life.” — Ajay R., Kollam.' },
       { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
     ],
     cta: {
@@ -292,7 +282,7 @@ const EmergencyMedicineData = {
   faqs: [
     {
       question: 'Can I walk in without insurance or ID?',
-      answer: 'Yes. We will treat you first — insurance is handled later.',
+      answer: 'Yes. We will treat you first, insurance is handled later.',
     },
     {
       question: 'Do you offer 24x7 emergency surgery?',

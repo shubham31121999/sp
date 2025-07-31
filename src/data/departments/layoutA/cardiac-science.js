@@ -1,20 +1,17 @@
 const cardiacScienceData = {
   hero: {
-    title: 'Advanced Heart care with a human touch',
+    title: 'Advanced Heart Care with a Human Touch',
     description: [
-      "SP Medifort’s Cardiac Science Department is one of the most comprehensive heart care centers in South Kerala. From emergency cardiac support to preventive heart screenings and interventional procedures, we provide personalized cardiology services in Trivandrum backed by innovation, empathy, and outcomes. Whether it's managing hypertension or performing a complex angioplasty, our approach is focused on quick diagnosis, minimally invasive treatment, and long-term heart wellness."
+      "SP Medifort’s Cardiac Science Department is one of the most comprehensive heart care centers in South Kerala. From emergency cardiac support to preventive heart screenings and interventional procedures, we provide personalized cardiology services in Trivandrum backed by innovation, empathy, and outcomes.Whether it's managing hypertension or performing a complex angioplasty, our approach is focused on quick diagnosis, minimally invasive treatment, and long-term heart wellness."
     ],
     cta: { label: 'Book a Cardiology consultation', href: '/appointments/cardiology' },
     image: { src: '/images/departments/Cardiac-Science.webp', alt: 'Cardiology' },
-    highlightText: [
-      'Compassionate Cardiac Care, Always',
-      'Hello World!',
-    ],
+    
   },
 
   whyChoose: {
     title: 'Why choose SP Medifort for Cardiac care?',
-    subTitle: 'We are the best heart hospital in Trivandrum',
+    subTitle: 'Pioneering Cardiac Interventions in Kerala',
     cards: [
       {
         icon: 'iconamoon:3d-bold',
@@ -23,22 +20,22 @@ const cardiacScienceData = {
       },
       {
         icon: 'fluent:laser-tool-20-filled',
-        title: 'First Laser Angioplasty in SouthKerala',
+        title: 'First Laser Angioplasty in South Kerala',
 
       },
       {
         icon: 'mdi:heart-pulse',
-        title: '24x7 Heart Emergency Unit & Cardiac ICU',
+        title: '24*7 Heart Emergency Unit & Cardiac ICU',
 
       },
       {
         icon: 'mdi:heart-cog-outline',
-        title: ' Complex coronary angioplasties & device closures',
+        title: 'Complex coronary angioplasties & device closures',
 
       },
       {
         icon: 'material-symbols:heart-check',
-        title: 'Preventive cardiology & lifestyle management',
+        title: ' Preventive cardiology & lifestyle management',
 
       },
       {
@@ -92,19 +89,21 @@ const cardiacScienceData = {
   },
 
   // ...existing data
-  technologies: {
-    title: 'Advanced technology and expertise',
-    categoryTabs: ['Interventional Cardiology', 'Cardiology'],
-    items: [
+ technologies : {
+  title: 'Advanced technology and expertise',
+  categoryTabs: ['Cardiology', 'Interventional Cardiology'],
+  items: [
+    // Cardiology
+    [
       {
         name: '128 Slice CT – GE Revolution',
         description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
+          'High-resolution (down to 0.28 mm), ultra-fast cardiac CT that provides detailed 3D images of the heart and blood vessels, enabling precise evaluation of coronary artery disease.',
       },
       {
         name: 'MRI – GE SIGNA',
         description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
+          'Advanced cardiac MRI offers functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
       },
       {
         name: 'Ultrasound (USG) Scan',
@@ -119,7 +118,7 @@ const cardiacScienceData = {
       {
         name: 'Holter Monitoring',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          'Continuous 24 to 48-hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
       },
       {
         name: 'Treadmill Stress Test (TMT)',
@@ -139,18 +138,72 @@ const cardiacScienceData = {
       {
         name: 'Blood Tests',
         description:
-          'Cardiac Enzymes (e.g., Troponin): Detects myocardial infarction and cardiac muscle damage. Lipid Profile: Measures cholesterol and triglyceride levels to assess atherosclerosis risk.',
-
+          'Cardiac Enzymes (e.g., Troponin): Detects myocardial infarction and cardiac muscle damage.',
       },
       {
-        name: 'Cardiac Risk Factors Screening:',
+        name: 'Cardiac Risk Factors Screening',
         description:
-          ' Comprehensive blood tests evaluating diabetes, hypertension, and inflammation markers linked to heart disease.',
-
+          'Comprehensive blood tests evaluating diabetes, hypertension, and inflammation markers linked to heart disease.',
       },
     ],
 
-  },
+    // Interventional Cardiology
+    [
+      {
+        name: 'Advanced 3D Cath Lab (GE Allia)',
+        description:
+          'India’s first AI-powered 3D cath lab delivers real-time, high-resolution imaging and intelligent dose management. It enhances precision in complex procedures such as angioplasty, TAVI, and congenital device closures. Integrated tools like 3DStent and AutoRight ensure optimized outcomes.',
+      },
+      {
+        name: 'Coronary Angiography (Radial/Femoral Access)',
+        description:
+          'A diagnostic technique using contrast dye and X-ray imaging to assess coronary artery blockages. Radial access (via the wrist) provides faster recovery and lower complication rates, while femoral access is preferred for more complex interventions.',
+      },
+      {
+        name: 'Coronary Angioplasty with Drug-Eluting Stents (DES)',
+        description:
+          'A catheter-based procedure to open blocked coronary arteries. Drug-eluting stents slowly release medication to reduce the risk of restenosis, ensuring long-term vessel patency and better clinical outcomes.',
+      },
+      {
+        name: 'Laser Angioplasty',
+        description:
+          'Utilizes laser energy to vaporize hardened plaque when traditional balloon angioplasty is ineffective. Particularly beneficial in cases of in-stent restenosis and severely calcified arterial lesions.',
+      },
+      {
+        name: 'Balloon Valvotomy (Mitral/Aortic)',
+        description:
+          'A minimally invasive technique using a balloon catheter to widen narrowed heart valves, typically in cases of rheumatic mitral or aortic stenosis, leading to improved valve function and symptom relief.',
+      },
+      {
+        name: 'Pacemaker & ICD Implantation',
+        description:
+          'Maintains a regular heartbeat in bradycardia (slow rhythm).Detects and corrects life-threatening arrhythmias such as ventricular fibrillation.',
+      },
+      {
+        name: 'Device Closure of ASD, VSD, PDA',
+        description:
+          'Catheter-delivered devices used to close congenital heart defects: Atrial Septal Defect (ASD), Ventricular Septal Defect (VSD), and Patent Ductus Arteriosus (PDA), offering a non-surgical alternative to open-heart procedures.',
+      },
+      {
+        name: 'Primary PCI for Heart Attack (STEMI/NSTEMI)',
+        description:
+          'Emergency percutaneous coronary intervention is performed during a heart attack to promptly restore blood flow, reduce heart muscle damage, and improve survival outcomes.',
+      },
+      {
+        name: 'Rotablation for Hard Calcified Lesions',
+        description:
+          'Employs a high-speed rotating burr to remove resistant, calcified plaque, facilitating successful balloon expansion and stent placement in heavily diseased arteries.',
+      },
+      {
+        name: 'TAVI & Structural Heart Procedures',
+        description:
+          'TAVI (Transcatheter Aortic Valve Implantation): Minimally invasive valve replacement for aortic stenosis in patients at high surgical risk. Also includes repair of paravalvular leaks and valve-in-valve procedures for previously implanted prosthetic valves.',
+      },
+    ],
+  ],
+},
+
+  
   ctaSection: {
     text: "This makes SP Medifort a top cardiology hospital in Kerala for both diagnostics and interventions. These tools empower us to offer accurate, fast, and low-risk cardiac interventions.",
     button: {
@@ -159,14 +212,9 @@ const cardiacScienceData = {
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    '1st 3D Hybrid Cath Lab (GE Allia) in South Asia',
+    '24x7 Cardiac Emergency Response Team',
+    'Advanced Interventional Cardiology Without Open Surgery',
   ],
   comprehensiveCare: {
     title: 'Comprehensive Cardiology Services',
@@ -202,40 +250,95 @@ const cardiacScienceData = {
       },
     ],
   },
-  scopeOfCare: [
-    {
-      title: 'Cardiology',
-      overview:
-        'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
+  // scopeOfCare: [
+  //   {
+  //     title: 'Cardiology',
+  //     overview:
+  //       'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
 
-      sections: [
-        {
-          title: 'Symptoms & Risk Conditions',
-          items: [
-            'Chest pain',
-            'Irregular heartbeat (Arrhythmia)',
-            'High blood pressure (Hypertension)',
-            'High cholesterol',
-            'Palpitations & syncope (fainting spells)',
-            'Breathlessness (dyspnea)',
-            'Recurrent chest pain or breathlessness',
-          ],
-        },
-        {
-          title: 'Medical Cardiac Conditions',
-          items: [
-            'Coronary Artery Disease (CAD) – early stages',
-            'Heart failure & Cardiomyopathy',
-            'Valve disorders (initial diagnosis and follow-up)',
-            'Bradycardia, Tachycardia (managed with medication or monitoring)',
-            'Weak heart (low ejection fraction)',
-            'Inflammatory conditions:\n - Pericarditis\n - Endocarditis',
-            'Heart block (early detection & monitoring)',
-          ],
-        },
-      ],
-    },
-  ],
+  //     sections: [
+  //       {
+  //         title: 'Symptoms & Risk Conditions',
+  //         items: [
+  //           'Chest pain',
+  //           'Irregular heartbeat (Arrhythmia)',
+  //           'High blood pressure (Hypertension)',
+  //           'High cholesterol',
+  //           'Palpitations & syncope (fainting spells)',
+  //           'Breathlessness (dyspnea)',
+  //           'Recurrent chest pain or breathlessness',
+  //         ],
+  //       },
+  //       {
+  //         title: 'Medical Cardiac Conditions',
+  //         items: [
+  //           'Coronary Artery Disease (CAD) – early stages',
+  //           'Heart failure & Cardiomyopathy',
+  //           'Valve disorders (initial diagnosis and follow-up)',
+  //           'Bradycardia, Tachycardia (managed with medication or monitoring)',
+  //           'Weak heart (low ejection fraction)',
+  //           'Inflammatory conditions:\n - Pericarditis\n - Endocarditis',
+  //           'Heart block (early detection & monitoring)',
+  //         ],
+  //       },
+  //     ],
+  //   },
+  // ],
+
+ scopeOfCare : [
+  {
+    title: 'Cardiac Conditions',
+    overview:
+      'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases:',
+    sections: [
+      {
+        title: 'Symptoms & Risk Conditions',
+        items: [
+          'Chest pain',
+          'Irregular heartbeat (Arrhythmia)',
+          'High blood pressure (Hypertension)',
+          'High cholesterol',
+          'Palpitations & syncope (fainting spells)',
+          'Breathlessness (dyspnea)',
+          'Recurrent chest pain or breathlessness',
+        ],
+      },
+      {
+        title: 'Medical Cardiac Conditions',
+        items: [
+          'Coronary Artery Disease (CAD) – early stages',
+          'Heart failure & Cardiomyopathy',
+          'Valve disorders (initial diagnosis and follow-up)',
+          'Bradycardia, Tachycardia (managed with medication or monitoring)',
+          'Weak heart (low ejection fraction)',
+          'Inflammatory conditions: Pericarditis, Endocarditis',
+          'Heart block (early detection & monitoring)',
+        ],
+      },
+    ],
+  },
+  {
+    title: 'Interventional Cardiology Conditions',
+    overview:
+      'Deals with advanced, often minimally invasive procedures to treat structural or vascular heart diseases:',
+    sections: [
+      {
+        title: 'Advanced Cardiac Conditions',
+        items: [
+          'Heart attack (Myocardial Infarction – MI)',
+          'Coronary Artery Disease (CAD) – advanced stage requiring angioplasty/stenting',
+          'Valve stenosis (Mitral/Aortic) – requiring balloon valvotomy or valve replacement',
+          'Heart block – requiring pacemaker implantation',
+          'Weak heart (severe cases requiring device therapy)',
+          'Recurrent/restenting in Restenosis cases',
+          'Arrhythmias – requiring device-based therapy like ICD or ablation',
+          'Structural heart diseases – requiring device closure or valve intervention',
+        ],
+      },
+    ],
+  },
+],
+
 
 
 
@@ -251,7 +354,7 @@ const cardiacScienceData = {
       {
         title: "Insurance Support & Financial Counseling",
         description:
-          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
+          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implanmtation , EPS & RF Ablation",
       },
       {
         title: "Insurance Approval for Planned Surgeries",
@@ -272,10 +375,10 @@ const cardiacScienceData = {
 
   patientJourney: {
     title: "Patient journey",
-    subtitle: "From diagnosis to recovery,We stay with you",
+    subtitle: "From diagnosis to recovery, We stay with you",
     steps: [
       { title: "OPD Consult + ECG" },
-      { title: "Tests", description: "Echo, TMT, Angio, etc." },
+      { title: "Tests (Echo, TMT, Angio, etc.)" },
       { title: "Medication or procedure planning" },
       { title: "Admission (if needed)" },
       { title: "Stenting / surgery" },
@@ -307,19 +410,11 @@ const cardiacScienceData = {
   faqs: [
     {
       question: 'How fast can I get a stent in an emergency?',
-      answer: 'Stents are often placed within minutes during emergencies depending on availability.',
+      answer: 'We provide 24*7 angioplasty with a door-to-balloon time under 60 minutes.',
     },
     {
       question: 'Are checkups needed if I have no symptoms?',
-      answer: 'Yes, heart disease can be silent. Annual screenings help prevent emergencies.',
-    },
-    {
-      question: 'How fast can I get a stent in an emergency?',
-      answer: 'Stents are often placed within minutes during emergencies depending on availability.',
-    },
-    {
-      question: 'Are checkups needed if I have no symptoms?',
-      answer: 'Yes, heart disease can be silent. Annual screenings help prevent emergencies.',
+      answer: 'Yes,  heart disease can be silent. Annual screenings help prevent emergencies.',
     },
   ],
   appointmentSection: {
@@ -347,6 +442,7 @@ const cardiacScienceData = {
 };
 
 export default cardiacScienceData;
+
 // const cardiacScienceData = {
 //   seo: {
 //     title: "Cardiac Science at SP Medifort Hospital, Thiruvananthapuram",

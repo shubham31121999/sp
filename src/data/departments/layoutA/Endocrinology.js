@@ -1,9 +1,9 @@
 
 const EndocrinologyData = {
   hero: {
-    title: 'Balancing hormones, restoring health',
+    title: 'Balancing Hormones, Restoring Health',
     description: [
-      "At SP Medifort, the Endocrinology Department delivers comprehensive care for hormone-related disorders—from diabetes and thyroid disease to complex adrenal or pituitary conditions. Each patient receives an individualized plan grounded in evidence-based medicine and delivered with compassion.",
+      "At SP Medifort, the Endocrinology Department delivers comprehensive care for hormone-related disorders from diabetes and thyroid disease to complex adrenal or pituitary conditions. Each patient receives an individualized plan grounded in evidence-based medicine and delivered with compassion.",
     ],
     cta: { label: 'Book an endocrinology consultation', href: '/appointments/cardiology' },
     image: { src: '/images/departments/endocrinology.webp', alt: 'Cardiology' },
@@ -76,32 +76,32 @@ const EndocrinologyData = {
   // ...existing data
   technologies: {
     title: 'Advanced technology and expertise',
-    categoryTabs: ['Interventional Cardiology', 'Cardiology'],
+    
     items: [
       {
         name: 'GE Prodigy Advance DEXA scan for osteoporosis screening',
         description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
+          'A gold-standard tool to measure bone density and assess fracture risk, especially in postmenopausal women and elderly patients.',
       },
       {
         name: 'Thyroid & neck high-resolution ultrasound with Doppler',
         description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
+          'Provides detailed imaging of thyroid nodules, vascularity, and neck lymph nodes for accurate diagnosis and monitoring.',
       },
       {
-        name: '128-slice CT & 3 T MRI for pituitary/adrenal imaging',
+        name: '128-slice CT & 3T MRI for pituitary/adrenal imaging',
         description:
-          'Real-time imaging for assessing blood flow and cardiac structures, used for general cardiovascular screening and follow-up.',
+          ' High-definition cross-sectional imaging that detects microadenomas, adrenal tumors, and other deep-seated endocrine lesions.',
       },
       {
         name: 'CGM sensors and insulin-pump titration station',
         description:
-          'A baseline and essential test that records the heart’s electrical activity to detect rhythm disturbances and myocardial ischemia.',
+          ' Real-time glucose monitoring and insulin pump adjustment tools to optimize diabetes care with minimal discomfort.',
       },
       {
         name: 'Automated hormone-assay laboratory (CLIA-certified)',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          'On-site lab for rapid, high-accuracy testing of over 40 hormones, ensuring faster diagnosis and follow-up.',
       },
     ],
 
@@ -114,46 +114,42 @@ const EndocrinologyData = {
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    'Holistic Diabetes & Thyroid Clinics',
+    'Hormonal Disorders Managed by Experts',
+    'Obesity & PCOS Metabolic Consultations',
+    
   ],
   comprehensiveCare: {
     title: 'Core endocrinology services include',
-    subtitle: 'We treat all life-threatening conditions',
+    subtitle: 'Precision diagnostics for every gland',
     description:
-      'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
+      'Specialized care for hormonal disorders across all ages and stages of life.',
     items: [
       {
         title: 'Diabetes management (Type 1, Type 2, gestational)',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: 'Individualized plans using CGMs, insulin pumps, and lifestyle support for optimal sugar control and complication prevention.',
       },
       {
         title: 'Thyroid disorders: hypo-/hyperthyroidism, nodules, cancer follow-up',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: ' Comprehensive evaluation, medication management, and long-term monitoring for both benign and malignant thyroid conditions.',
       },
       {
         title: 'PCOS, menstrual irregularities & infertility support',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: ' Hormonal balancing, ovulation tracking, and insulin resistance correction to improve reproductive outcomes.',
       },
 
       {
         title: 'Obesity & metabolic-syndrome clinic',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: ' Multidisciplinary approach combining endocrinology, nutrition, and physical activity for sustainable weight loss.',
       },
       {
         title: 'Osteoporosis & calcium-bone-health program',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Bone density screening, supplementation, and anti-resorptive therapy to prevent fractures and improve bone strength.',
       },
 
       {
@@ -162,51 +158,44 @@ const EndocrinologyData = {
         description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
       },
       {
+        title: 'Pituitary & adrenal gland disorder management',
+        icon: 'mdi:heart-plus-outline',
+        description: 'Endocrine workups, imaging, and surgical collaboration for conditions like Cushing’s, Addison’s, and prolactinomas.',
+      },
+      {
         title: 'Pediatric growth & puberty clinics',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Evaluation and support for children with short stature, early/delayed puberty, and congenital hormone disorders.',
       },
       {
         title: 'Resistant hypertension & endocrine hypertension work-up',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Identifying hormone-related causes of uncontrolled blood pressure, such as pheochromocytoma or hyperaldosteronism.',
       },
       {
         title: 'Male & female hormone-therapy consultations',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Personalized therapy for menopause, andropause, or gender-affirming transitions, with monitored hormonal balance.',
       },
     ],
   },
   scopeOfCare: [
     {
       title: 'Endocrinology',
-      overview:
-        'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
+      
 
       sections: [
+        
         {
-          title: 'Symptoms & Risk Conditions',
+          
           items: [
             'High or fluctuating blood sugar',
-            'Weight gain or unexplained weight loss',
-            'Goitre, thyroid swelling or palpitations',
+            ' Weight gain or unexplained weight loss',
+            ' Goitre, thyroid swelling, or palpitation',
             'Irregular periods, acne, excessive hair growth',
             'Short stature or delayed growth in children',
-            'Osteoporosis, recurrent fractures',
-            'Adrenal or pituitary tumours causing hormonal imbalance',
-          ],
-        },
-        {
-          title: 'Medical Endocrinology Conditions',
-          items: [
-            'Coronary Artery Disease (CAD) – early stages',
-            'Heart failure & Cardiomyopathy',
-            'Valve disorders (initial diagnosis and follow-up)',
-            'Bradycardia, Tachycardia (managed with medication or monitoring)',
-            'Weak heart (low ejection fraction)',
-            'Inflammatory conditions:\n - Pericarditis\n - Endocarditis',
-            'Heart block (early detection & monitoring)',
+            ' Osteoporosis, recurrent fractures',
+            'Adrenal or pituitary tumours causing a hormonal imbalance',
           ],
         },
       ],
@@ -216,39 +205,39 @@ const EndocrinologyData = {
 
 
 
-  insuranceFinance: {
-    title: "Insurance and Finance",
-    subtitle: "All emergencies are covered",
-    items: [
-      {
-        title: "Immediate stabilization is done without delay or deposit",
-        description: "Covered by all leading insurers and TPAs",
-      },
-      {
-        title: "Covered under 40+ private insurers",
-        description:
-          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
-      },
-      {
-        title: "24x7 insurance support for planned admissions after ER",
-        description:
-          "We assist patients in obtaining prior insurance approval for all planned surgical procedures, ensuring a smooth and hassle-free experience.",
-      },
-      {
-        title: "Insurance Support & Patient Counseling",
-        description:
-          "Our dedicated insurance department offers end-to-end support for patients, including personalized counseling to help them understand their coverage and navigate the claims process with ease.",
-      },
-    ],
-    cta: {
-      label: "Check emergency insurance coverage",
-      link: "#", // update with actual route if needed
-    },
-  },
+  // insuranceFinance: {
+  //   title: "Insurance and Finance",
+  //   subtitle: "All emergencies are covered",
+  //   items: [
+  //     {
+  //       title: "Immediate stabilization is done without delay or deposit",
+  //       description: "Covered by all leading insurers and TPAs",
+  //     },
+  //     {
+  //       title: "Covered under 40+ private insurers",
+  //       description:
+  //         "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
+  //     },
+  //     {
+  //       title: "24x7 insurance support for planned admissions after ER",
+  //       description:
+  //         "We assist patients in obtaining prior insurance approval for all planned surgical procedures, ensuring a smooth and hassle-free experience.",
+  //     },
+  //     {
+  //       title: "Insurance Support & Patient Counseling",
+  //       description:
+  //         "Our dedicated insurance department offers end-to-end support for patients, including personalized counseling to help them understand their coverage and navigate the claims process with ease.",
+  //     },
+  //   ],
+  //   cta: {
+  //     label: "Check emergency insurance coverage",
+  //     link: "#", // update with actual route if needed
+  //   },
+  // },
 
   patientJourney: {
     title: "Patient journey in emergencies",
-    subtitle: "How we handle a typical emergency case",
+    
     steps: [
       { title: "Initial consult & detailed history" },
       { title: "Targeted lab tests/imaging" },
@@ -263,7 +252,12 @@ const EndocrinologyData = {
     items: [
       {
         type: 'text',
-        text: "My HbA1c dropped from 10 % to 6.8 % in six months thanks to the CGM program.” — Anjali S.“After years of unexplained fatigue, the doctors here diagnosed a rare adrenal issue and cured it.” — Ramesh V."
+        text: "“My HbA1c dropped from 10 % to 6.8 % in six months thanks to the CGM program.” — Anjali S."
+      },
+      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+       {
+        type: 'text',
+        text: "“ “After years of unexplained fatigue, the doctors here diagnosed a rare adrenal issue and cured it.” — Ramesh V."
       },
       { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
     ],

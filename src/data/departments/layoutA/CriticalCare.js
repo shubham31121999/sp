@@ -2,16 +2,13 @@ import React from 'react';
 
 const CriticalCare = {
   hero: {
-    title: 'Round-the-clock life support, Expertly delivered',
+    title: 'Round-the-Clock Life Support, Expertly Delivered',
     description: [
-      "At SP Medifort, our Critical Care Department provides continuous, specialized medical care to patients facing life-threatening conditions. Our ICU in Trivandrum is managed by experienced intensivists, trained nurses, and supported by high-end monitoring systems  all focused on stabilizing, supporting, and reviving patients through every crisis.We offer ICU support across all specialties — cardiac, neuro, trauma, post-surgical, and more."
+      "At SP Medifort, our Critical Care Department provides continuous, specialized medical care to patients facing life-threatening conditions. Our ICU in Trivandrum is managed by experienced intensivists, trained nurses, and supported by high-end monitoring systems, all focused on stabilizing, supporting, and reviving patients through every crisis."
     ],
     cta: { label: 'Contact our Critical Care team', href: '/appointments/cardiology' },
-    image: { src: '/images/departments/CriticalCare.webp', alt: 'Cardiology' },
-    highlightText: [
-      'Compassionate Cardiac Care, Always',
-      'Hello World!',
-    ],
+    image: { src: '/images/departments/CriticalCare.webp', alt: 'Critical Care' },
+    
   },
 
   whyChoose: {
@@ -25,7 +22,7 @@ const CriticalCare = {
       },
       {
         icon: 'fluent:laser-tool-20-filled',
-        title: '24x7 in-house intensivists, anaesthetists, and nurses',
+        title: '24*7 in-house intensivists, anaesthetists, and nurses',
 
       },
       {
@@ -35,7 +32,7 @@ const CriticalCare = {
       },
       {
         icon: 'mdi:heart-cog-outline',
-        title: 'Real-time central monitoring ',
+        title: 'Real-time central monitoring',
 
       },
       {
@@ -45,7 +42,12 @@ const CriticalCare = {
       },
       {
         icon: 'streamline-plump:customer-support-7-remix',
-        title: 'Isolation Rooms for Infection Control with Positive pressure & negative Pressure facilities',
+        title: 'Isolation Rooms for Infection Control with Positive Pressure & Negative Pressure facilities',
+
+      },
+      {
+        icon: 'streamline-plump:customer-support-7-remix',
+        title: 'Burn unit', 
 
       },
     ],
@@ -95,34 +97,34 @@ const CriticalCare = {
     categoryTabs: ['Interventional Cardiology', 'Cardiology'],
     items: [
       {
-        name: '128 Slice CT GE Revolution',
-        description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
-      },
-      {
-        name: 'MRI – GE SIGNA',
-        description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
-      },
-      {
         name: 'CRRT (Continuous Renal Replacement Therapy) machines',
         description:
-          'Real-time imaging for assessing blood flow and cardiac structures, used for general cardiovascular screening and follow-up.',
+          'These machines offer continuous blood purification for patients with acute kidney injury, ensuring safe fluid and toxin removal in hemodynamically unstable cases.',
       },
       {
         name: 'Hemodialysis machines',
         description:
-          'A baseline and essential test that records the heart’s electrical activity to detect rhythm disturbances and myocardial ischemia.',
+          'Used in both acute and chronic kidney conditions, these machines help manage electrolyte imbalance, fluid overload, and uremia through intermittent renal support.',
       },
       {
         name: 'Prognosis machine',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          ' A clinical decision support tool that helps assess patient severity and predict outcomes, enabling early interventions and prioritization of care.',
       },
       {
         name: 'Ultrasound (USG) scan',
         description:
-          'Evaluates cardiac function under physical stress to diagnose ischemic heart disease and determine exercise tolerance.',
+          'A non-invasive, bedside imaging tool used for real-time assessment of cardiac, abdominal, and vascular conditions, guiding critical procedures like line placement or fluid therapy.',
+      },
+      {
+        name: '128 Slice CT GE Revolution',
+        description:
+          'Delivers rapid, high-resolution imaging for complex emergencies including stroke, trauma, and chest pathologies, enabling faster and more accurate diagnoses.',
+      },
+      {
+        name: 'MRI GE SIGNA',
+        description:
+          'Provides detailed imaging for brain, spine, and soft tissue conditions, essential in diagnosing causes of altered consciousness, cerebral edema, or spinal cord injury.',
       },
 
     ],
@@ -136,67 +138,67 @@ const CriticalCare = {
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    '170+ ICU Beds with Remote Monitoring',
+    'Level-D Isolation Units for Infection Control',
+    '24x7 Intensivist-Led Critical Care Services',
   ],
   comprehensiveCare: {
-    title: 'Our ICU services',
-    subtitle: 'Our ICU services include',
+    title: 'Our Comprehensive services include:',
+    subtitle: 'ICU Critical Care for every emergency',
     description:
-      'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
+      'ICU Critical Care for every emergency, offering advanced monitoring, timely intervention, and organ support across a wide range of life-threatening conditions.',
     items: [
       {
         title: 'Palliative care',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: ' Focused on symptom relief and quality of life for patients with serious illness, our palliative services support both patients and families through compassionate, multidisciplinary care.',
       },
       {
         title: 'Advanced ventilators',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: ' Our ICU ventilators offer precise control of respiratory parameters, supporting patients with ARDS, pneumonia, or neuromuscular respiratory failure.',
       },
       {
         title: 'CRRT',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: 'Provides gentle, continuous dialysis for critically ill patients, preventing fluid overload and toxin accumulation without compromising blood pressure stability.',
       },
 
       {
         title: 'ECMO',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: ' Delivers temporary heart-lung bypass support for patients in severe cardiac or respiratory failure, allowing the body time to heal while maintaining vital organ function.',
       },
       {
         title: 'Parenteral nutrition',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Supplies essential nutrients intravenously when enteral feeding is not possible, ensuring metabolic support during prolonged critical illness.',
+      },
+      {
+        title: 'Cardiogenic shock',
+        icon: 'mdi:stethoscope',
+        description: ' Managed with advanced hemodynamic monitoring, inotropes, and, when needed, mechanical circulatory support to stabilize heart function and maintain perfusion.',
       },
       {
         title: 'Cerebral Edema',
-        icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
-      },
-      {
-        title: 'Acute Respiratory failure',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: 'Managed through neurocritical care protocols that include intracranial pressure monitoring, medication, and supportive therapies to prevent brain damage.',
       },
       {
-        title: 'Acute Liver failure',
+        title: 'Acute Respiratory Failure',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: ' Immediate respiratory interventions ranging from high-flow oxygen to invasive ventilation are provided based on the severity and underlying cause.',
       },
 
       {
+        title: 'Acute Liver Failure',
+        icon: 'mdi:heart-pulse',
+        description: 'Intensive support for rapid liver deterioration includes monitoring of coagulopathy, encephalopathy, and metabolic imbalances, along with infection control.',
+      },
+      {
         title: 'Stroke',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: ' Timely ICU care for ischemic and hemorrhagic strokes, including neuroimaging, thrombolysis coordination, and post-stroke monitoring to reduce complications.',
       },
 
 
@@ -210,18 +212,7 @@ const CriticalCare = {
         'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
 
       sections: [
-        {
-          title: 'Symptoms & Risk Conditions',
-          items: [
-            'Chest pain',
-            'Irregular heartbeat (Arrhythmia)',
-            'High blood pressure (Hypertension)',
-            'High cholesterol',
-            'Palpitations & syncope (fainting spells)',
-            'Breathlessness (dyspnea)',
-            'Recurrent chest pain or breathlessness',
-          ],
-        },
+        
         {
           title: 'Conditions we commonly treat',
           items: [
@@ -232,7 +223,6 @@ const CriticalCare = {
             'Post-operative complications',
             'Road traffic accidents and polytrauma',
             'COVID-19 & ARDS',
-
           ],
         },
       ],
@@ -248,12 +238,11 @@ const CriticalCare = {
     items: [
       {
         title: "Covered under 40+ private insurance companies",
-        description: "Covered by all leading insurers and TPAs",
+        
       },
       {
         title: "Transparent, daily ICU cost tracking shared with family & Insurance companies",
-        description:
-          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
+        
       },
       {
         title: "Insurance Support & Patient Counseling",
@@ -263,7 +252,7 @@ const CriticalCare = {
 
     ],
     cta: {
-      label: "Check what’s covered",
+      label: "Check ICU insurance coverage",
       link: "#", // update with actual route if needed
     },
   },
@@ -295,7 +284,7 @@ const CriticalCare = {
       { type: 'text', text: 'After a stroke, I thought my mother wouldn’t survive. They brought her back' },
     ],
     cta: {
-      label: 'Critical Care Success Stories',
+      label: 'Read more ICU recovery stories',
       link: '/patient-stories'
     }
   },
@@ -305,11 +294,11 @@ const CriticalCare = {
   faqs: [
     {
       question: 'Can I get ICU admission without a prior booking?',
-      answer: 'Yes, we accept emergency walk-ins and referrals 24x7.',
+      answer: 'Yes, we accept emergency walk-ins and referrals 24*7.',
     },
     {
-      question: 'How many visitors are allowed in ICU?',
-      answer: 'Limited  our team coordinates family interaction with safety in mind.',
+      question: 'How many visitors are allowed in the ICU?',
+      answer: 'Limited visitors, our team coordinates family interaction with safety in mind.',
     },
 
   ],
@@ -329,7 +318,7 @@ const CriticalCare = {
       link: "https://wa.me/919999999999"
     },
     form: {
-      heading: "Post a Cardiac query",
+      heading: "Post a Critical Care  query",
       fields: ["Name", "Phone", "Email", "Query"],
       submitLabel: "Submit"
     }

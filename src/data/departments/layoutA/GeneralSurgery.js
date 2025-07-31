@@ -3,15 +3,11 @@ const GeneralSurgeryData = {
   hero: {
     title: 'Precise, safe, and compassionate surgical care',
     description: [
-      "At SP Medifort, our General Surgery department offers a wide range of procedures from emergency interventions to scheduled minimally invasive operations. With a patient-first philosophy, we ensure faster recovery, fewer complications, and minimal scarring.",
-      "Whether it's hernia repair, gallbladder removal, or appendicitis, our team offers dependable, high-quality care, making us a trusted choice for general surgery in Trivandrum."
+      "At SP Medifort, our General Surgery department offers a wide range of procedures from emergency interventions to scheduled minimally invasive operations. With a patient-first philosophy, we ensure faster recovery, fewer complications, and minimal scarring.Whether it's hernia repair, gallbladder removal, or appendicitis, our team offers dependable, high-quality care, making us a trusted choice for general surgery in Trivandrum."
     ],
     cta: { label: 'Schedule a surgical consultation', href: '/appointments/cardiology' },
     image: { src: '/images/departments/general-surgery.webp', alt: 'Cardiology' },
-    highlightText: [
-      'Compassionate Cardiac Care, Always',
-      'Hello World!',
-    ],
+    
   },
 
   whyChoose: {
@@ -25,7 +21,7 @@ const GeneralSurgeryData = {
       },
       {
         icon: 'fluent:laser-tool-20-filled',
-        title: 'Advanced laparoscopic & robotic assistance',
+        title: ' Advanced laparoscopic & robotic assistance',
 
       },
       {
@@ -35,12 +31,12 @@ const GeneralSurgeryData = {
       },
       {
         icon: 'mdi:heart-cog-outline',
-        title: '24x7 emergency surgical support',
+        title: '24*7 emergency surgical support',
 
       },
       {
         icon: 'material-symbols:heart-check',
-        title: 'Dedicated pre & post-op nursing',
+        title: 'Dedicated pre- & post-op nursing',
       },
     ],
     description: 'We’re recognized as one of the best general surgery hospitals in Thiruvananthapuram, especially for procedures requiring precision and speed.',
@@ -94,37 +90,37 @@ const GeneralSurgeryData = {
   // ...existing data
   technologies: {
     title: 'Advanced technology and expertise',
-    categoryTabs: ['Interventional Cardiology', 'Cardiology'],
+    
     items: [
       {
         name: 'Prognosis Machine',
         description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
+          'An essential clinical tool for predicting patient outcomes and guiding surgical decisions, especially in high-risk and emergency scenarios.',
       },
       {
         name: 'Ultrasound (USG) Scan',
         description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
+          'A bedside imaging modality used to assess abdominal organs, detect fluid collections, and guide biopsies or drainage procedures pre- or post-operatively.',
       },
       {
         name: '128 Slice CT GE Revolution',
         description:
-          'Real-time imaging for assessing blood flow and cardiac structures, used for general cardiovascular screening and follow-up.',
+          'Offers rapid, high-resolution imaging for trauma, abdominal, and vascular conditions, enabling early diagnosis and precise surgical planning.',
       },
       {
         name: 'MRI GE SIGNA',
         description:
-          'A baseline and essential test that records the heart’s electrical activity to detect rhythm disturbances and myocardial ischemia.',
+          'Provides detailed imaging for soft tissues, organs, and joints, essential in evaluating endocrine, gastrointestinal, and head and neck conditions.',
       },
       {
         name: 'GE Prodigy Advance DEXA Scan',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          ' Measures bone density and body composition, valuable in preoperative assessments, particularly in endocrine or metabolic disorder-related surgeries.',
       },
       {
         name: 'FULLY MOTORIZED X-RAY SUITE – DRX-COMPASS',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          'A digital X-ray system offering efficient and high-quality imaging with minimal repositioning, ideal for trauma and post-op evaluations.',
       },
     ],
 
@@ -137,94 +133,84 @@ const GeneralSurgeryData = {
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    'Minimally Invasive & Robotic Surgeries',
+    'Enhanced Recovery After Surgery (ERAS) Protocols',
+    'Advanced Laparoscopic GI & Hernia Procedures',
   ],
   comprehensiveCare: {
     title: 'Our comprehensive surgery programs include',
-    subtitle: 'Most common & complex general surgeries',
+    subtitle: 'Surgery backed by surgical science',
     description:
-      'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
+      'From life-saving trauma care to specialized procedures in oncology, vascular, and endocrine systems, our surgical programs are driven by precision, innovation, and evidence-based practice ',
     items: [
       {
         title: 'Head and Neck surgery',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: ' Surgical management of tumors, infections, and congenital conditions in the head, neck, and oral cavity, often requiring reconstructive techniques.',
       },
       {
         title: 'Vascular surgery',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: 'Treats arterial or venous disorders through procedures such as bypass, angioplasty, or varicose vein treatment to restore proper blood flow.',
       },
       {
         title: 'Endocrine surgery',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: ' Involves removal of glands like thyroid, parathyroid, or adrenal glands to treat hormonal imbalances, tumors, or nodules.',
       },
 
       {
         title: 'Trauma surgery',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: 'Rapid surgical response for injuries resulting from accidents or violence, including internal bleeding control, organ repair, and fracture stabilization.',
       },
       {
         title: 'Gastrointestinal surgeries',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Ranges from minimally invasive to open procedures for conditions affecting the stomach, intestines, liver, and pancreas, including tumor removal and resections.',
       },
 
       {
         title: 'Abdominal Surgeries',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Includes surgeries for hernias, appendicitis, perforations, and obstructions, performed with open or laparoscopic approaches for faster recovery.',
       },
       {
         title: 'Breast Surgeries',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Encompasses lump removal, biopsies, and mastectomies, with a focus on early diagnosis, cosmetic preservation, and cancer care.',
       },
       {
         title: 'Soft Tissue & Skin Surgeries',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Minor procedures to remove cysts, tumors, infections, or perform reconstructive work involving skin grafts or flaps.',
       },
       {
         title: 'Laparoscopic Surgeries',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
-      },
-      {
-        title: 'Emergency General Surgeries',
-        icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Minimally invasive procedures using small incisions and cameras to perform surgeries on the abdomen, offering less pain and faster healing.',
       },
       {
         title: 'Laser Surgeries',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: '  Offers precise and minimally invasive treatment for piles, fistulas, and certain vascular conditions with minimal bleeding and scarring.',
       },
       {
         title: 'Chest Injury Surgeries',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Surgical management of rib fractures, hemothorax, and lung injuries, often requiring stabilization and drainage to support recovery.',
       },
+      
     ],
   },
   scopeOfCare: [
     {
-      title: 'GeneralSurgery',
-      overview:
-        'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
+      title: 'Common conditions we treat',
+
 
       sections: [
         {
-          title: 'Common conditions we treat',
+          title: ' General Surgery',
           items: [
             'Acute abdominal pain',
             'Swelling in the groin or belly (hernia)',
@@ -235,18 +221,7 @@ const GeneralSurgeryData = {
             'Emergency bowel obstruction or infection',
           ],
         },
-        {
-          title: 'Medical GeneralSurgery Conditions',
-          items: [
-            'Coronary Artery Disease (CAD) – early stages',
-            'Heart failure & Cardiomyopathy',
-            'Valve disorders (initial diagnosis and follow-up)',
-            'Bradycardia, Tachycardia (managed with medication or monitoring)',
-            'Weak heart (low ejection fraction)',
-            'Inflammatory conditions:\n - Pericarditis\n - Endocarditis',
-            'Heart block (early detection & monitoring)',
-          ],
-        },
+        
       ],
     },
   ],
@@ -260,22 +235,19 @@ const GeneralSurgeryData = {
     items: [
       {
         title: "Covered by all major private insurance providers",
-        description: "Covered by all leading insurers and TPAs",
+        
       },
       {
         title: "Cost estimation support before admission",
-        description:
-          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
+        
       },
       {
         title: "Pre-authorization assistance available",
-        description:
-          "We assist patients in obtaining prior insurance approval for all planned surgical procedures, ensuring a smooth and hassle-free experience.",
+        
       },
       {
         title: "Daycare surgery with reduced cost & stay",
-        description:
-          "We assist patients in obtaining prior insurance approval for all planned surgical procedures, ensuring a smooth and hassle-free experience.",
+        
       },
       {
         title: "Insurance Approval for Planned Surgeries",
@@ -311,12 +283,12 @@ const GeneralSurgeryData = {
     items: [
       {
         type: 'text',
-        text: "I came for a hernia surgery and was walking the next day. Clean, safe, and excellent staff. — Manoj T."
+        text: "“I came for a hernia surgery and was walking the next day. Clean, safe, and excellent staff.” — Manoj T."
       },
       { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
       {
         type: 'text',
-        text: "As an NRI, I appreciated the digital reports and post-op guidance via WhatsApp. — Zainab R., Qatar"
+        text: "“As an NRI, I appreciated the digital reports and post-op guidance via WhatsApp.” — Zainab R., Qatar"
       },
       { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
     ],
@@ -332,11 +304,11 @@ const GeneralSurgeryData = {
   faqs: [
     {
       question: 'Do you offer laparoscopic options for gallbladder and hernia surgery?',
-      answer: 'Yes — most of our procedures are done minimally invasively.',
+      answer: 'Yes, most of our procedures are done minimally invasively.',
     },
     {
-      question: 'Can I go home the same day?',
-      answer: 'Many procedures are daycare-based depending on patient condition.',
+      question: 'Can I go home the same day after surgery?',
+      answer: 'Many procedures are daycare-based, depending on the patient condition.',
     },
 
   ],

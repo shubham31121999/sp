@@ -1,17 +1,13 @@
 
 const EntData = {
   hero: {
-    title: 'Integrated ENT care — Hearing, breathing & speech made better',
+    title: 'Integrated ENT care: Hearing, breathing & speech made better',
     description: [
-      "At SP Medifort, our ENT Department provides advanced medical and surgical care for disorders related to the ear, nose, throat, head, and neck. Whether you’re dealing with a sinus issue, hearing loss, or vocal cord disorder — our ENT specialists are equipped with microscopic, endoscopic, and robotic tools to diagnose and treat effectively.",
-      "Recognized as one of the best ENT hospitals in Trivandrum, we offer a blend of clinical experience, modern technology, and patient comfort."
+      "At SP Medifort, our ENT Department provides advanced medical and surgical care for disorders related to the ear, nose, throat, head, and neck. Whether you’re dealing with a sinus issue, hearing loss, or vocal cord disorder, our ENT specialists are equipped with microscopic, endoscopic, and robotic tools to diagnose and treat effectively.Recognized as one of the best ENT hospitals in Trivandrum, we offer a blend of clinical experience, modern technology, and patient comfort."
     ],
     cta: { label: 'Book an ENT consultation', href: '/appointments/cardiology' },
     image: { src: '/images/departments/ENT.webp', alt: 'Cardiology' },
-    highlightText: [
-      'Compassionate Cardiac Care, Always',
-      'Hello World!',
-    ],
+    
   },
 
   whyChoose: {
@@ -107,37 +103,37 @@ const EntData = {
   // ...existing data
   technologies: {
     title: 'Advanced technology and expertise',
-    categoryTabs: ['Interventional Cardiology', 'Cardiology'],
+    
     items: [
       {
         name: 'UGI Scope',
         description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
+          ' Enables detailed visualization of the upper GI tract, aiding in the evaluation of reflux-related ENT issues like laryngopharyngeal reflux.',
       },
       {
         name: 'ERBE VIO 3 with APC',
         description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
+          'Advanced electrosurgical system with Argon Plasma Coagulation for precision during ENT microsurgeries, especially for bleeding control and tissue ablation.',
       },
       {
         name: 'MRI GE SIGNA',
         description:
-          'Real-time imaging for assessing blood flow and cardiac structures, used for general cardiovascular screening and follow-up.',
+          ' High-resolution imaging to detect soft tissue abnormalities in the inner ear, sinuses, and brainstem auditory pathways.',
       },
       {
         name: '128 Slice CT GE Revolution',
         description:
-          'A baseline and essential test that records the heart’s electrical activity to detect rhythm disturbances and myocardial ischemia.',
+          ' Delivers ultra-clear sinus, temporal bone, and neck scans, ideal for preoperative planning in ENT surgeries.',
       },
       {
         name: 'Ultrasound (USG) Scan',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          'Real-time imaging for neck masses, salivary glands, and lymph node evaluation, enhancing diagnostic accuracy.',
       },
       {
         name: 'ROBOTIC VISUALIZATION SYSTEM® – KINEVO® 900',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          ' Offers enhanced visualization and precision in ENT microsurgeries such as cholesteatoma removal and middle ear reconstruction.',
       },
     ],
 
@@ -150,84 +146,76 @@ const EntData = {
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    'Endoscopic Sinus & Voice Box Surgery',
+    'Hearing Aid & Cochlear Implant Evaluation',
+    'Allergy & Vertigo Treatment Clinics',
+    
   ],
   comprehensiveCare: {
-    title: 'Core ENT services',
-    subtitle: 'We treat all life-threatening conditions',
+    title: 'Our comprehensive services include',
+    subtitle: 'Diagnosis + Microsurgery under one roof',
     description:
-      'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
+      'Comprehensive ENT care for children and adults, from diagnostics to advanced surgery',
     items: [
       {
         title: 'Tonsillectomy',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: ' Surgical removal of tonsils to treat recurrent throat infections or sleep-disordered breathing.',
       },
       {
         title: 'Nasal Endoscopy',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: 'Minimally invasive visual assessment of nasal passages and sinuses to diagnose sinusitis, polyps, or nasal blockages.',
       },
       {
-        title: 'Nasal Bleeding',
+        title: 'Nasal Bleeding (Epistaxis) Management',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: 'Timely intervention using cautery or nasal packing to control and prevent recurrent nasal bleeds.',
       },
 
       {
-        title: 'Microscopy of the ear/ Foreign body removal',
+        title: 'Microscopy of the ear / Foreign body removal',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: 'High-magnification evaluation and safe removal of wax, infections, or foreign objects from the ear canal.',
       },
       {
         title: 'Audiology and Speech Therapy',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Diagnostic hearing tests and speech-language therapy for patients with developmental delays, speech disorders, or hearing loss.',
       },
 
       {
-        title: 'Speech Therapy',
-        icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
-      },
-      {
         title: 'Post-cochlear implantation therapy',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Specialized auditory-verbal therapy for children and adults post-implant to maximize speech and listening outcomes.',
       },
       {
         title: 'Laryngology',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Diagnosis and treatment of voice disorders, vocal cord nodules, and laryngeal pathologies.',
       },
       {
-        title: 'Para Nasal Sinuses',
+        title: 'Para Nasal Sinuses (PNS) care',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Medical and surgical treatment of sinusitis, polyps, and fungal infections of the sinuses.',
       },
       {
-        title: 'Surgery Of Throat And Neck',
+        title: 'Surgery of the Throat and Neck',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Procedures for conditions like vocal cord cysts, thyroid masses, or lymph node enlargements.',
       },
+      
     ],
   },
   scopeOfCare: [
     {
       title: 'Ent (Ear, Nose & Throat)',
-      overview:
-        'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
+      
 
       sections: [
+        
         {
-          title: 'Common conditions we treat',
+          
           items: [
             'Sinusitis and allergic rhinitis',
             'Tonsillitis, sore throat, snoring',
@@ -239,18 +227,6 @@ const EntData = {
             'Neck swelling and thyroid lumps (ENT-endocrine overlap)',
           ],
         },
-        {
-          title: 'Medical Endocrinology Conditions',
-          items: [
-            'Coronary Artery Disease (CAD) – early stages',
-            'Heart failure & Cardiomyopathy',
-            'Valve disorders (initial diagnosis and follow-up)',
-            'Bradycardia, Tachycardia (managed with medication or monitoring)',
-            'Weak heart (low ejection fraction)',
-            'Inflammatory conditions:\n - Pericarditis\n - Endocarditis',
-            'Heart block (early detection & monitoring)',
-          ],
-        },
       ],
     },
   ],
@@ -260,21 +236,19 @@ const EntData = {
 
   insuranceFinance: {
     title: "Insurance and Finance",
-    subtitle: "From OPD to surgery — Seamless coverage",
+    subtitle: "From OPD to surgery; Seamless coverage",
     items: [
       {
-        title: "Covered by all major insurers",
-        description: "Covered by all leading insurers and TPAs",
+        title: "Covered by all major insurers.",
+
       },
       {
-        title: "Septoplasty, FESS, tonsillectomy are cashless under most plans",
-        description:
-          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
+        title: "Septoplasty, FESS, and tonsillectomy are cashless under most plans.",
+
       },
       {
-        title: "Transparent ENT surgery cost estimates available",
-        description:
-          "We assist patients in obtaining prior insurance approval for all planned surgical procedures, ensuring a smooth and hassle-free experience.",
+        title: "Transparent ENT surgery cost estimates available.",
+        
       },
       {
         title: "Insurance Approval for Planned Surgeries",
@@ -294,8 +268,8 @@ const EntData = {
   },
 
   patientJourney: {
-    title: "Patient journey in emergencies",
-    subtitle: "How we handle a typical emergency case",
+    title: "Patient journey",
+    subtitle: "What to expect during your ENT care",
     steps: [
       { title: "ENT consultation and history" },
       { title: "Diagnostic tests (audio, nasal endoscopy, CT if needed)" },
@@ -310,7 +284,12 @@ const EntData = {
     items: [
       {
         type: 'text',
-        text: "My father had constant sinus pain — surgery was smooth and recovery was quick!” – Lakshmi T.“After struggling with hoarseness, I was diagnosed with vocal cord nodules and treated quickly.” – Hassan R., UAE"
+        text: "“My father had constant sinus pain — surgery was smooth and recovery was quick!” – Lakshmi T."
+      },
+      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+            {
+        type: 'text',
+        text: "After struggling with hoarseness, I was diagnosed with vocal cord nodules and treated quickly.” – Hassan R., UAE."
       },
       { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
     ],
@@ -326,7 +305,7 @@ const EntData = {
   faqs: [
     {
       question: 'Do you treat snoring or sleep apnea?',
-      answer: 'Yes — we offer diagnosis through sleep studies and surgical/non-surgical solutions.',
+      answer: 'Yes, we offer diagnosis through sleep studies and surgical/non-surgical solutions.',
     },
     {
       question: 'Is ENT surgery painful?',

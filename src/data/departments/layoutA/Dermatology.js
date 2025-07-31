@@ -4,7 +4,7 @@ const Dermatology = {
   hero: {
     title: 'Expert skin, hair & nail care – Beyond beauty, focused on health',
     description: [
-      "At SP Medifort, our Dermatology department offers advanced skin, hair, and nail treatments rooted in medical science and delivered with compassion. From acne and pigmentation to autoimmune skin diseases and cosmetic dermatology — we address both common and complex dermatological conditions with a focus on accurate diagnosis, customized therapy, and visible results.We’re not just a skin clinic — we are a full-service dermatology hospital in Trivandrum."
+      "At SP Medifort, our Dermatology department offers expert care for skin, hair, and nail conditions, combining medical science with compassionate treatment. Whether it’s acne, pigmentation issues, autoimmune skin diseases, or cosmetic dermatology, we focus on accurate diagnosis, personalized therapy, and visible, lasting results.We are more than just a skin clinic. We are a full-service dermatology hospital in Trivandrum dedicated to both clinical excellence and patient well-being."
     ],
     cta: { label: 'Book a Dermatology consultation', href: '/appointments/cardiology' },
     image: { src: '/images/departments/dermatology.webp', alt: 'Cardiology' },
@@ -17,27 +17,27 @@ const Dermatology = {
     cards: [
       {
         icon: 'iconamoon:3d-bold',
-        title: ' Experienced dermatologists in medical & aesthetic care',
+        title: '  Experienced dermatologists in medical & aesthetic care',
 
       },
       {
         icon: 'fluent:laser-tool-20-filled',
-        title: 'Combined management with all superspecialities',
+        title: 'Skin biopsy, dermatoscopy & patch testing facilities',
 
       },
       {
         icon: 'mdi:heart-pulse',
-        title: ' Cosmetic care under medical supervision',
+        title: 'Combined management with all superspecialities',
 
       },
       {
         icon: 'mdi:heart-cog-outline',
-        title: 'Combined management with all superspecialities',
+        title: ' Cosmetic care under medical supervision',
 
       },
 
     ],
-    description: 'Our dermatology unit is known for both evidence-based care and cosmetic finesse — making us one of the best skin hospitals in Thiruvananthapuram.',
+    description: 'Our dermatology unit is known for both evidence-based care and cosmetic finesse making us one of the best skin hospitals in Thiruvananthapuram.',
     cta: {
       label: 'See our skin & hair care facilities',
       href: '/facilities#cardiac',
@@ -69,49 +69,49 @@ const Dermatology = {
 
   // ...existing data
   technologies: {
-    title: 'Advanced technology and expertiseCore Dermatology services include',
-    categoryTabs: ['Interventional Cardiology', 'Cardiology'],
+    title: 'Advanced technology and expertise',
+    
     items: [
       {
-        name: 'UltraViolet (UV) Light Therapy',
+        name: 'Dermatoscope',
         description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
+          ' A high-resolution magnifying tool used to examine moles, lesions, and pigmented skin changes for accurate diagnosis and early skin cancer detection.',
       },
       {
-        name: 'Mole removal',
+        name: 'Excimer Laser or Phototherapy Booth (for UV Therapy)',
         description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
+          'Delivers targeted narrow-band UVB light for conditions like vitiligo, psoriasis, and eczema with reduced risk to surrounding skin',
       },
       {
-        name: 'Vitiligo surgery',
+        name: 'CO₂ Laser / Erbium:YAG Laser',
         description:
-          'Real-time imaging for assessing blood flow and cardiac structures, used for general cardiovascular screening and follow-up.',
+          ' Used for scar revision, mole removal, wart ablation, and skin resurfacing with high precision and minimal damage to adjacent tissue.',
       },
       {
-        name: 'PRP therapy',
+        name: 'Fractional Laser Technology',
         description:
-          'A baseline and essential test that records the heart’s electrical activity to detect rhythm disturbances and myocardial ischemia.',
+          ' Targets pigmentation, wrinkles, acne scars, and textural issues through controlled micro-injury and collagen stimulation.',
       },
       {
-        name: 'Electrosurgery',
+        name: 'Q-switched Nd:YAG Laser',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          ' Effective for treating pigmented lesions, melasma, and tattoo removal. Often used in skin-brightening protocols.',
       },
       {
-        name: 'Intralesional therapy',
+        name: 'Radiofrequency (RF) & Electrosurgical Units',
         description:
-          'Evaluates cardiac function under physical stress to diagnose ischemic heart disease and determine exercise tolerance.',
+          'Separates plasma from the patient’s blood to prepare high-quality PRP used for hair restoration and skin rejuvenation.',
       },
 
       {
-        name: 'Laser treatments',
+        name: 'Chemical Peel Station with Safety Protocols',
         description:
-          'Evaluates cardiac function under physical stress to diagnose ischemic heart disease and determine exercise tolerance.',
+          'Designated area and tools for preparing and applying medical-grade chemical peels under supervision.',
       },
       {
-        name: 'Nail infection &Dystrophy management',
+        name: 'Nail Dermoscopy & Microscopy Setup',
         description:
-          'Evaluates cardiac function under physical stress to diagnose ischemic heart disease and determine exercise tolerance.',
+          ' Used to assess nail disorders and fungal infections, enabling rapid diagnosis and treatment monitoring.',
       },
 
 
@@ -126,67 +126,62 @@ const Dermatology = {
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    'USFDA-Approved Laser Skin & Hair Treatments',
+    'Advanced Cosmetic Procedures by Experts',
+    'Scar, Acne & Hair Loss Solutions Under One Roof',
   ],
   comprehensiveCare: {
-    title: 'Our ICU services',
-    subtitle: 'Our ICU services include',
+    title: 'Core Dermatology services include',
+    subtitle: 'Personalized skin, hair, and nail care backed by medical expertise',
     description:
-      'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
+      'From chronic conditions to aesthetic concerns, our dermatology team offers advanced treatments using evidence-based protocols and precision technology.',
     items: [
       {
-        title: 'Palliative care',
+        title: 'UltraViolet (UV) Light Therapy',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: '  Used for treating psoriasis, eczema, and vitiligo, this therapy exposes the skin to controlled doses of UV light. It helps reduce inflammation and slow down abnormal skin cell growth.',
       },
       {
-        title: 'Advanced ventilators',
+        title: 'Mole Removal',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: 'We offer cosmetic and medical mole removal depending on the type and risk factors. Procedures are performed with minimal scarring and quick recovery.',
       },
       {
-        title: 'CRRT',
+        title: 'Chemical Peel Procedure',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: 'Peels are customized for acne, pigmentation, and anti-aging. They help exfoliate the top skin layer, revealing fresher and more even-toned skin.',
       },
 
       {
-        title: 'ECMO',
+        title: 'Vitiligo Surgery',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: 'For stable vitiligo patches, we offer grafting and melanocyte transfer techniques. These promote repigmentation and improved skin appearance.',
       },
       {
-        title: 'Parenteral nutrition',
+        title: 'PRP Therapy',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Platelet-rich plasma (PRP) is used for skin rejuvenation and hair restoration. It boosts natural healing by stimulating collagen and follicle growth.',
       },
       {
-        title: 'Cerebral Edema',
+        title: 'Electrosurgery',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: '  This technique uses electric current to remove skin lesions like warts, tags, and corns. It’s a quick, low-downtime procedure with excellent cosmetic outcomes.',
       },
       {
-        title: 'Acute Respiratory failure',
+        title: 'Intralesional Therapy',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: 'Medications are injected directly into skin lesions such as keloids or cystic acne. This delivers targeted treatment with faster results and fewer side effects.',
       },
       {
-        title: 'Acute Liver failure',
+        title: 'Laser Treatments',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
+        description: ' Our dermatology lasers address pigmentation, scars, wrinkles, and unwanted hair. Sessions are quick, effective, and customized to your skin type.',
       },
 
       {
-        title: 'Stroke',
+        title: 'Nail Infection & Dystrophy Management',
         icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
+        description: 'We treat fungal infections, psoriasis-related nail changes, and structural nail deformities. Diagnostic clarity and targeted antifungal or restorative therapies are prioritized.',
       },
 
 
@@ -195,23 +190,11 @@ const Dermatology = {
   },
   scopeOfCare: [
     {
-      title: 'Critical Care',
-      overview:
-        'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
+      title: 'Dermatology',
+      
 
       sections: [
-        {
-          title: 'Symptoms & Risk Conditions',
-          items: [
-            'Chest pain',
-            'Irregular heartbeat (Arrhythmia)',
-            'High blood pressure (Hypertension)',
-            'High cholesterol',
-            'Palpitations & syncope (fainting spells)',
-            'Breathlessness (dyspnea)',
-            'Recurrent chest pain or breathlessness',
-          ],
-        },
+
         {
           title: 'Common conditions we treat',
           items: [
@@ -237,29 +220,27 @@ const Dermatology = {
 
   insuranceFinance: {
     title: "Insurance and Finance",
-    subtitle: "Medical Dermatology Is covered cosmetic is optional",
+    subtitle: "Medical Dermatology is covered but Cosmetic is optional",
     items: [
       {
         title: "Skin diseases (psoriasis, infections, eczema) are covered",
-        description: "Covered by all leading insurers and TPAs",
+       
       },
       {
         title: "Insurance may apply for biopsies and procedures. ",
-        description:
-          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
       },
 
 
     ],
     cta: {
-      label: "Check what’s covered",
+      label: "Know what’s covered",
       link: "#", // update with actual route if needed
     },
   },
 
   patientJourney: {
     title: "Patient journey",
-    subtitle: "From diagnosis to recovery,We stay with you",
+    
     steps: [
       { title: "Dermatology consultation" },
       { title: "Clinical evaluation & imaging/tests (if needed)" },
@@ -273,15 +254,11 @@ const Dermatology = {
   },
   successStories: {
     items: [
-      { type: 'text', text: 'I had cystic acne for 5 years. At SP Medifort, it cleared up in 3 months.' },
+      { type: 'text', text: '“My psoriasis was finally under control after trying everything else.” — Sreekanth V.' },
       { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
-      { type: 'text', text: 'My psoriasis was finally under control after trying everything else.' },
+      { type: 'text', text: '“I had cystic acne for 5 years. At SP Medifort, it cleared up in 3 months.” — Sana M.' },
       { type: 'image', src: '/images/card2.jpg', alt: 'Patient smiling' },
-      { type: 'text', text: 'My psoriasis was finally under control after trying everything else.' },
-      { type: 'image', src: '/images/card3.jpg', alt: 'Covered woman smiling' },
-      { type: 'text', text: 'My psoriasis was finally under control after trying everything else.' },
-      { type: 'image', src: '/images/card4.jpg', alt: 'Covered woman smiling' },
-      { type: 'text', text: 'My psoriasis was finally under control after trying everything else.' },
+      
     ],
     cta: {
       label: 'More skin & hair testimonials',
@@ -318,7 +295,7 @@ const Dermatology = {
       link: "https://wa.me/919999999999"
     },
     form: {
-      heading: "Post a Cardiac query",
+      heading: "Post a Dermatology query",
       fields: ["Name", "Phone", "Email", "Query"],
       submitLabel: "Submit"
     }
