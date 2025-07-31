@@ -42,8 +42,6 @@ const Dermatology = {
       label: 'See our skin & hair care facilities',
       href: '/facilities#cardiac',
     }
-
-
   },
   team: {
     title: 'Our team of experts',
@@ -53,17 +51,14 @@ const Dermatology = {
         name: 'DR. ABDUL SAMAD K',
         designation: 'DERMATOLOGY',
         position: 'SENIOR CONSULTANT',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dermatology/1.png'
       },
       {
         name: 'DR. SUNIL KUMAR S',
         designation: 'DERMATOLOGY',
         position: 'CONSULTANT',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dermatology/2.png'
       },
-
-
-
     ],
     description: 'Our skin specialists in Trivandrum are trained in India’s top institutions and bring years of clinical and cosmetic experience.',
     cta: {

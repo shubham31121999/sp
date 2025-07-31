@@ -1,4 +1,3 @@
-
 // import { useParams } from 'next/navigation';
 // import { useEffect, useState } from 'react';
 // import { layoutMap } from '@/data/departments/layoutMap';
@@ -88,7 +87,7 @@
 //   return <Layout {...deptData.default} />;
 // }
 // src/app/departments/[slug]/page.jsx
-import { layoutMap } from '@/data/departments/layoutMap';
+import { layoutMap } from "@/data/departments/layoutMap";
 
 export async function generateStaticParams() {
   return Object.keys(layoutMap).map((slug) => ({ slug }));
@@ -103,12 +102,11 @@ export default async function DepartmentPage({ params }) {
   const deptData = await config.data();
   let Layout;
 
-  if (config.layout === 'A') {
-    Layout = (await import('@/app/layout-a/LayoutA')).default;
+  if (config.layout === "A") {
+    Layout = (await import("@/app/layout-a/LayoutA")).default;
   } else {
-    Layout = (await import('@/app/layout-b/LayoutB')).default;
+    Layout = (await import("@/app/layout-b/LayoutB")).default;
   }
 
   return <Layout {...deptData.default} />;
 }
-

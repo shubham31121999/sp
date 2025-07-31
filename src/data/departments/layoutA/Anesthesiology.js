@@ -2,7 +2,8 @@ const AnesthesiologyData = {
   hero: {
     title: 'Silent guardians of every safe surgery',
     description: [
-      "At SP Medifort, our Department of Anesthesiology works behind the scenes but plays a central role in every surgical success. From preoperative assessment to post-op pain management, our anesthesiologists ensure that every patient receives safe, personalized anesthesia care tailored to their age, health, and procedure. Whether you are undergoing minor surgery or a complex robotic procedure, our anesthesia specialists in Trivandrum are involved at every step to monitor your vitals, keep you pain-free, and ensure safe recovery."
+      "At SP Medifort, our Department of Anesthesiology works behind the scenes but plays a central role in every surgical success. From preoperative assessment to post-op pain management, our anesthesiologists ensure that every patient receives safe, personalized anesthesia care tailored to their age, health, and procedure.",
+      "Whether you are undergoing minor surgery or a complex robotic procedure, our anesthesia specialists in Trivandrum are involved at every step to monitor your vitals, keep you pain-free, and ensure safe recovery."
     ],
     cta: { label: 'Consult our Anesthesia team', href: '/appointments/cardiology' },
     image: { src: '/images/departments/Anesthesiology.webp', alt: 'Anesthesiology' },
@@ -33,16 +34,11 @@ const AnesthesiologyData = {
       },
       {
         icon: 'mdi:heart-cog-outline',
-        title: ' Advanced patient monitoring (ECG, EtCO2, BIS)',
+        title: 'Advanced patient monitoring (ECG, ETCO2, BIS)',
 
       },
       {
         icon: 'material-symbols:heart-check',
-        title: 'Pain relief services for surgeries, trauma & critical care',
-
-      },
-      {
-        icon: 'streamline-plump:customer-support-7-remix',
         title: 'Pain relief services for surgeries, trauma & critical care',
 
       },
@@ -61,50 +57,50 @@ const AnesthesiologyData = {
         name: 'DR. VIMAL  V V',
         designation: 'ANAESTHESIOLOGY',
         position: 'HOD & SENIOR CONSULTANT ,MBBS, Diploma(Anaesthesia), MD(Anaesthesia)',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/anesthesiology/1.png'
       },
       {
         name: 'DR. DURGA PRASAD SEKHAR',
         designation: 'ANAESTHESIOLOGY',
         position: 'CONSULTANT,MBBS, MD(Anaesthesia)',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/anesthesiology/2.png'
       },
       {
         name: 'DR. NISHU P ',
         designation: 'ANAESTHESIOLOGY',
         position: 'CONSULTANT,MBBS, DA, DNB(Anaesthesia), CCPM',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/anesthesiology/3.png'
       },
       {
         name: 'DR. FATHIMA   RAHEEM',
         designation: 'ANAESTHESIOLOGY',
         position: 'REGISTRAR, MBBS, Diploma(Anaesthesia), DNB(Anaesthesia)',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/anesthesiology/4.png'
       },
       {
         name: 'DR. SHIVANGI D LAKHTARIYA',
         designation: 'ANAESTHESIOLOGY',
         position: 'REGISTRAR ,MBBS, MD(Anaesthesia)',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/anesthesiology/5.png'
       },
       {
         name: 'DR. MITHUN   MOHAN',
         designation: 'ANAESTHESIOLOGY',
         position: 'CONSULTANT,MBBS, MD(Anaesthesia)',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/anesthesiology/6.png'
       },
-      {
-        name: 'DR. RAKHI  MOHAN',
-        designation: 'ANAESTHESIOLOGY',
-        position: ' REGISTRAR,MBBS, MD(Anaesthesia)',
-        image: '/images/doctors-card/shibu.png'
-      },
-      {
-        name: 'DR. SHAHNA  SHUKKUR',
-        designation: 'ANAESTHESIOLOGY',
-        position: 'REGISTRAR, MBBS, Diploma(Anaesthesia), DNB(Anaesthesia)',
-        image: '/images/doctors-card/shibu.png'
-      }
+      // {
+      //   name: 'DR. RAKHI  MOHAN',
+      //   designation: 'ANAESTHESIOLOGY',
+      //   position: ' REGISTRAR,MBBS, MD(Anaesthesia)',
+      //   image: '/images/doctors-card/shibu.png'
+      // },
+      // {
+      //   name: 'DR. SHAHNA  SHUKKUR',
+      //   designation: 'ANAESTHESIOLOGY',
+      //   position: 'REGISTRAR, MBBS, Diploma(Anaesthesia), DNB(Anaesthesia)',
+      //   image: '/images/doctors-card/shibu.png'
+      // }
     ],
     description: 'Our team brings subspecialty experience in cardiac, pediatric, neuro, and laparoscopic anesthesia.',
     cta: {
@@ -241,40 +237,40 @@ const AnesthesiologyData = {
       },
     ],
   },
-  scopeOfCare: [
-    {
-      title: 'Cardiology',
-      overview:
-        'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
+  // scopeOfCare: [
+  //   {
+  //     title: 'Cardiology',
+  //     overview:
+  //       'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
 
-      sections: [
-        {
-          title: 'Symptoms & Risk Conditions',
-          items: [
-            'Chest pain',
-            'Irregular heartbeat (Arrhythmia)',
-            'High blood pressure (Hypertension)',
-            'High cholesterol',
-            'Palpitations & syncope (fainting spells)',
-            'Breathlessness (dyspnea)',
-            'Recurrent chest pain or breathlessness',
-          ],
-        },
-        {
-          title: 'Medical Cardiac Conditions',
-          items: [
-            'Coronary Artery Disease (CAD) – early stages',
-            'Heart failure & Cardiomyopathy',
-            'Valve disorders (initial diagnosis and follow-up)',
-            'Bradycardia, Tachycardia (managed with medication or monitoring)',
-            'Weak heart (low ejection fraction)',
-            'Inflammatory conditions:\n - Pericarditis\n - Endocarditis',
-            'Heart block (early detection & monitoring)',
-          ],
-        },
-      ],
-    },
-  ],
+  //     sections: [
+  //       {
+  //         title: 'Symptoms & Risk Conditions',
+  //         items: [
+  //           'Chest pain',
+  //           'Irregular heartbeat (Arrhythmia)',
+  //           'High blood pressure (Hypertension)',
+  //           'High cholesterol',
+  //           'Palpitations & syncope (fainting spells)',
+  //           'Breathlessness (dyspnea)',
+  //           'Recurrent chest pain or breathlessness',
+  //         ],
+  //       },
+  //       {
+  //         title: 'Medical Cardiac Conditions',
+  //         items: [
+  //           'Coronary Artery Disease (CAD) – early stages',
+  //           'Heart failure & Cardiomyopathy',
+  //           'Valve disorders (initial diagnosis and follow-up)',
+  //           'Bradycardia, Tachycardia (managed with medication or monitoring)',
+  //           'Weak heart (low ejection fraction)',
+  //           'Inflammatory conditions:\n - Pericarditis\n - Endocarditis',
+  //           'Heart block (early detection & monitoring)',
+  //         ],
+  //       },
+  //     ],
+  //   },
+  // ],
 
 
 

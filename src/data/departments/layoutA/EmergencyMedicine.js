@@ -72,26 +72,26 @@ const EmergencyMedicineData = {
         name: 'DR. ARUN  S S',
         designation: 'EMERGENCY MEDICINE',
         position: 'HOD & CONSULTANT',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/emergency-medicine/1.png'
       },
       {
         name: 'DR. PRATHYAKSHA R P',
         designation: 'EMERGENCY MEDICINE',
         position: 'EMERGENCY PHYSICIAN',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/emergency-medicine/2.png'
       },
-      {
-        name: 'DR. VENU V S',
-        designation: 'EMERGENCY MEDICINE',
-        position: 'EMERGENCY PHYSICIAN',
-        image: '/images/doctors-card/shibu.png'
-      },
-      {
-        name: 'DR. ANN CATHERIN JOY',
-        designation: 'EMERGENCY MEDICINE',
-        position: 'EMERGENCY PHYSICIAN',
-        image: '/images/doctors-card/shibu.png'
-      },
+      // {
+      //   name: 'DR. VENU V S',
+      //   designation: 'EMERGENCY MEDICINE',
+      //   position: 'EMERGENCY PHYSICIAN',
+      //   image: '/images/doctors-card/shibu.png'
+      // },
+      // {
+      //   name: 'DR. ANN CATHERIN JOY',
+      //   designation: 'EMERGENCY MEDICINE',
+      //   position: 'EMERGENCY PHYSICIAN',
+      //   image: '/images/doctors-card/shibu.png'
+      // },
     ],
     description: 'Our emergency doctors in Trivandrum are backed by on-call surgeons, cardiologists, anesthetists, neurologists, and intensivists — all working in sync.',
     cta: {

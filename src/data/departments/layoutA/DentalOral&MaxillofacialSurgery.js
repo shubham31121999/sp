@@ -65,69 +65,56 @@ const DentalOralMaxillofacialSurgery = {
         name: 'DR. SHIFAS BABU M',
         designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
         position: 'SENIOR CONSULTANT, BDS, MDS(OMFS), PGDHM',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/1.png'
       },
       {
         name: 'DR. SEGIN CHANDRAN K R',
         designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
         position: 'SENIOR CONSULTANT, MDS(OMFS), PhD, MOI(USA), DICOI(USA)',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/2.png'
       },
       {
         name: 'DR. VENUGOPALAN  NAIR',
         designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
         position: 'PROSTHODONTIST, BDS, MDS in Prosthodontics & Crown & Bridge',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/3.png'
       },
       {
         name: 'DR. REJU  SATHAR',
         designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
         position: 'SENIOR CONSULTANT, MBBS, MD, DM',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/4.png'
       },
       {
         name: 'DR. GOVIND  S L',
         designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
         position: 'ENDODONTIST, BDS, MDS, Associate Fellowship in Laser Dentistry',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/5.png'
       },
       {
         name: 'DR. SUMESH  CHANDRAN',
         designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
         position: 'ORAL AND MAXILLOFACIAL SURGEON, BDS,MDS(OMFS), PG in OMFS& Implantology',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/6.png'
       },
       {
         name: 'DR. SAJNA H R',
         designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
         position: 'PERIODONTIST, BDS, MDS(Periodontics)',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/7.png'
       },
       {
         name: 'DR. MATHEW  JOHN',
         designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
         position: 'PERIODONTIST, BDS, MDS(Periodontics)',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/8.png'
       },
       {
         name: 'DR. KARTHIKA B NAIR',
         designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
         position: 'PEDODONTIST, BDS, MDS',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/dental-oral-maxillo-facial-surgery/9.png'
       },
-      {
-        name: 'DR. SOUMYA  RAJAN',
-        designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
-        position: 'PEDODONTIST, BDS, MDS(Periodontics)',
-        image: '/images/doctors-card/shibu.png'
-      },
-
-      {
-        name: 'DR. PRIYADA  C',
-        designation: 'DENTAL ORAL & MAXILLO FACIAL SURGERY',
-        position: 'PERIODONTIST, BDS, MDS(Periodontics)',
-        image: '/images/doctors-card/shibu.png'
-      }
     ],
     description: 'Our Oral surgeons in Trivandrum collaborate with anesthetists, ENT surgeons, and plastic surgery consultants for multi-disciplinary treatment.',
     cta: {

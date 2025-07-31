@@ -63,26 +63,26 @@ const cardiacScienceData = {
         name: 'DR. SHIFAS BABU M',
         designation: 'INTERVENTIONAL CARDIOLOGY',
         position: 'SENIOR CONSULTANT, MD, DM, DrNB, MNAMS, FACC',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/cardiology/1.png'
       },
       {
         name: 'DR. PRAVEEN G L',
         designation: 'INTERVENTIONAL CARDIOLOGY',
         position: 'CONSULTANT, MBBS, MD, DM, DrNB (Cardiology)',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/cardiology/2.png'
       },
       {
         name: 'DR. K VENUGOPAL',
         designation: 'INTERVENTIONAL CARDIOLOGY',
         position: 'SENIOR CONSULTANT, MD, DM, FCSI, FICC, FACC, FESC',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/cardiology/3.png'
       },
-      {
-        name: 'DR. TAHSIN NEDUVANCHERY',
-        designation: 'INTERVENTIONAL CARDIOLOGY',
-        position: 'SENIOR CONSULTANT, MBBS, MD, DM',
-        image: '/images/doctors-card/shibu.png'
-      }
+      // {
+      //   name: 'DR. TAHSIN NEDUVANCHERY',
+      //   designation: 'INTERVENTIONAL CARDIOLOGY',
+      //   position: 'SENIOR CONSULTANT, MBBS, MD, DM',
+      //   image: '/images/doctors-card/shibu.png'
+      // }  
     ],
     description: 'Each of our cardiologists in Thiruvananthapuram combines technical skill with a commitment to compassionate care.',
     cta: {

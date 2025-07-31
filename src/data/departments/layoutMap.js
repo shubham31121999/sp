@@ -47,7 +47,7 @@ export const layoutMap = {
     layout: 'A',
     data: () => import('./layoutA/CriticalCare'),
   },
-  'DentalOral&MaxillofacialSurgery': {
+  'DentalOralMaxillofacialSurgery': {
     label: 'Dental, Oral & Maxillofacial Surgery',
     icon: '/images/dp-icons/Dental-oral-&-maxillofacial-surgery.svg',
     layout: 'A',
@@ -123,7 +123,7 @@ export const layoutMap = {
   // Layout B
   'urology': {
     label: 'Urology',
-    icon: '/images/dp-icons/urology.svg', 
+    icon: '/images/dp-icons/urology.svg',
     layout: 'B',
     data: () => import('./layoutB/urology'),
   },
@@ -140,7 +140,7 @@ export const layoutMap = {
     layout: 'B',
     data: () => import('./layoutB/plasticMicrovascularSurgery'),
   },
-  
+
   'Radiodiagnosis': {
     label: 'Radiodiagnosis',
     icon: '/images/dp-icons/Radiodiagnosis.svg',

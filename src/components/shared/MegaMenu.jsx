@@ -1,39 +1,39 @@
 // MegaMenu.jsx
-import { useState } from 'react';
-import Link from 'next/link';
-import { IoIosArrowForward } from 'react-icons/io';
+import { useState } from "react";
+import Link from "next/link";
+import { IoIosArrowForward } from "react-icons/io";
 
-const MegaMenu = ({ type = 'specialities', data = {}, label = 'Menu' }) => {
-  const [activeTab, setActiveTab] = useState('treatment');
+const MegaMenu = ({ type = "specialities", data = {}, label = "Menu" }) => {
+  const [activeTab, setActiveTab] = useState("treatment");
 
   const currentItems =
-    type === 'specialities'
-      ? activeTab === 'treatment'
+    type === "specialities"
+      ? activeTab === "treatment"
         ? data.treatment || []
         : data.department || []
       : data.items || [];
 
   return (
     <div className="absolute top-full left-0 w-full bg-[#FDF2F9] text-dark shadow-xl p-10 py-16 hidden group-hover:flex z-50 transition-all duration-300">
-      {type === 'specialities' ? (
+      {type === "specialities" ? (
         <>
           <div className="min-w-[300px] pr-6 border-r-2 border-[#94A0A3] space-y-4">
             <div
-              onMouseEnter={() => setActiveTab('treatment')}
+              onMouseEnter={() => setActiveTab("treatment")}
               className={`font-semibold flex justify-between items-center text-lg cursor-pointer ${
-                activeTab === 'treatment' ? 'text-[#d4007f]' : 'text-black'
+                activeTab === "treatment" ? "text-[#d4007f]" : "text-black"
               }`}
             >
               Treatment Services <IoIosArrowForward className="text-xl" />
             </div>
-            {/* <div
-              onMouseEnter={() => setActiveTab('department')}
+            <div
+              onMouseEnter={() => setActiveTab("department")}
               className={`font-semibold flex justify-between items-center text-lg cursor-pointer ${
-                activeTab === 'department' ? 'text-[#d4007f]' : 'text-black'
+                activeTab === "department" ? "text-[#d4007f]" : "text-black"
               }`}
             >
               Departments <IoIosArrowForward className="text-xl" />
-            </div> */}
+            </div>
           </div>
 
           <div className="pl-6">
@@ -53,9 +53,7 @@ const MegaMenu = ({ type = 'specialities', data = {}, label = 'Menu' }) => {
       ) : (
         <>
           <div className="min-w-[300px] pr-6 border-r-2 border-[#94A0A3] space-y-4">
-            <div
-              className="font-semibold flex justify-between items-center text-lg cursor-pointer text-[#d4007f]"
-            >
+            <div className="font-semibold flex justify-between items-center text-lg cursor-pointer text-[#d4007f]">
               {label} <IoIosArrowForward className="text-xl" />
             </div>
           </div>

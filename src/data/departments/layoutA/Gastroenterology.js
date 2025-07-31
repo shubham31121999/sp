@@ -75,19 +75,19 @@ const GastroenterologyData = {
         name: '',
         designation: 'MBBS, DNB(Family Medicine)',
         position: 'Senior Consultant, Gastroenterology & Hepatology',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/gastroenterology/1.png'
       },
       {
         name: '',
         designation: 'MBBS, DNB(Family Medicine)',
         position: 'Consultant, Advanced Endoscopy',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/gastroenterology/2.png'
       },
       {
         name: '',
         designation: 'MBBS, DNB(Family Medicine)',
         position: 'Consultant, Liver & Metabolic Disease',
-        image: '/images/doctors-card/shibu.png'
+        image: '/images/doctors-card/dp-images/gastroenterology/3.png'
       },
     ],
     description: 'Whether you"re searching for a family doctor near you in Trivandrum, or need regular chronic care, we are here.',

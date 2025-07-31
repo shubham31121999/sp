@@ -1,19 +1,19 @@
-'use client';
-import React, { useEffect } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
-import Image from 'next/image';
-import Link from 'next/link';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+"use client";
+import React, { useEffect } from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper/modules";
+import Image from "next/image";
+import Link from "next/link";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import 'swiper/css';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/navigation";
 
 export default function OurTeamA({ team }) {
   useEffect(() => {
     // Refresh Swiper navigation elements
     setTimeout(() => {
-      const event = new Event('resize');
+      const event = new Event("resize");
       window.dispatchEvent(event);
     }, 200);
   }, []);
@@ -31,8 +31,8 @@ export default function OurTeamA({ team }) {
           <Swiper
             modules={[Navigation]}
             navigation={{
-              nextEl: '.swiper-button-next-custom',
-              prevEl: '.swiper-button-prev-custom',
+              nextEl: ".swiper-button-next-custom",
+              prevEl: ".swiper-button-prev-custom",
             }}
             spaceBetween={20}
             slidesPerView={1}
@@ -44,23 +44,23 @@ export default function OurTeamA({ team }) {
           >
             {team.doctors.map((doc, index) => (
               <SwiperSlide key={index}>
-  <div className="relative bg-white rounded-xl shadow-lg text-left h-full overflow-hidden ">
-    <Image
-      src={doc.image || '/images/doctor-placeholder.jpg'}
-      alt={doc.name}
-      width={300}
-      height={400}
-      className="w-full h-128 object-cover"
-    />
+                <div className="relative bg-white rounded-xl shadow-lg text-left h-full overflow-hidden ">
+                  <Image
+                    src={doc.image || "/images/doctor-placeholder.jpg"}
+                    alt={doc.name}
+                    width={300}
+                    height={400}
+                    className="w-full h-128 object-cover"
+                  />
 
-    {/* Overlay Text */}
-    <div className="absolute bottom-0 left-0 w-full bg-primary p-4 rounded-lg text-white">
-      <h3 className="text-lg font-semibold mb-1">{doc.name}</h3>
-      <p className="text-sm font-medium">{doc.designation}</p>
-      <p className="text-sm">{doc.position}</p>
-    </div>
-  </div>
-</SwiperSlide>
+                  {/* Overlay Text */}
+                  {/* <div className="absolute bottom-0 left-0 w-full bg-primary p-4 rounded-lg text-white">
+                    <h3 className="text-lg font-semibold mb-1">{doc.name}</h3>
+                    <p className="text-sm font-medium">{doc.designation}</p>
+                    <p className="text-sm">{doc.position}</p>
+                  </div> */}
+                </div>
+              </SwiperSlide>
             ))}
           </Swiper>
 
@@ -88,19 +88,19 @@ export default function OurTeamA({ team }) {
         >
           {team.cta.label}
           <span className="flex items-center justify-center w-8 h-8 sm:w-9 sm:h-9 rounded-full border border-white">
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="white"
-    strokeWidth="2"
-    strokeLinecap="round"
-    strokeLinejoin="round"
-    className="w-4 h-4 sm:w-5 sm:h-5"
-  >
-    <path d="M5 12h14M13 5l7 7-7 7" />
-  </svg>
-</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="white"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="w-4 h-4 sm:w-5 sm:h-5"
+            >
+              <path d="M5 12h14M13 5l7 7-7 7" />
+            </svg>
+          </span>
         </Link>
       </div>
     </section>
