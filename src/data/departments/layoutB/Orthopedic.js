@@ -7,10 +7,7 @@
 		],
 		cta: { label: 'Book an Orthopedic consultation', href: '/appointments/cardiology' },
 		image: { src: '/images/cardiac.jpg', alt: 'Urology' },
-		highlightText: [
-			'Compassionate Cardiac Care, Always',
-			'Hello World!',
-		],
+		
 	},
 
 	whyChoose: {
