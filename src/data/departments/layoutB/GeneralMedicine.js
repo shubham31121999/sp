@@ -1,4 +1,5 @@
 
+  
 const GeneralMedicineData = {
   hero: {
     title: ' Accurate, Safe, and Caring Medical Treatment',

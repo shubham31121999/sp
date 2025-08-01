@@ -1,5 +1,4 @@
-import React from 'react';
-  
+
   const SurgicalOncology =   {
 	hero: {
     title: 'Hope, skill, and precision for every cancer journey',
