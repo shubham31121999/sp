@@ -3,8 +3,7 @@ const NephrologyData = {
   hero: {
     title: 'Protecting your filters for life',
     description: [
-      "At SP Medifort, our Nephrology department offers complete medical care for kidney-related disorders — from early-stage kidney disease to dialysis and transplant preparation. We provide comprehensive nephrology care in Trivandrum with advanced diagnostic tools, dedicated dialysis units, and expert nephrologists.",
-      "Our goal is to preserve kidney function, delay progression, and offer compassionate care at every stage."
+      "At SP Medifort, our Nephrology department offers complete medical care for kidney-related disorders from early-stage kidney disease to dialysis and transplant preparation. We provide comprehensive nephrology care in Trivandrum with advanced diagnostic tools, dedicated dialysis units, and expert nephrologists.Our goal is to preserve kidney function, delay progression, and offer compassionate care at every stage."
     ],
     cta: { label: 'Book a Kidney care consultation', href: '/appointments/cardiology' },
     image: { src: '/images/departments/nephrology.webp', alt: 'Cardiology' },
@@ -15,7 +14,7 @@ const NephrologyData = {
   },
 
   whyChoose: {
-    title: 'Why choose SP Medifort for Nephrology?',
+    title: ' Why choose SP Medifort for Nephrology?',
     subTitle: 'Where Kidney health meets innovation.',
     cards: [
       {
@@ -25,7 +24,7 @@ const NephrologyData = {
       },
       {
         icon: 'fluent:laser-tool-20-filled',
-        title: '24x7 nephrology emergency support',
+        title: '24*7 nephrology emergency support',
 
       },
       {
@@ -80,42 +79,42 @@ const NephrologyData = {
   // ...existing data
   technologies: {
     title: 'Advanced technology and expertise',
-    categoryTabs: ['Interventional Cardiology', 'Cardiology'],
+   
     items: [
       {
         name: 'Hemodialysis machines',
         description:
-          'Ultra-fast, high-resolution cardiac CT (0.28 mm) delivers detailed 3D images of the heart and vessels in a single heartbeat. It enables accurate, non-invasive evaluation of coronary artery disease, plaque buildup, and blockages—supporting early detection and effective treatment planning.',
+          ' High-efficiency machines provide precise and comfortable dialysis sessions for patients with end-stage renal disease. Integrated monitoring ensures fluid and toxin removal tailored to patient needs.',
       },
       {
-        name: 'CRRT (Continuous Renal Replacement Therapy) machines',
+        name: 'CRRT (Continuous Renal Replacement Therapy) Machines',
         description:
-          'Advanced cardiac MRI offering functional and structural heart assessment, ideal for detecting myocardial damage, perfusion, and congenital anomalies.',
+          ' Designed for critically ill ICU patients, CRRT offers gentle, continuous dialysis that supports hemodynamic stability while managing acute kidney injury.',
       },
       {
-        name: 'Ultrasound (USG) scan',
+        name: 'Hemodiafiltration (HDF)',
         description:
-          'Real-time imaging for assessing blood flow and cardiac structures, used for general cardiovascular screening and follow-up.',
+          ' A hybrid dialysis technique combining diffusion and convection, offering improved clearance of middle-molecule toxins for better long-term outcomes.',
       },
       {
-        name: '128 Slice CT GE Revolution',
+        name: 'Ultrasound (USG) Scan',
         description:
-          'A baseline and essential test that records the heart’s electrical activity to detect rhythm disturbances and myocardial ischemia.',
+          ' Essential for real-time assessment of kidney size, blood flow, and guiding procedures like biopsies or catheter placements.',
       },
       {
-        name: 'MRI GE SIGNA',
+        name: 'Kidney Biopsy Setup',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          ' Ultrasound-guided biopsies are performed to diagnose glomerular diseases and assess transplant rejection. Ensures diagnostic accuracy with minimal risk.',
       },
       {
-        name: 'Prognosis machine',
+        name: 'Prognosis Machine',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          'Advanced monitoring systems track renal function trends and help predict disease progression or recovery during inpatient care.',
       },
       {
-        name: 'Kidney biopsy',
+        name: '128-Slice CT GE Revolution & MRI GE SIGNA',
         description:
-          'Continuous 24–48 hour ECG monitoring to detect intermittent arrhythmias not captured during a routine ECG.',
+          ' Cross-sectional imaging tools used for detecting structural abnormalities, tumors, or complications involving the urinary system and adjacent organs.',
       },
     ],
 
@@ -128,70 +127,56 @@ const NephrologyData = {
     },
   },
   highlightText: [
-    'Compassionate Cardiac Care, Always',
-    'State-of-the-Art Cath Lab Technology',
-    '24x7 Emergency Heart Care',
-    'South Kerala’s First Laser Angioplasty',
-    'Minimally Invasive Cardiac Interventions',
-    'Personalised Cardiology Services in Trivandrum',
-    'Preventive Cardiology & Lifestyle Support',
-    'Kerala’s Leading Interventional Cardiologists',
+    'Advanced Dialysis & Kidney Transplant Support',
+    'Chronic Kidney Disease Management Clinics',
+    'Hypertension & Electrolyte Disorder Specialists',
+    
   ],
   comprehensiveCare: {
     title: 'Our core Kidney care services',
-    subtitle: 'Most common & complex general surgeries',
+    subtitle: 'Renal precision with round-the-clock support',
     description:
-      'Our cardiac services support every stage of heart health, from early detection and prevention to critical care and recovery, providing complete, patient-focused care.',
+      'Our nephrology team offers integrated management of acute and chronic kidney conditions with evidence-based protocols and personalized care pathways.',
     items: [
       {
-        title: 'Nephrology',
+        title: 'Hemodialysis & Peritoneal Dialysis',
         icon: 'mdi:stethoscope',
-        description: ' A dedicated intensive care unit for critically ill cardiac patients. Provides advanced monitoring and treatment for heart attacks, arrhythmias, and acute coronary syndromes using continuous cardiac telemetry and life-support systems.',
+        description: 'We offer in-center hemodialysis and support for home-based peritoneal dialysis. Each plan is customized to fit the patient’s lifestyle and medical needs.',
       },
       {
-        title: 'Hemodialysis and Peritoneal Dialysis',
+        title: 'Kidney Transplant Program',
         icon: 'mdi:heart-flash',
-        description: 'An emergency service available at all times for the rapid evaluation and management of chest pain. Equipped with ECG, cardiac enzyme testing, and imaging for quick diagnosis of heart attacks and other cardiovascular conditions.',
+        description: 'Comprehensive pre-transplant evaluation, immunological matching, surgical coordination, and post-transplant care under one roof.',
       },
       {
-        title: 'Kidney transplant program',
+        title: 'Hypertension Management',
         icon: 'mdi:hospital-box-outline',
-        description: 'Comprehensive screening designed for executives and individuals at increased risk of heart disease. Includes ECG, echocardiography, lipid profile, treadmill testing (TMT), and expert consultations to detect early cardiac issues.',
-      },
-
-      {
-        title: 'Hypertension management',
-        icon: 'mdi:heart-pulse',
-        description: 'Focused on reducing cardiovascular risk through regular screenings, lifestyle counseling, and medication management. Addresses conditions such as hypertension, diabetes, obesity, and high cholesterol.',
-      },
-      {
-        title: 'Comprehensive Kidney care',
-        icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Focused evaluation of secondary causes of high blood pressure, especially those related to kidney function. Medication plans are renal-safe and optimized for long-term control.',
       },
 
       {
         title: 'Hemodiafiltration',
-        icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        icon: 'mdi:heart-pulse',
+        description: '  Offered to patients needing enhanced toxin clearance and fluid management beyond conventional dialysis.',
       },
       {
-        title: 'CRRT - Continous Renal Replacement Therapy in ICU',
+        title: 'CRRT in ICU',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: 'Continuous Renal Replacement Therapy for patients with sepsis, multi-organ failure, or unstable hemodynamics. Supports organ recovery with controlled fluid balance',
       },
+
       {
-        title: 'Plasmapheresis - Therapeutic Plasma Exchange',
+        title: 'Plasmapheresis (Therapeutic Plasma Exchange)',
         icon: 'mdi:heart-plus-outline',
-        description: 'A medically supervised program for patients recovering from heart attacks or cardiac surgery. Integrates exercise, nutrition, stress management, and education to improve heart function and reduce future risk.',
+        description: ' Used in autoimmune kidney diseases and transplant rejection. Removes disease-causing antibodies from the plasma to halt immune damage.',
       },
+      
     ],
   },
   scopeOfCare: [
     {
       title: 'Nephrology',
-      overview:
-        'Focuses on medical diagnosis, monitoring, and non-invasive management of heart-related symptoms and diseases.',
+      
 
       sections: [
         {
@@ -208,18 +193,7 @@ const NephrologyData = {
             'Diabetic kidney disease',
           ],
         },
-        {
-          title: 'Common symptoms',
-          items: [
-            'Persistent hoarseness >2 weeks',
-            'Difficulty or pain while speaking',
-            'Weak or breathy voice',
-            'Loss of pitch or vocal range',
-            'Frequent throat clearing',
-            'Trouble swallowing or choking sensation',
-            'Sudden voice change post viral illness or surgery',
-          ],
-        },
+        
       ],
     },
   ],
@@ -232,24 +206,22 @@ const NephrologyData = {
     subtitle: "Kidney health covered under all major plans",
     items: [
       {
-        title: "Dialysis sessions covered under cashless, reimbursement, daycare available for all major companies, corporates insurance",
-        description: "Covered by all leading insurers and TPAs",
+        title: "Dialysis sessions are covered under cashless, reimbursement, and daycare is available for all major companies and corporate insurance",
+       
       },
       {
         title: "Nephrology consultation + diagnostics bundled",
-        description:
-          "Cost-effective packages for all diagnostic & treatment procedures like ASD, VSD Closure, CAVG, PTCA, CAG, Valve Replacements, Pacemaker Implantation, EPS & RF Ablation",
+        
       },
       {
         title: "Coverage for biopsy and pre-transplant evaluations",
-        description:
-          "Our dedicated insurance department offers end-to-end support for patients, including personalized counseling to help them understand their coverage and navigate the claims process with ease.",
+        
       },
 
       {
         title: "Insurance Support & Patient Counseling",
         description:
-          "Our dedicated insurance department offers end-to-end support for patients, including personalized counseling to help them understand their coverage and navigate the claims process with ease.",
+          " Our dedicated insurance department offers end-to-end support for patients, including personalized counseling to help them understand their coverage and navigate the claims process with ease.",
       },
       {
         title: "Insurance Approval for Planned Surgeries",
@@ -259,18 +231,18 @@ const NephrologyData = {
       {
         title: "Insurance Coverage for Nephrology Services",
         description:
-          "Insurance packages are available for various Nephrology-related treatments and procedures, including dialysis, kidney biopsies, and management of chronic kidney disease—subject to the terms of the patient’s insurance policy.",
+          " Insurance packages are available for various Nephrology-related treatments and procedures, including dialysis, kidney biopsies, and management of chronic kidney disease, subject to the terms of the patient’s insurance policy.",
       },
     ],
     cta: {
-      label: "Check your coverage",
+      label: "Check your Kidney coverage",
       link: "#", // update with actual route if needed
     },
   },
 
   patientJourney: {
     title: "Patient journey",
-    subtitle: "Surgical experience with total clarity",
+    
     steps: [
       { title: "Nephrology consultation + symptom review" },
       { title: "Kidney function testing + imaging" },
@@ -285,7 +257,12 @@ const NephrologyData = {
     items: [
       {
         type: 'text',
-        text: "I avoided dialysis for 2 years thanks to early treatment and diet support.– Vijay L. The dialysis unit was spotless, caring, and efficient. – Rasheeda K., Oman"
+        text: "“I avoided dialysis for 2 years thanks to early treatment and diet support.” – Vijay L."
+      },
+      { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
+      {
+        type: 'text',
+        text: "““The dialysis unit was spotless, caring, and efficient.” – Rasheeda K., Oman"
       },
       { type: 'image', src: '/images/card1.png', alt: 'Happy patient' },
     ],

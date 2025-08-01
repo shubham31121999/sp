@@ -1,11 +1,11 @@
 
   const OrthopedicData = {
 	hero: {
-		title: 'Advanced Orthopedic care backed by empathy',
+		title: 'Mobility Restored. Pain Relieved. Life Reclaimed.',
 		description: [
-			"SP Medifort, one of the best orthopedic hospitals in Thiruvananthapuram, offers cutting-edge treatments that combine robotic precision with personalized recovery plans. Our goal is to help you heal quickly, move confidently, and return to your daily life pain-free."
+			"At SP Medifort, our Orthopedics & Spine Surgery department is known for treating bone, joint, and spine disorders using a combination of clinical expertise and cutting-edge surgical technologies. From fractures to robotic joint replacements and scoliosis correction, our goal is to help patients return to pain-free movement as quickly and safely as possible.We’re recognized as a leading orthopedic and spine surgery hospital in Trivandrum, trusted for both elective and emergency procedures."
 		],
-		cta: { label: 'Schedule an orthopedic consultation', href: '/appointments/cardiology' },
+		cta: { label: 'Book an Orthopedic consultation', href: '/appointments/cardiology' },
 		image: { src: '/images/cardiac.jpg', alt: 'Urology' },
 		highlightText: [
 			'Compassionate Cardiac Care, Always',
@@ -15,32 +15,32 @@
 
 	whyChoose: {
 		title: 'Why choose SP Medifort?',
-		subTitle: 'Where experience meets innovation',
+		subTitle: 'Where precision meets compassionate recovery',
 		cards: [
 			{
 				icon: 'iconamoon:3d-bold',
-				title: 'First robotic joint replacement unit in South Kerala (To be Launched)',
+				title: 'Robotic joint replacement with the Versius system',
 			},
 			{
 				icon: 'fluent:laser-tool-20-filled',
-				title: 'Dedicated pediatric orthopedics and sports injury division',
+				title: ' Advanced trauma care for fractures & injuries',
 			},
 			{
 				icon: 'mdi:heart-pulse',
-				title: 'Multidisciplinary rehabilitation & physiotherapy team',
+				title: 'Minimally invasive spine surgery (MISS)',
 			},
 			{
 				icon: 'mdi:heart-pulse',
-				title: '24x7 ortho emergency and trauma support',
+				title: 'Specialized care for sports injuries & arthritis',
 			},
 			{
 				icon: 'mdi:heart-pulse',
-				title: '27 years legecy',
+				title: 'Dedicated ortho physiotherapy & post-op rehab',
 			},
 		],
-		description: 'SP Medifort is one of the best eye hospitals in Thiruvananthapuram offering precise, safe, and efficient eye treatments.',
+		description: 'We combine technology, recovery planning, and long-term support for optimal orthopedic outcomes.',
 		cta: {
-			label: 'Explore our ortho facilities',
+			label: 'Explore Ortho-Spine technology',
 			href: '/facilities#urology',
 		}
 	},
@@ -158,37 +158,42 @@
 	// ...existing data
 	technologies: {
 		title: 'Advanced technology and expertise',
-		categoryTabs: ['Tools that make Urological surgery safer', 'Urology'],
+		
 		items: [
 			{
-				name: 'Ultrasound (USG) Scan',
+				name: 'GE Prodigy Advance DEXA Scan',
 				description:
-					'Enhances accuracy in urological procedures with minimally invasive, robotic-assisted precision.',
-			},
-			{
-				name: 'GE Prodigy Advance Dexa Scan',
-				description:
-					'Real-time imaging for kidneys, bladder, prostate, and guidance during urological interventions.',
-			},
-			{
-				name: '128 Slice CT GE Revolution',
-				description:
-					'Provides fast, detailed imaging for kidney stones, tumors, and urinary tract conditions.',
-			},
-			{
-				name: 'Fully Motorized X-Ray Suite - DRZ - Compass',
-				description:
-					'Provides fast, detailed imaging for kidney stones, tumors, and urinary tract conditions.',
-			},
-			{
-				name: 'Versius Robot Precision Surgery',
-				description:
-					'Provides fast, detailed imaging for kidney stones, tumors, and urinary tract conditions.',
+					' Measures bone density and body composition.Essential for diagnosing osteoporosis and tracking metabolic health safely',
 			},
 			{
 				name: 'MRI GE SIGNA',
 				description:
+					'Silent, high-resolution imaging for brain, spine, and joints. Ideal for precise diagnosis with enhanced patient comfort.',
+			},
+			{
+				name: '128 Slice CT GE Revolution',
+				description:
+					'Captures fast, low-dose, high-detail scans.Supports trauma, cardiac, and cancer imaging with 3D clarity',
+			},
+			{
+				name: 'DRX-COMPASS Motorized X-Ray Suite',
+				description:
+					'Real-time imaging for abdomen, pregnancy, and vascular scans. Non-invasive and radiation-free for safe diagnostics.',
+			},
+			{
+				name: 'Ultrasound (USG) Scan',
+				description:
 					'Provides fast, detailed imaging for kidney stones, tumors, and urinary tract conditions.',
+			},
+			{
+				name: 'Robotic Visualization System – KINEVO 900',
+				description:
+					' Combines robotics with optics for surgical precision.  Supports neurosurgery with better depth, stability, and visualization.',
+			},
+			{
+				name: 'Versius Robotic Precision Surgery',
+				description:
+					' Minimally invasive, flexible robotic system. Improves accuracy, reduces recovery time, and enhances surgical outcomes.',
 			},
 		],
 
@@ -196,22 +201,18 @@
 	ctaSection: {
 		text: "This makes SP Medifort a top cardiology hospital in Kerala for both diagnostics and interventions. These tools empower us to offer accurate, fast, and low-risk cardiac interventions.",
 		button: {
-			label: "Discover our technology",
+			label: "Explore surgical innovation",
 			link: "/departments/cardiac-science#cath-lab",
 		},
 	},
 	highlightText: [
-		'Compassionate Cardiac Care, Always',
-		'State-of-the-Art Cath Lab Technology',
-		'24x7 Emergency Heart Care',
-		'South Kerala’s First Laser Angioplasty',
-		'Minimally Invasive Cardiac Interventions',
-		'Personalised Cardiology Services in Trivandrum',
-		'Preventive Cardiology & Lifestyle Support',
-		'Kerala’s Leading Interventional Cardiologists',
+		'Robotic Joint Replacement Technology',
+		'Advanced Spine Surgery & Pain Relief Programs',
+		'Sports Injury & Pediatric Bone Care',
+		
 	],
 	comprehensiveCare: {
-		title: 'Our Comprehensive Services Offered',
+		title: 'Comprehensive Orthopaedic Procedures',
 		subtitle: "From keyhole to complex – We've got you covered",
 		categories: [
 			{
