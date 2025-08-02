@@ -47,14 +47,17 @@ const treatmentItems = [
 ];
 
 const departmentItems = [
-  { name: "Cardiac Science", href: "/departments/cardiac-science" },
-  { name: "Anesthesiology", href: "/departments/Anesthesiology" },
-  { name: "Critical Care", href: "/departments/CriticalCare" },
+  { name: "Cardiac Science", href: "/departments/cardiac" },
+  { name: "Anesthesiology", href: "/departments/anesthesiology" },
+  { name: "Critical Care", href: "/departments/critical-care" },
   {
     name: "Dental Oral & Maxillo Facial Surgery",
-    href: "/departments/DentalOralMaxillofacialSurgery",
+    href: "/departments/dental-oral-maxillo-facial-surgery",
   },
-  { name: "Department of Surgery", href: "/departments/surgery" },
+  { name: "General Surgery", href: "/departments/department-of-surgery/general-surgery" },
+  { name: "Minimal Access Surgery", href: "/departments/department-of-surgery/minimal-access-surgery" },
+  { name: "Robotic and General Surgery", href: "/departments/department-of-surgery/robotic-laparoscopic-and-general-surgery" },
+  
   { name: "Dermatology", href: "/departments/dermatology" },
   { name: "Emergency Medicine", href: "/departments/emergency-medicine" },
   { name: "Endocrinology", href: "/departments/endocrinology" },
@@ -64,7 +67,7 @@ const departmentItems = [
   { name: "General Medicine", href: "/departments/general-medicine" },
   { name: "Laryngology", href: "/departments/laryngology" },
   { name: "Nephrology", href: "/departments/nephrology" },
-  { name: "Neuroscience", href: "/departments/neuroscience" },
+  { name: "Neuroscience", href: "/departments/neurosciences" },
   {
     name: "Obstetrics & Gynaecology",
     href: "/departments/obstetrics-gynaecology",

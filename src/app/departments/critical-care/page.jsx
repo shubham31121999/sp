@@ -14,7 +14,7 @@ import SuccessStories from '@/components/layouts/layoutA/SuccessStories';
 import Faq from '@/components/layouts/layoutA/Faq';
 import AppointmentConsultation from '@/components/layouts/layoutA/AppointmentConsultation';
 
-// Page component for the Critical Care department
+
 function Page(hero, whyChoose, team,technologies, ctaSection ,highlightText ,comprehensiveCare , scopeOfCare ,insuranceFinance ,patientJourney, successStories, faqs, appointmentSection) {
   return (
     <div>
