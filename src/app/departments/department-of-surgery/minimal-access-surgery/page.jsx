@@ -1,5 +1,5 @@
 
-import MinimalAccessSurgeryData from '@/data/departments/layoutA/MinimalAccessSurgeryData';
+import MinimalAccessSurgery from '@/data/departments/layoutA/MinimalAccessSurgery';
 import HeroA from '@/components/layouts/layoutA/HeroA';
 import WhyChooseA from '@/components/layouts/layoutA/WhyChooseA';
 import OurTeamA from '@/components/layouts/layoutA/OurTeamA';
@@ -18,20 +18,20 @@ import AppointmentConsultation from '@/components/layouts/layoutA/AppointmentCon
 function Page(hero, whyChoose, team,technologies, ctaSection ,highlightText ,comprehensiveCare , scopeOfCare ,insuranceFinance ,patientJourney, successStories, faqs, appointmentSection) {
   return (
     <div>
-      <HeroA hero={MinimalAccessSurgerySurgeryData.hero} />
-      <TextSlider highlightText={MinimalAccessSurgeryData.highlightText} />
-      <WhyChooseA whyChoose={MinimalAccessSurgeryData.whyChoose} />
-      <OurTeamA team={MinimalAccessSurgeryData.team} />
-      <TechnologiesSectionA data={MinimalAccessSurgeryData.technologies} />
-      <Cta ctaSection={MinimalAccessSurgeryData.ctaSection} />
-      <TextSlider highlightText={MinimalAccessSurgeryData.highlightText} />
-      <ComprehensiveServices comprehensiveCare={MinimalAccessSurgeryData.comprehensiveCare} />
-      <CommonConditions scopeOfCare={ MinimalAccessSurgeryData.scopeOfCare } />
-      <InsuranceAndFinance insuranceFinance={ MinimalAccessSurgeryData.insuranceFinance}/>
-      <PatientJourney patientJourney={MinimalAccessSurgeryData.patientJourney} />
-      <SuccessStories successStories={MinimalAccessSurgeryData.successStories} />
-      <Faq faqs={MinimalAccessSurgeryData.faqs} />
-      <AppointmentConsultation appointmentSection={MinimalAccessSurgeryData.appointmentSection} />
+      <HeroA hero={MinimalAccessSurgery.hero} />
+      <TextSlider highlightText={MinimalAccessSurgery.highlightText} />
+      <WhyChooseA whyChoose={MinimalAccessSurgery.whyChoose} />
+      <OurTeamA team={MinimalAccessSurgery.team} />
+      <TechnologiesSectionA data={MinimalAccessSurgery.technologies} />
+      <Cta ctaSection={MinimalAccessSurgery.ctaSection} />
+      <TextSlider highlightText={MinimalAccessSurgery.highlightText} />
+      <ComprehensiveServices comprehensiveCare={MinimalAccessSurgery.comprehensiveCare} />
+      <CommonConditions scopeOfCare={ MinimalAccessSurgery.scopeOfCare } />
+      <InsuranceAndFinance insuranceFinance={ MinimalAccessSurgery.insuranceFinance}/>
+      <PatientJourney patientJourney={MinimalAccessSurgery.patientJourney} />
+      <SuccessStories successStories={MinimalAccessSurgery.successStories} />
+      <Faq faqs={MinimalAccessSurgery.faqs} />
+      <AppointmentConsultation appointmentSection={MinimalAccessSurgery.appointmentSection} />
     </div>
   );
 }
