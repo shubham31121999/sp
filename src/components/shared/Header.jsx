@@ -52,7 +52,7 @@ const departmentItems = [
   { name: "Critical Care", href: "/departments/critical-care" },
   {
     name: "Dental Oral & Maxillo Facial Surgery",
-    href: "/departments/dental-oral-maxillo-facial-surgery",
+    href: "/departments/dental-oral-maxillofacial-surgery",
   },
   { name: "General Surgery", href: "/departments/department-of-surgery/general-surgery" },
   { name: "Minimal Access Surgery", href: "/departments/department-of-surgery/minimal-access-surgery" },
