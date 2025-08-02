@@ -70,7 +70,7 @@ const departmentItems = [
   { name: "Neuroscience", href: "/departments/neurosciences" },
   {
     name: "Obstetrics & Gynaecology",
-    href: "/departments/obstetrics-gynaecology",
+    href: "/departments/obstetrics-and-gynaecology",
   },
   { name: "Oncology", href: "/departments/oncology" },
   { name: "Ophthalmology", href: "/departments/ophthalmology" },
