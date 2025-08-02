@@ -7,7 +7,7 @@ import React from 'react';
       "At SP Medifort, our Pediatrics department offers comprehensive, age-appropriate care for infants, children, and adolescents. From vaccinations and routine checkups to managing infections, allergies, and growth concerns, our pediatricians ensure every child gets the care they need in a child-friendly, nurturing environment.We are one of the most trusted children’s hospitals in Thiruvananthapuram, backed by advanced neonatal care and 24*7 pediatric emergency support."
     ],
     cta: { label: 'Book a Pediatric consultation', href: '/appointments/ophthalmology' },
-    image: { src: '/images/departments/ophthalmology.webp', alt: 'Ophthalmology' },
+    image: { src: '/images/departments/pediatric.webp', alt: 'Ophthalmology' },
     
   },
 

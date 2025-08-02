@@ -8,7 +8,7 @@
       "At SP Medifort Hospital, the Neuroscience Department unites Neurology and Neurosurgery to deliver advanced care for the brain, spine, and nervous system. From strokes and seizures to complex brain and spine surgeries, our team combines cutting-edge diagnostics, minimally invasive interventions, and structured rehabilitation to restore function and improve quality of life.Our multidisciplinary model ensures that each patient benefits from the combined expertise of neurologists, neurosurgeons, rehabilitation therapists, and critical care teams."
     ],
     cta: { label: 'Book a Neurology consultation', href: '/appointments/cardiology' },
-    image: { src: '/images/departments/Gastroenterology.webp', alt: 'Cardiology' },
+    image: { src: '/images/departments/neuroscience.webp', alt: 'Cardiology' },
     
   },
 

@@ -75,7 +75,7 @@ const departmentItems = [
   { name: "Medical Oncology", href: "/departments/oncology/medical-oncology" },
   { name: "Surgical Oncology", href: "/departments/oncology/surgical-oncology" },
   { name: "Ophthalmology", href: "/departments/ophthalmology" },
-  { name: "Orthopedics & Spine", href: "/departments/orthopedics-spine" },
+  // { name: "Orthopedics & Spine", href: "/departments/orthopedics-spine" },
   { name: "Pediatrics Surgery", href: "/departments/pediatrics/pediatric-surgery" },
   { name: "Pediatrics", href: "/departments/pediatrics/pediatrics" },
   {
@@ -87,7 +87,7 @@ const departmentItems = [
   { name: "Respiratory Medicine", href: "/departments/respiratory-medicine" },
   { name: "Rheumatology", href: "/departments/rheumatology" },
   { name: "Speech Therapy", href: "/departments/speech-therapy" },
-  { name: "Urology", href: "/departments/urology" },
+  // { name: "Urology", href: "/departments/urology" },
 ];
 
 const servicesItems = [

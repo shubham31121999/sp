@@ -6,7 +6,7 @@
       " We offer specialized cancer surgery for solid tumors across the body. From early-stage tumor removal to complex reconstructive procedures, we ensure safe and advanced surgical options in a multidisciplinary environment"
     ],
     cta: { label: 'Consult a cancer surgeon', href: '/appointments/cardiology' },
-    image: { src: '/images/departments/Gastroenterology.webp', alt: 'Cardiology' },
+    image: { src: '/images/departments/surgicaloncology.webp', alt: 'Cardiology' },
     
   },
 
