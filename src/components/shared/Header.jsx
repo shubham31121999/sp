@@ -76,7 +76,8 @@ const departmentItems = [
   { name: "Surgical Oncology", href: "/departments/oncology/surgical-oncology" },
   { name: "Ophthalmology", href: "/departments/ophthalmology" },
   { name: "Orthopedics & Spine", href: "/departments/orthopedics-spine" },
-  { name: "Pediatrics", href: "/departments/pediatrics" },
+  { name: "Pediatrics Surgery", href: "/departments/pediatrics/pediatric-surgery" },
+  { name: "Pediatrics", href: "/departments/pediatrics/pediatrics" },
   {
     name: "Plastic & Micro Vascular Surgery",
     href: "/departments/plastic-micro-vascular",
