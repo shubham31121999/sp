@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Pediatrics from '@/data/departments/layoutB/Paediatrics';
+import Pediatrics from '@/data/departments/layoutB/Pediatrics';
 import HeroB from '@/components/layouts/layoutB/HeroB';
 import WhyChooseA from '@/components/layouts/layoutA/WhyChooseA';
 import OurTeamA from '@/components/layouts/layoutA/OurTeamA';
