@@ -1,5 +1,5 @@
 import React from 'react';
-import PlasticMicroVascular from '@/data/departments/layoutB/PlasticMicroVascular';
+import PlasticMicroVascular from '@/data/departments/layoutB/plasticMicrovascularSurgery';
 import HeroA from '@/components/layouts/layoutA/HeroA';
 import WhyChooseA from '@/components/layouts/layoutA/WhyChooseA';
 import OurTeamA from '@/components/layouts/layoutA/OurTeamA';
